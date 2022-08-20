@@ -1,0 +1,29 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+
+.base-line {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.inner {
+  composes: base-line;
+  width: 100%;
+  background-color: var(--color-D10);
+}
+
+.progress {
+  height: 2px;
+  transition: all .4s @ease-out-circ 0s;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: var(--color-B100);
+  composes: base-line;
+}

@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notifications should hide notification after timeout (with transition duration) 1`] = `
+<div
+  class="container"
+  data-qa="Notifications"
+>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translateX(400px) translateZ(0); user-select: none;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title X
+        </div>
+        
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    
+  </div>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translate3d(400px, 0px, 0) scale(NaN, NaN); user-select: none; transform-origin: 50% 50% 0;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title 3
+        </div>
+        
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    
+  </div>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translate3d(400px, 0px, 0) scale(NaN, NaN); user-select: none; transform-origin: 50% 50% 0;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title 2
+        </div>
+        
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    
+  </div>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translate3d(400px, 0px, 0) scale(NaN, NaN); user-select: none; transform-origin: 50% 50% 0;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title 1
+        </div>
+        
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Notifications should hide notification on close icon click 1`] = `
+<div
+  class="container"
+  data-qa="Notifications"
+>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translateX(400px) translateZ(0); user-select: none;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title 1
+        </div>
+        
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    
+  </div>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translate3d(400px, 0px, 0) scale(NaN, NaN); user-select: none; transform-origin: 50% 50% 0;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title
+        </div>
+        <div
+          class="subtitle"
+        >
+          Test notification subtitle
+        </div>
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    <div
+      class="content"
+    >
+      Test notification content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notifications should render correctly multiple notifications 1`] = `
+<div
+  class="container"
+  data-qa="Notifications"
+>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translateX(400px) translateZ(0); user-select: none;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title 3
+        </div>
+        
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    
+  </div>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translate3d(400px, 0px, 0) scale(NaN, NaN); user-select: none; transform-origin: 50% 50% 0;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title 2
+        </div>
+        
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    
+  </div>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translate3d(400px, 0px, 0) scale(NaN, NaN); user-select: none; transform-origin: 50% 50% 0;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title 1
+        </div>
+        
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    
+  </div>
+</div>
+`;
+
+exports[`Notifications should render correctly notification with text 1`] = `
+<div
+  class="container"
+  data-qa="Notifications"
+>
+  <div
+    class="alert container color-dark"
+    data-qa="Alert"
+    draggable="false"
+    style="opacity: 0; height: 0px; transform: translateX(400px) translateZ(0); user-select: none;"
+  >
+    <div
+      class="header container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <div
+        class="titleWrapper container direction-vertical"
+        data-qa="Space"
+      >
+        <div
+          class="title"
+        >
+          Test notification title
+        </div>
+        <div
+          class="subtitle"
+        >
+          Test notification subtitle
+        </div>
+      </div>
+      <span
+        class="close container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+    <div
+      class="content"
+    >
+      Test notification content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notifications should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Notifications"
+/>
+`;

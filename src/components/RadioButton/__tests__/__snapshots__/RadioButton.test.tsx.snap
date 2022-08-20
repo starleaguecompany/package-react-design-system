@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton should execute onchangeCallback when changing value 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 1
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 2
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 3
+  </button>
+</div>
+`;
+
+exports[`RadioButton should render correctly on external value update 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+>
+  <button
+    class="button size-36 active"
+    type="button"
+  >
+    label 1
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 2
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 3
+  </button>
+</div>
+`;
+
+exports[`RadioButton should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="RadioButton"
+  id="test-id"
+/>
+`;
+
+exports[`RadioButton should render correctly with defaultValue prop 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 1
+  </button>
+  <button
+    class="button size-36 active"
+    type="button"
+  >
+    label 2
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 3
+  </button>
+</div>
+`;
+
+exports[`RadioButton should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+/>
+`;
+
+exports[`RadioButton should render correctly with required options prop 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 1
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 2
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 3
+  </button>
+</div>
+`;
+
+exports[`RadioButton should render correctly with size prop 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+>
+  <button
+    class="button size-44"
+    type="button"
+  >
+    label 1
+  </button>
+  <button
+    class="button size-44"
+    type="button"
+  >
+    label 2
+  </button>
+  <button
+    class="button size-44"
+    type="button"
+  >
+    label 3
+  </button>
+</div>
+`;
+
+exports[`RadioButton should render correctly with value prop 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 1
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 2
+  </button>
+  <button
+    class="button size-36 active"
+    type="button"
+  >
+    label 3
+  </button>
+</div>
+`;
+
+exports[`RadioButton should return value of radio button when click it 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 1
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 2
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 3
+  </button>
+</div>
+`;
+
+exports[`RadioButton should switch between radio buttons when click them 1`] = `
+<div
+  class="container"
+  data-qa="RadioButton"
+>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 1
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 2
+  </button>
+  <button
+    class="button size-36"
+    type="button"
+  >
+    label 3
+  </button>
+</div>
+`;

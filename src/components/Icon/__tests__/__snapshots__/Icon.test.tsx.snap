@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render correctly with attributes 1`] = `
+<span
+  class="test-class container size-20 shape-round"
+  data-qa="Icon"
+  id="test-id"
+>
+  <svg
+    data-qa="Menu"
+    fill="none"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 5h12M4 10h12M4 15h12"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Icon should render correctly with color prop 1`] = `
+<span
+  class="container size-20 color-blue shape-round"
+  data-qa="Icon"
+>
+  <svg
+    data-qa="Menu"
+    fill="none"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 5h12M4 10h12M4 15h12"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Icon should render correctly with container 1`] = `
+<span
+  class="container size-20 asContainer shape-round"
+  data-qa="Icon"
+>
+  <svg
+    data-qa="Menu"
+    fill="none"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 5h12M4 10h12M4 15h12"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Icon should render correctly with icon 1`] = `
+<span
+  class="container size-20 shape-round"
+  data-qa="Icon"
+>
+  <svg
+    data-qa="Menu"
+    fill="none"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 5h12M4 10h12M4 15h12"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Icon should render correctly with shape prop 1`] = `
+<span
+  class="container size-20 shape-circle"
+  data-qa="Icon"
+>
+  <svg
+    data-qa="Menu"
+    fill="none"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 5h12M4 10h12M4 15h12"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Icon should render correctly with size prop 1`] = `
+<span
+  class="container size-16 shape-round"
+  data-qa="Icon"
+>
+  <svg
+    data-qa="Menu"
+    fill="none"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 5h12M4 10h12M4 15h12"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Icon should render correctly with strong prop 1`] = `
+<span
+  class="container strong size-20 shape-round"
+  data-qa="Icon"
+>
+  <svg
+    data-qa="Menu"
+    fill="none"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 5h12M4 10h12M4 15h12"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Icon should render correctly without prop 1`] = `
+<span
+  class="container size-20 shape-round"
+  data-qa="Icon"
+/>
+`;

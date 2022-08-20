@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Layout"
+  id="test-id"
+/>
+`;
+
+exports[`Layout should render correctly without prop 1`] = `
+<div
+  class="container"
+  data-qa="Layout"
+/>
+`;

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider should execute onChange callback on slider track click 1`] = `
+<div
+  data-qa="Slider"
+>
+  <div
+    class="inner"
+  >
+    <div
+      class="track"
+    />
+    <span
+      class="handler"
+      style="margin-left: 0%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Slider should render correctly on external value update 1`] = `
+<div
+  data-qa="Slider"
+>
+  <div
+    class="inner"
+  >
+    <div
+      class="track"
+    />
+    <span
+      class="handler"
+      style="margin-left: 60%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Slider should render correctly with attributes 1`] = `
+<div
+  class="test-class"
+  data-qa="Slider"
+  id="test-id"
+>
+  <div
+    class="inner"
+  >
+    <div
+      class="track"
+    />
+    <span
+      class="handler"
+      style="margin-left: 0%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Slider should render correctly with disabled prop 1`] = `
+<div
+  data-qa="Slider"
+>
+  <div
+    class="inner disabled"
+  >
+    <div
+      class="track disabled"
+    />
+  </div>
+</div>
+`;
+
+exports[`Slider should render correctly with no props 1`] = `
+<div
+  data-qa="Slider"
+>
+  <div
+    class="inner"
+  >
+    <div
+      class="track"
+    />
+    <span
+      class="handler"
+      style="margin-left: 0%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Slider should render correctly with value prop 1`] = `
+<div
+  data-qa="Slider"
+>
+  <div
+    class="inner"
+  >
+    <div
+      class="track"
+    />
+    <span
+      class="handler"
+      style="margin-left: 60%;"
+    />
+  </div>
+</div>
+`;

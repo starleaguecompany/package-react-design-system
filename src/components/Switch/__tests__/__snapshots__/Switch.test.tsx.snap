@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch should execute onChange callback on click switch 1`] = `
+<label
+  class="container"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    type="checkbox"
+    value="5"
+  />
+  <div
+    class="control"
+  >
+    <div
+      class="handler"
+    />
+  </div>
+</label>
+`;
+
+exports[`Switch should render correctly on external value update 1`] = `
+<label
+  class="container"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    type="checkbox"
+    value=""
+  />
+  <div
+    class="control"
+  >
+    <div
+      class="handler"
+    />
+  </div>
+</label>
+`;
+
+exports[`Switch should render correctly with attributes 1`] = `
+<label
+  class="test-class container"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    id="test-id"
+    type="checkbox"
+    value=""
+  />
+  <div
+    class="control"
+  >
+    <div
+      class="handler"
+    />
+  </div>
+</label>
+`;
+
+exports[`Switch should render correctly with checked prop 1`] = `
+<label
+  class="container checked"
+  data-qa="Switch"
+>
+  <input
+    checked=""
+    class="input"
+    type="checkbox"
+    value=""
+  />
+  <div
+    class="control checked"
+  >
+    <div
+      class="handler checked"
+    />
+  </div>
+</label>
+`;
+
+exports[`Switch should render correctly with disabled prop 1`] = `
+<label
+  class="container disabled"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    disabled=""
+    type="checkbox"
+    value=""
+  />
+  <div
+    class="control disabled"
+  >
+    <div
+      class="handler disabled"
+    />
+  </div>
+</label>
+`;
+
+exports[`Switch should render correctly with label 1`] = `
+<label
+  class="container"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    type="checkbox"
+    value=""
+  />
+  <div
+    class="control"
+  >
+    <div
+      class="handler"
+    />
+  </div>
+  <span
+    class="label"
+  >
+    Test switch
+  </span>
+</label>
+`;
+
+exports[`Switch should render correctly with name prop 1`] = `
+<label
+  class="container"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    name="Test switch"
+    type="checkbox"
+    value=""
+  />
+  <div
+    class="control"
+  >
+    <div
+      class="handler"
+    />
+  </div>
+</label>
+`;
+
+exports[`Switch should render correctly with no props 1`] = `
+<label
+  class="container"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    type="checkbox"
+    value=""
+  />
+  <div
+    class="control"
+  >
+    <div
+      class="handler"
+    />
+  </div>
+</label>
+`;
+
+exports[`Switch should render correctly with readOnly prop 1`] = `
+<label
+  class="container readOnly"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    type="checkbox"
+    value=""
+  />
+  <div
+    class="control"
+  >
+    <div
+      class="handler"
+    />
+  </div>
+</label>
+`;
+
+exports[`Switch should render correctly with value prop 1`] = `
+<label
+  class="container"
+  data-qa="Switch"
+>
+  <input
+    class="input"
+    type="checkbox"
+    value="5"
+  />
+  <div
+    class="control"
+  >
+    <div
+      class="handler"
+    />
+  </div>
+</label>
+`;

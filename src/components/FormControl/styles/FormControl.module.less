@@ -1,0 +1,25 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+}
+
+.helperText {
+  width: 100%;
+  padding: 0 16px;
+  color: var(--color-D30);
+  pointer-events: none;
+  .typography-by-size('s');
+
+  &.disabled {
+    color: var(--color-D20);
+  }
+
+  &.invalid {
+    color: var(--color-R100);
+  }
+}

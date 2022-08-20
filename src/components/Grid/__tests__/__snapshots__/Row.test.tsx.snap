@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row should render correctly with align prop 1`] = `
+<div
+  class="container wrap align-bottom justify-start"
+  data-qa="Row"
+>
+  Testing row
+</div>
+`;
+
+exports[`Row should render correctly with attributes 1`] = `
+<div
+  class="test-class container wrap align-top justify-start"
+  data-qa="Row"
+  id="test-id"
+/>
+`;
+
+exports[`Row should render correctly with gutter prop 1`] = `
+<div
+  class="container wrap align-top justify-start"
+  data-qa="Row"
+  style="margin-left: -5px; margin-right: -5px;"
+>
+  <div
+    class="container"
+    data-qa="Col"
+    style="padding: 15px 5px 15px 5px;"
+  >
+    Testing value 1
+  </div>
+  <div
+    class="container"
+    data-qa="Col"
+    style="padding: 15px 5px 15px 5px;"
+  >
+    Testing value 2
+  </div>
+</div>
+`;
+
+exports[`Row should render correctly with justify prop 1`] = `
+<div
+  class="container wrap align-top justify-center"
+  data-qa="Row"
+>
+  Testing row
+</div>
+`;
+
+exports[`Row should render correctly with no props 1`] = `
+<div
+  class="container wrap align-top justify-start"
+  data-qa="Row"
+/>
+`;
+
+exports[`Row should render correctly with text 1`] = `
+<div
+  class="container wrap align-top justify-start"
+  data-qa="Row"
+>
+  Testing row
+</div>
+`;
+
+exports[`Row should render correctly with wrap prop 1`] = `
+<div
+  class="container align-top justify-start"
+  data-qa="Row"
+>
+  Testing row
+</div>
+`;

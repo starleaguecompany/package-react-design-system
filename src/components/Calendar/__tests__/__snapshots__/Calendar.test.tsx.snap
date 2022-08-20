@@ -1,0 +1,3739 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar should clear selection by click Chancel button (range mode) 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Октябрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="footer container direction-horizontal justify-end"
+    data-qa="Space"
+  >
+    <button
+      class="footerButton container size-44 color-gray-text"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        Отмена
+      </span>
+    </button>
+    <button
+      class="footerButton container size-44 color-gray-primary"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        Выбрать
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Calendar should execute onChange callback and return selection by click (range mode) 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Октябрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="footer container direction-horizontal justify-end"
+    data-qa="Space"
+  >
+    <button
+      class="footerButton container size-44 color-gray-text"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        Отмена
+      </span>
+    </button>
+    <button
+      class="footerButton container size-44 color-gray-primary"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        Выбрать
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Calendar should execute onChange callback and return selection by click (single mode) 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Октябрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Calendar should render correctly Calendar with defaultDate prop 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Декабрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-11-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-11-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-12-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-12-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-12-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-12-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-12-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-12-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-12-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-12-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-12-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2022-01-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2022-01-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Calendar should render correctly with maxDate prop 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Октябрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Calendar should render correctly with minDate prop 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Октябрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-09-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-09-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-09-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-09-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day weekend disabled container direction-horizontal align-center justify-center"
+          data-date="2021-10-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Calendar should render correctly with selection prop (range mode) 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Октябрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="without-top-right-border-radius without-bottom-right-border-radius day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="without-top-left-border-radius without-bottom-left-border-radius day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="footer container direction-horizontal justify-end"
+    data-qa="Space"
+  >
+    <button
+      class="footerButton container size-44 color-gray-text"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        Отмена
+      </span>
+    </button>
+    <button
+      class="footerButton container size-44 color-gray-primary"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        Выбрать
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Calendar should render correctly with selection prop (single mode) 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Октябрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Calendar should render previous/next month by clicking corresponding button 1`] = `
+<div
+  class="container"
+  data-qa="Calendar"
+>
+  <div
+    class="header container direction-horizontal align-center justify-space-between"
+    data-qa="Space"
+  >
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="prev"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowLeft"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div
+      class="current-month size-14 capitalize"
+    >
+      Октябрь 2021
+    </div>
+    <button
+      class="container size-44 color-blue-text"
+      data-direction="next"
+      data-qa="Button"
+    >
+      <span
+        class="text"
+      >
+        <span
+          class="container strong size-20 shape-round"
+          data-qa="Icon"
+        >
+          <svg
+            data-qa="ArrowRight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m7 16 6-6-6-6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>
+  <div
+    class="month"
+  >
+    <div
+      class="days-of-week container direction-horizontal align-center justify-center"
+      data-qa="Space"
+    >
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пн
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Ср
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Чт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Пт
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Сб
+      </div>
+      <div
+        class="day-of-week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        Вс
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-09-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-01"
+          data-qa="Space"
+        >
+          1
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-02"
+          data-qa="Space"
+        >
+          2
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-03"
+          data-qa="Space"
+        >
+          3
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day active container direction-horizontal align-center justify-center"
+          data-date="2021-10-04"
+          data-qa="Space"
+        >
+          4
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-05"
+          data-qa="Space"
+        >
+          5
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-06"
+          data-qa="Space"
+        >
+          6
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-07"
+          data-qa="Space"
+        >
+          7
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-08"
+          data-qa="Space"
+        >
+          8
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-09"
+          data-qa="Space"
+        >
+          9
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-10"
+          data-qa="Space"
+        >
+          10
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-11"
+          data-qa="Space"
+        >
+          11
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-12"
+          data-qa="Space"
+        >
+          12
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-13"
+          data-qa="Space"
+        >
+          13
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-14"
+          data-qa="Space"
+        >
+          14
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-15"
+          data-qa="Space"
+        >
+          15
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-16"
+          data-qa="Space"
+        >
+          16
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-17"
+          data-qa="Space"
+        >
+          17
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-18"
+          data-qa="Space"
+        >
+          18
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-19"
+          data-qa="Space"
+        >
+          19
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-20"
+          data-qa="Space"
+        >
+          20
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-21"
+          data-qa="Space"
+        >
+          21
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-22"
+          data-qa="Space"
+        >
+          22
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-23"
+          data-qa="Space"
+        >
+          23
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-24"
+          data-qa="Space"
+        >
+          24
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="week container direction-horizontal align-center justify-center"
+        data-qa="Space"
+      >
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-25"
+          data-qa="Space"
+        >
+          25
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-26"
+          data-qa="Space"
+        >
+          26
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-27"
+          data-qa="Space"
+        >
+          27
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-28"
+          data-qa="Space"
+        >
+          28
+        </div>
+        <div
+          class="day container direction-horizontal align-center justify-center"
+          data-date="2021-10-29"
+          data-qa="Space"
+        >
+          29
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-30"
+          data-qa="Space"
+        >
+          30
+        </div>
+        <div
+          class="day weekend container direction-horizontal align-center justify-center"
+          data-date="2021-10-31"
+          data-qa="Space"
+        >
+          31
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

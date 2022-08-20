@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse Transition should render correctly with attributes 1`] = `
+<div
+  class="test-class"
+  data-qa="Collapse"
+  id="test-id"
+  style="overflow: hidden; display: block; opacity: 0; height: 0px;"
+/>
+`;
+
+exports[`Collapse Transition should render correctly with content 1`] = `
+<div
+  data-qa="Collapse"
+  style="overflow: hidden; display: block; opacity: 0; height: 0px;"
+>
+  Test content
+</div>
+`;
+
+exports[`Collapse Transition should render correctly with no props 1`] = `
+<div
+  data-qa="Collapse"
+  style="overflow: hidden; display: block; opacity: 0; height: 0px;"
+/>
+`;
+
+exports[`Collapse Transition should render correctly with visible prop 1`] = `
+<div
+  data-qa="Collapse"
+  style="overflow: hidden; display: block; opacity: 1; height: auto;"
+>
+  Test content
+</div>
+`;
+
+exports[`Fade Transition should render correctly with attributes 1`] = `
+<div
+  class="test-class"
+  data-qa="Fade"
+  id="test-id"
+  style="opacity: 0;"
+/>
+`;
+
+exports[`Fade Transition should render correctly with content 1`] = `
+<div
+  data-qa="Fade"
+  style="opacity: 0;"
+>
+  Test content
+</div>
+`;
+
+exports[`Fade Transition should render correctly with no props 1`] = `
+<div
+  data-qa="Fade"
+  style="opacity: 0;"
+/>
+`;
+
+exports[`Fade Transition should render correctly with visible prop 1`] = `
+<div
+  data-qa="Fade"
+  style="opacity: 0;"
+>
+  Test content
+</div>
+`;
+
+exports[`ScaleFade Transition should render correctly with attributes 1`] = `
+<div
+  class="test-class"
+  data-qa="ScaleFade"
+  id="test-id"
+  style="opacity: 0; transform: scale(0.95) translateZ(0);"
+/>
+`;
+
+exports[`ScaleFade Transition should render correctly with content 1`] = `
+<div
+  data-qa="ScaleFade"
+  style="opacity: 0; transform: scale(0.95) translateZ(0);"
+>
+  Test content
+</div>
+`;
+
+exports[`ScaleFade Transition should render correctly with no props 1`] = `
+<div
+  data-qa="ScaleFade"
+  style="opacity: 0; transform: scale(0.95) translateZ(0);"
+/>
+`;
+
+exports[`ScaleFade Transition should render correctly with visible prop 1`] = `
+<div
+  data-qa="ScaleFade"
+  style="opacity: 0; transform: scale(0.95) translateZ(0);"
+>
+  Test content
+</div>
+`;
+
+exports[`SlideFade Transition should render correctly with attributes 1`] = `
+<div
+  class="test-class"
+  data-qa="SlideFade"
+  id="test-id"
+  style="opacity: 0; transform: translateX(0px) translateY(8px) translateZ(0);"
+/>
+`;
+
+exports[`SlideFade Transition should render correctly with content 1`] = `
+<div
+  data-qa="SlideFade"
+  style="opacity: 0; transform: translateX(0px) translateY(8px) translateZ(0);"
+>
+  Test content
+</div>
+`;
+
+exports[`SlideFade Transition should render correctly with no props 1`] = `
+<div
+  data-qa="SlideFade"
+  style="opacity: 0; transform: translateX(0px) translateY(8px) translateZ(0);"
+/>
+`;
+
+exports[`SlideFade Transition should render correctly with visible prop 1`] = `
+<div
+  data-qa="SlideFade"
+  style="opacity: 0; transform: translateX(0px) translateY(8px) translateZ(0);"
+>
+  Test content
+</div>
+`;

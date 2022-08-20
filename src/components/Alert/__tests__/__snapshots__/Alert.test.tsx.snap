@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert should execute callback on close button click 1`] = `
+<div
+  class="container color-dark"
+  data-qa="Alert"
+>
+  <div
+    class="header container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 12px; row-gap: 12px;"
+  >
+    <div
+      class="titleWrapper container direction-vertical"
+      data-qa="Space"
+    />
+    <span
+      class="close container size-20 shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Cross"
+        fill="none"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          clip-path="url(#clip0)"
+        >
+          <path
+            d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+            stroke="currentColor"
+            stroke-dasharray="10 5"
+          />
+        </g>
+        <defs>
+          <clippath
+            id="clip0"
+          >
+            <path
+              d="M0 0h20v20H0z"
+              fill="currentColor"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Alert should render correctly with attributes 1`] = `
+<div
+  class="test-class container color-dark"
+  data-qa="Alert"
+  id="test-id"
+/>
+`;
+
+exports[`Alert should render correctly with children 1`] = `
+<div
+  class="container color-dark"
+  data-qa="Alert"
+>
+  <div
+    class="content"
+  >
+    <svg
+      data-qa="Menu"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 5h12M4 10h12M4 15h12"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Alert should render correctly with closeable prop 1`] = `
+<div
+  class="container color-dark"
+  data-qa="Alert"
+>
+  <div
+    class="header container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 12px; row-gap: 12px;"
+  >
+    <div
+      class="titleWrapper container direction-vertical"
+      data-qa="Space"
+    >
+      <div
+        class="title"
+      >
+        Testing Alert title
+      </div>
+    </div>
+    <span
+      class="close container size-20 shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Cross"
+        fill="none"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          clip-path="url(#clip0)"
+        >
+          <path
+            d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+            stroke="currentColor"
+            stroke-dasharray="10 5"
+          />
+        </g>
+        <defs>
+          <clippath
+            id="clip0"
+          >
+            <path
+              d="M0 0h20v20H0z"
+              fill="currentColor"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Alert should render correctly with color property 1`] = `
+<div
+  class="container color-orange"
+  data-qa="Alert"
+/>
+`;
+
+exports[`Alert should render correctly with footer prop 1`] = `
+<div
+  class="container color-dark"
+  data-qa="Alert"
+>
+  <div
+    class="footer container direction-horizontal justify-stretch"
+    data-qa="Space"
+    style="column-gap: 12px; row-gap: 12px;"
+  >
+    <svg
+      data-qa="Menu"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 5h12M4 10h12M4 15h12"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Alert should render correctly with icon prop 1`] = `
+<div
+  class="container color-dark"
+  data-qa="Alert"
+>
+  <div
+    class="header container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 12px; row-gap: 12px;"
+  >
+    <div
+      class="icon"
+    >
+      <svg
+        data-qa="Menu"
+        fill="none"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 5h12M4 10h12M4 15h12"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+      </svg>
+    </div>
+    <div
+      class="titleWrapper container direction-vertical"
+      data-qa="Space"
+    />
+  </div>
+</div>
+`;
+
+exports[`Alert should render correctly with no props 1`] = `
+<div
+  class="container color-dark"
+  data-qa="Alert"
+/>
+`;
+
+exports[`Alert should render correctly with title and subtitle prop 1`] = `
+<div
+  class="container color-dark"
+  data-qa="Alert"
+>
+  <div
+    class="header container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 12px; row-gap: 12px;"
+  >
+    <div
+      class="titleWrapper container direction-vertical"
+      data-qa="Space"
+    >
+      <div
+        class="title"
+      >
+        Testing Alert title
+      </div>
+      <div
+        class="subtitle"
+      >
+        Testing Alert subtitle
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert should render correctly with title prop 1`] = `
+<div
+  class="container color-dark"
+  data-qa="Alert"
+>
+  <div
+    class="header container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 12px; row-gap: 12px;"
+  >
+    <div
+      class="titleWrapper container direction-vertical"
+      data-qa="Space"
+    >
+      <div
+        class="title"
+      >
+        Testing Alert title
+      </div>
+    </div>
+  </div>
+</div>
+`;

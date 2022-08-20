@@ -1,0 +1,102 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/size";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/shadow";
+
+.container {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  vertical-align: top;
+  cursor: pointer;
+  user-select: none;
+  gap: 12px;
+  -webkit-tap-highlight-color: transparent;
+
+  &:not(.checked) {
+    &:hover {
+      .control {
+        border-color: var(--color-D10);
+      }
+    }
+  }
+
+  &.disabled {
+    color: var(--color-D20);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &.readOnly {
+    pointer-events: none;
+  }
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    flex-direction: row;
+  }
+}
+
+.input {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  opacity: 0;
+}
+
+.control {
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 28px;
+  padding: 1px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 40px;
+  border-color: var(--color-D10);
+  background-color: var(--color-D10);
+  color: var(--color-L100);
+  will-change: background-color, border-color;
+
+  &.checked {
+    border-color: var(--color-B100);
+    background-color: var(--color-B100);
+  }
+
+  &.disabled {
+    border-color: var(--color-D06);
+    background-color: var(--color-D06);
+  }
+
+  &.checked&.disabled {
+    border-color: var(--color-D10);
+    background-color: var(--color-D10);
+  }
+}
+
+.handler {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transform: translateX(0);
+  transition: all .3s @ease-in-out;
+  background: #FFF;
+  will-change: left, transform;
+  .square(24px, 50%);
+  .shadow();
+
+  &.checked {
+    left: calc(100% - 1px);
+    transform: translateX(-100%);
+  }
+
+  &.disabled {
+    box-shadow: none;
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}

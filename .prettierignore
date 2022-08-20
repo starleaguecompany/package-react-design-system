@@ -1,0 +1,16 @@
+**/*.svg
+**/*.less
+package.json
+.husky/
+dist/
+examples/
+yarn.lock
+yarn-error.log
+.gitignore
+.npmignore
+.prettierignore
+.DS_Store
+.editorconfig
+.eslintignore
+.history
+**/*.yml

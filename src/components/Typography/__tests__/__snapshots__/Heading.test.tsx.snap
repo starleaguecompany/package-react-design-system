@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should render correctly with as prop 1`] = `
+<div
+  class="container size-1"
+>
+  Test heading
+</div>
+`;
+
+exports[`Heading should render correctly with attributes 1`] = `
+<h1
+  class="test-class container size-1"
+  id="test-id"
+/>
+`;
+
+exports[`Heading should render correctly with level prop 1`] = `
+<h4
+  class="container size-4"
+/>
+`;
+
+exports[`Heading should render correctly with no props 1`] = `
+<h1
+  class="container size-1"
+/>
+`;
+
+exports[`Heading should render correctly with text 1`] = `
+<h1
+  class="container size-1"
+>
+  Test heading
+</h1>
+`;

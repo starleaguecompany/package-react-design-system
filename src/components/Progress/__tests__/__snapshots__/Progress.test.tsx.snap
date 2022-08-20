@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Progress"
+  id="test-id"
+>
+  <div
+    class="inner"
+  >
+    <div
+      class="progress"
+      style="width: 0%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Progress"
+>
+  <div
+    class="inner"
+  >
+    <div
+      class="progress"
+      style="width: 0%;"
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress should render correctly with percent prop 1`] = `
+<div
+  class="container"
+  data-qa="Progress"
+>
+  <div
+    class="inner"
+  >
+    <div
+      class="progress"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;

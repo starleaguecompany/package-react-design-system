@@ -1,0 +1,62 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/size";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.avatar {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--color-D10);
+  color: var(--color-D60);
+  vertical-align: top;
+}
+
+.size {
+  &-20 {
+    .square(20px, 6px);
+  }
+
+  &-28 {
+    .square(28px, 8px);
+  }
+
+  &-36 {
+    .square(36px, 10px);
+  }
+
+  &-44 {
+    .square(44px, 12px);
+  }
+
+  &-52 {
+    .square(52px, 14px);
+  }
+
+  &-60 {
+    .square(60px, 16px);
+  }
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.group {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+
+  & > .avatar {
+    box-shadow: 0 0 0 2px var(--color-L100);
+
+    &:not(:first-child) {
+      margin-left: -8px;
+    }
+  }
+}

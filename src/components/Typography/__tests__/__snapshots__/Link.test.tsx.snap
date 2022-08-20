@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should render correctly with attributes 1`] = `
+<a
+  class="test-class container color-blue"
+  href="https://www.starleaguecompany.ru"
+  id="test-id"
+>
+  Testing link
+</a>
+`;
+
+exports[`Link should render correctly with color prop 1`] = `
+<a
+  class="container color-black"
+  href="#"
+>
+  Testing link
+</a>
+`;
+
+exports[`Link should render correctly with no props 1`] = `
+<a
+  class="container color-blue"
+/>
+`;
+
+exports[`Link should render correctly with strong prop 1`] = `
+<a
+  class="container color-blue strong"
+  href="#"
+>
+  Testing link
+</a>
+`;
+
+exports[`Link should render correctly with text 1`] = `
+<a
+  class="container color-blue"
+  href="#"
+>
+  Testing link
+</a>
+`;

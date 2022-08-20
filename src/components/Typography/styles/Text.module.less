@@ -1,0 +1,54 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables.less";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.size {
+  &-10 {
+    .typography-by-size('xs');
+  }
+
+  &-12 {
+    .typography-by-size('s');
+  }
+
+  &-14 {
+    .typography-by-size('m');
+  }
+
+  &-16 {
+    .typography-by-size('l');
+  }
+
+  &-20 {
+    .typography-by-size('xl');
+  }
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}

@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs should execute onChange callback with tab pane index when click on it 1`] = `
+<div
+  data-qa="Tabs"
+>
+  <div
+    class="tabs container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 20px; row-gap: 20px;"
+  >
+    <div
+      class="tab active container direction-horizontal align-center inline"
+      data-index="0"
+      data-qa="Space"
+      style="column-gap: 4px; row-gap: 4px;"
+    >
+      Pane 1
+    </div>
+    <div
+      class="tab container direction-horizontal align-center inline"
+      data-index="1"
+      data-qa="Space"
+      style="column-gap: 4px; row-gap: 4px;"
+    >
+      Pane 2
+    </div>
+    <div
+      class="tab container direction-horizontal align-center inline"
+      data-index="2"
+      data-qa="Space"
+      style="column-gap: 4px; row-gap: 4px;"
+    >
+      Pane 3
+    </div>
+  </div>
+  <div
+    class="panes"
+  >
+    <div
+      class="pane active pane"
+      data-qa="TabPane"
+      title="Pane 1"
+    />
+    <div
+      class="pane pane"
+      data-qa="TabPane"
+      title="Pane 2"
+    />
+    <div
+      class="pane pane"
+      data-qa="TabPane"
+      title="Pane 3"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs should render correctly with attributes 1`] = `
+<div
+  class="test-class"
+  data-qa="Tabs"
+  id="test-id"
+>
+  <div
+    class="tabs container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 20px; row-gap: 20px;"
+  />
+  <div
+    class="panes"
+  />
+</div>
+`;
+
+exports[`Tabs should render correctly with defaultIndex prop 1`] = `
+<div
+  data-qa="Tabs"
+>
+  <div
+    class="tabs container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 20px; row-gap: 20px;"
+  >
+    <div
+      class="tab container direction-horizontal align-center inline"
+      data-index="0"
+      data-qa="Space"
+      style="column-gap: 4px; row-gap: 4px;"
+    >
+      Pane 1
+    </div>
+    <div
+      class="tab active container direction-horizontal align-center inline"
+      data-index="1"
+      data-qa="Space"
+      style="column-gap: 4px; row-gap: 4px;"
+    >
+      Pane 2
+    </div>
+    <div
+      class="tab container direction-horizontal align-center inline"
+      data-index="2"
+      data-qa="Space"
+      style="column-gap: 4px; row-gap: 4px;"
+    >
+      Pane 3
+    </div>
+  </div>
+  <div
+    class="panes"
+  >
+    <div
+      class="pane pane"
+      data-qa="TabPane"
+      title="Pane 1"
+    />
+    <div
+      class="pane active pane"
+      data-qa="TabPane"
+      title="Pane 2"
+    />
+    <div
+      class="pane pane"
+      data-qa="TabPane"
+      title="Pane 3"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs should render correctly with no props 1`] = `
+<div
+  data-qa="Tabs"
+>
+  <div
+    class="tabs container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 20px; row-gap: 20px;"
+  />
+  <div
+    class="panes"
+  />
+</div>
+`;
+
+exports[`Tabs should render correctly with tabs pain 1`] = `
+<div
+  data-qa="Tabs"
+>
+  <div
+    class="tabs container direction-horizontal align-center"
+    data-qa="Space"
+    style="column-gap: 20px; row-gap: 20px;"
+  >
+    <div
+      class="tab active container direction-horizontal align-center inline"
+      data-index="0"
+      data-qa="Space"
+      style="column-gap: 4px; row-gap: 4px;"
+    >
+      Pane 1
+    </div>
+    <div
+      class="tab container direction-horizontal align-center inline"
+      data-index="1"
+      data-qa="Space"
+      style="column-gap: 4px; row-gap: 4px;"
+    >
+      Pane 2
+    </div>
+  </div>
+  <div
+    class="panes"
+  >
+    <div
+      class="pane active pane"
+      data-qa="TabPane"
+      title="Pane 1"
+    >
+      Pane content 1
+    </div>
+    <div
+      class="pane pane"
+      data-qa="TabPane"
+      title="Pane 2"
+    >
+      Pane content 2
+    </div>
+  </div>
+</div>
+`;

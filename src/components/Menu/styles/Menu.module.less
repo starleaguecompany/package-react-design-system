@@ -1,0 +1,89 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.container {
+  background-color: var(--color-L100);
+}
+
+.itemBase {
+  align-self: stretch;
+  //min-height: 54px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: var(--color-L100);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.itemGroup {
+  width: 100%;
+}
+
+.item {
+  transition: background-color 0.3s @ease-in-out;
+  cursor: pointer;
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    &:hover {
+      background-color: var(--color-D10);
+    }
+  }
+
+  &.active {
+    background-color: var(--color-D10);
+  }
+
+  &.disabled {
+    background-color: var(--color-L100);
+    color: var(--color-D10);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.icon {
+  align-self: flex-start;
+
+  &.disabled {
+    opacity: 0.3;
+  }
+}
+
+.control {
+  align-self: flex-start;
+
+  &.disabled {
+    opacity: 0.3;
+  }
+}
+
+.controlIndent{
+  margin-top: 8px;
+}
+
+.description {
+  color: var(--color-D30);
+  user-select: none;
+  .typography-by-size('s');
+
+  &.disabled {
+    color: var(--color-D10);
+  }
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  user-select: none;
+  .typography-by-size('l');
+}
+
+.label {
+  color: var(--color-D60);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  user-select: none;
+  .typography-by-size('l');
+}

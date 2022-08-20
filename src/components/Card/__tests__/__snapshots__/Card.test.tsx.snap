@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render correctly with attributes 1`] = `
+<div
+  class="test-class container size-24 color-light-primary"
+  data-qa="Card"
+  id="test-id"
+/>
+`;
+
+exports[`Card should render correctly with color and variant props 1`] = `
+<div
+  class="container size-24 color-blue-outlined"
+  data-qa="Card"
+>
+  Testing card
+</div>
+`;
+
+exports[`Card should render correctly with color prop 1`] = `
+<div
+  class="container size-24 color-blue-primary"
+  data-qa="Card"
+>
+  Testing card
+</div>
+`;
+
+exports[`Card should render correctly with content 1`] = `
+<div
+  class="container size-24 color-light-primary"
+  data-qa="Card"
+>
+  Test content
+</div>
+`;
+
+exports[`Card should render correctly with no props 1`] = `
+<div
+  class="container size-24 color-light-primary"
+  data-qa="Card"
+/>
+`;
+
+exports[`Card should render correctly with shadow prop 1`] = `
+<div
+  class="container size-24 color-light-primary shadow"
+  data-qa="Card"
+>
+  Testing card
+</div>
+`;
+
+exports[`Card should render correctly with size prop 1`] = `
+<div
+  class="container size-40 color-light-primary"
+  data-qa="Card"
+>
+  Testing card
+</div>
+`;
+
+exports[`Card should render correctly with variant prop 1`] = `
+<div
+  class="container size-24 color-light-primary"
+  data-qa="Card"
+>
+  Testing card
+</div>
+`;

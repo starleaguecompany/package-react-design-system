@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderedList should render correctly with ListItem 1`] = `
+<ol
+  class="ordered"
+>
+  <li
+    class="item"
+  >
+    Testing list
+  </li>
+</ol>
+`;
+
+exports[`OrderedList should render correctly with attributes 1`] = `
+<ol
+  class="test-class ordered"
+  id="test-id"
+>
+  Testing list
+</ol>
+`;
+
+exports[`OrderedList should render correctly with no props 1`] = `
+<div>
+  <ol
+    class="ordered"
+  />
+</div>
+`;

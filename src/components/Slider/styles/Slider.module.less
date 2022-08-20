@@ -1,0 +1,48 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/size";
+
+.inner {
+  position: relative;
+  padding: 6px 0;
+  cursor: pointer;
+
+  &.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.track {
+  height: 4px;
+  border-radius: 16px;
+  background-color: var(--color-B100);
+
+  &.disabled {
+    background-color: var(--color-D20);
+  }
+}
+
+.handler {
+  position: absolute;
+  z-index: @zindex-dropdown;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform .3s @ease-in-out;
+  border: 3px solid var(--color-L100);
+  background-color: var(--color-B100);
+  .square(20px, 50%);
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    .square(16px, 50%);
+
+  }
+
+  &:hover,
+  &.active {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+
+  &.disabled {
+    background-color: var(--color-D20);
+  }
+}

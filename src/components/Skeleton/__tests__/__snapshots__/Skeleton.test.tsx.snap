@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton should render correctly skeleton of Avatar 1`] = `
+<div>
+  <div
+    class="avatar"
+    data-qa="avatar"
+  />
+</div>
+`;
+
+exports[`Skeleton should render correctly skeleton of Button 1`] = `
+<div>
+  <div
+    class="button"
+    data-qa="button"
+  />
+</div>
+`;
+
+exports[`Skeleton should render correctly skeleton of Paragraph 1`] = `
+<div>
+  <div
+    class="paragraph"
+    data-qa="paragraph"
+    style="width: 100%;"
+  />
+</div>
+`;
+
+exports[`Skeleton should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Skeleton"
+  id="test-id"
+/>
+`;
+
+exports[`Skeleton should render correctly with block prop 1`] = `
+<div>
+  <div
+    class="button block"
+    data-qa="button"
+  />
+</div>
+`;
+
+exports[`Skeleton should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Skeleton"
+/>
+`;
+
+exports[`Skeleton should render correctly with width prop 1`] = `
+<div>
+  <div
+    class="paragraph"
+    data-qa="paragraph"
+    style="width: 65%;"
+  />
+</div>
+`;

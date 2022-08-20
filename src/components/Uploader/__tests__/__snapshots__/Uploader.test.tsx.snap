@@ -1,0 +1,1590 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Uploader should display Uploader item 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="uploaderItem container direction-horizontal align-center"
+      data-qa="UploaderItem"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="fileIcon container size-20 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="File"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m15.345 5.345-2.357-2.357A1.667 1.667 0 0 0 11.81 2.5H5.833c-.92 0-1.666.746-1.666 1.667v11.666c0 .921.746 1.667 1.666 1.667h8.334c.92 0 1.666-.746 1.666-1.667v-9.31c0-.441-.175-.865-.488-1.178Z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            d="M15.833 6.667H12.5a.834.834 0 0 1-.833-.834V2.5"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+      <div
+        class="textContainer container direction-vertical"
+        data-qa="Space"
+        style="column-gap: 2px; row-gap: 2px;"
+      >
+        <div
+          class="size-16 strong truncate"
+        >
+          uploader.png
+        </div>
+      </div>
+      <span
+        class="removeIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Trash"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.5 5.75A.75.75 0 0 1 3.25 5H5.5v1.5H3.25a.75.75 0 0 1-.75-.75ZM14.5 5h2.25a.75.75 0 0 1 0 1.5H14.5V5Z"
+            fill="currentColor"
+          />
+          <path
+            d="M4.374 6.029a.25.25 0 0 1 .248-.279h10.756c.15 0 .266.13.248.279l-1.269 11a.25.25 0 0 1-.248.221H5.89a.25.25 0 0 1-.248-.221l-1.27-11ZM12 5.75h.75V4.5A1.75 1.75 0 0 0 11 2.75H9A1.75 1.75 0 0 0 7.25 4.5v1.25H12Z"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+          <path
+            d="M9.25 8.75a.75.75 0 1 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5ZM12.25 8.75a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5Z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should execute onChange callback with file selection 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should execute onDragEnter callback 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should execute onDragLeave callback 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should execute onDragOver callback 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should execute onDrop callback 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should execute onFilesUpload callback with drop action 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should execute onFilesUpload callback with file selection 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should execute onRemove callback when Uploader item is removed 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="uploaderItem container direction-horizontal align-center"
+      data-qa="UploaderItem"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="fileIcon container size-20 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="File"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m15.345 5.345-2.357-2.357A1.667 1.667 0 0 0 11.81 2.5H5.833c-.92 0-1.666.746-1.666 1.667v11.666c0 .921.746 1.667 1.666 1.667h8.334c.92 0 1.666-.746 1.666-1.667v-9.31c0-.441-.175-.865-.488-1.178Z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            d="M15.833 6.667H12.5a.834.834 0 0 1-.833-.834V2.5"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+      <div
+        class="textContainer container direction-vertical"
+        data-qa="Space"
+        style="column-gap: 2px; row-gap: 2px;"
+      >
+        <div
+          class="size-16 strong truncate"
+        >
+          uploader.png
+        </div>
+      </div>
+      <span
+        class="removeIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Trash"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.5 5.75A.75.75 0 0 1 3.25 5H5.5v1.5H3.25a.75.75 0 0 1-.75-.75ZM14.5 5h2.25a.75.75 0 0 1 0 1.5H14.5V5Z"
+            fill="currentColor"
+          />
+          <path
+            d="M4.374 6.029a.25.25 0 0 1 .248-.279h10.756c.15 0 .266.13.248.279l-1.269 11a.25.25 0 0 1-.248.221H5.89a.25.25 0 0 1-.248-.221l-1.27-11ZM12 5.75h.75V4.5A1.75 1.75 0 0 0 11 2.75H9A1.75 1.75 0 0 0 7.25 4.5v1.25H12Z"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+          <path
+            d="M9.25 8.75a.75.75 0 1 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5ZM12.25 8.75a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5Z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should render correctly Uploader item with errorMessage prop 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="uploaderItem error container direction-horizontal align-center"
+      data-qa="UploaderItem"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="container size-20 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Warning"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="m2.257 14.765 6.436-11.44a1.5 1.5 0 0 1 2.614 0l6.435 11.44A1.5 1.5 0 0 1 16.436 17H3.565a1.5 1.5 0 0 1-1.308-2.235ZM9.996 13a1 1 0 1 0 .009 2 1 1 0 0 0-.009-2Zm-.444-6a.5.5 0 0 0-.497.55l.4 4a.5.5 0 0 0 .497.45h.095a.5.5 0 0 0 .498-.45l.4-4a.5.5 0 0 0-.498-.55h-.895Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      <div
+        class="textContainer container direction-vertical"
+        data-qa="Space"
+        style="column-gap: 2px; row-gap: 2px;"
+      >
+        <div
+          class="size-16 strong truncate"
+        >
+          uploader.png
+        </div>
+        <div
+          class="size-12"
+        >
+          Error
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should render correctly Uploader item with progressPercent prop 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="uploaderItem container direction-horizontal align-center"
+      data-qa="UploaderItem"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="fileIcon container size-20 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="File"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m15.345 5.345-2.357-2.357A1.667 1.667 0 0 0 11.81 2.5H5.833c-.92 0-1.666.746-1.666 1.667v11.666c0 .921.746 1.667 1.666 1.667h8.334c.92 0 1.666-.746 1.666-1.667v-9.31c0-.441-.175-.865-.488-1.178Z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+          <path
+            d="M15.833 6.667H12.5a.834.834 0 0 1-.833-.834V2.5"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+      <div
+        class="textContainer container direction-vertical"
+        data-qa="Space"
+        style="column-gap: 8px; row-gap: 8px;"
+      >
+        <div
+          class="size-16 strong truncate"
+        >
+          uploader.png
+        </div>
+        <div
+          class="container"
+          data-qa="Progress"
+        >
+          <div
+            class="inner"
+          >
+            <div
+              class="progress"
+              style="width: 30%;"
+            />
+          </div>
+        </div>
+      </div>
+      <span
+        class="removeIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Trash"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.5 5.75A.75.75 0 0 1 3.25 5H5.5v1.5H3.25a.75.75 0 0 1-.75-.75ZM14.5 5h2.25a.75.75 0 0 1 0 1.5H14.5V5Z"
+            fill="currentColor"
+          />
+          <path
+            d="M4.374 6.029a.25.25 0 0 1 .248-.279h10.756c.15 0 .266.13.248.279l-1.269 11a.25.25 0 0 1-.248.221H5.89a.25.25 0 0 1-.248-.221l-1.27-11ZM12 5.75h.75V4.5A1.75 1.75 0 0 0 11 2.75H9A1.75 1.75 0 0 0 7.25 4.5v1.25H12Z"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+          <path
+            d="M9.25 8.75a.75.75 0 1 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5ZM12.25 8.75a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 0 1.5 0v-5.5Z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should render correctly with attributes 1`] = `
+<div
+  class="test-class container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      id="test-id"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should render correctly with buttonCaption prop 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Button caption
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should render correctly with description prop 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="container color-orange"
+    data-qa="Alert"
+  >
+    <div
+      class="content"
+    >
+      Testing Uploader description
+    </div>
+  </div>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should render correctly with dragZoneDescription prop 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Testing Uploader drag zone description
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should render correctly with no props 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Uploader should render correctly with title prop 1`] = `
+<div
+  class="container direction-vertical"
+  data-qa="Uploader"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="title"
+  >
+    Testing Uploader title
+  </div>
+  <div
+    class="uploadContainer"
+    data-qa="DropZone"
+  >
+    <input
+      class="uploadInput"
+      type="file"
+    />
+    <div
+      class="container direction-horizontal align-center"
+      data-qa="Space"
+      style="column-gap: 16px; row-gap: 16px;"
+    >
+      <button
+        class="uploadButton container size-44 color-gray-outlined"
+        data-qa="Button"
+      >
+        <span
+          class="text"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="UploadCloud"
+              fill="none"
+              viewBox="0 0 21 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857M10.504 9.998v6.429"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="M16.497 14.563a3.571 3.571 0 0 0-1.707-6.708h-.9a5.715 5.715 0 1 0-9.815 5.215"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                fill="currentColor"
+              />
+              <path
+                d="m13.361 12.855-2.857-2.857-2.857 2.857"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          Загрузить
+        </span>
+      </button>
+      <div
+        class="uploadCaption size-14"
+      >
+        Переместите файлы в данную область или нажмите "Загрузить"
+      </div>
+    </div>
+  </div>
+</div>
+`;

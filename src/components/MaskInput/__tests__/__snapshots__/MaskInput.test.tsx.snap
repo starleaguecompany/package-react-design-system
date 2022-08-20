@@ -1,0 +1,471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MaskInput should execute onChange callback on keyboard typing 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should focused input field on click 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="placeholder"
+    >
+      Test label
+    </label>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly input value with mask 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          123-456
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          spellcheck="false"
+          type="text"
+          value="123-456"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly on external value update 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          123-456
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          spellcheck="false"
+          type="text"
+          value="123-456"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly on update value from outside 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          123-456
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          spellcheck="false"
+          type="text"
+          value="123-456"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          id="test-id"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with defaultValue prop 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          0
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          spellcheck="false"
+          type="text"
+          value="0"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with disabled prop 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container disabled"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input disabled"
+          disabled=""
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="placeholder disabled"
+    >
+      Test label
+    </label>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with invalid prop 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container invalid"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input invalid"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="placeholder invalid"
+    >
+      Test placeholder
+    </label>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with placeholder prop 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="placeholder"
+    >
+      Test placeholder
+    </label>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with required mask prop 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          123-456
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          spellcheck="false"
+          type="text"
+          value="123-456"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with value prop 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          123-456
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          spellcheck="false"
+          type="text"
+          value="123-456"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MaskInput should render correctly with value prop equals 0 1`] = `
+<div
+  class="container"
+  data-qa="MaskInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          0__-___
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          spellcheck="false"
+          type="text"
+          value="0__-___"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

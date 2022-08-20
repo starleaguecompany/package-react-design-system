@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel should move slide 1`] = `
+<div
+  class="container"
+  data-qa="Carousel"
+  style="--position: 0px;"
+>
+  <div
+    class="header container direction-horizontal justify-space-between"
+    data-qa="Space"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="arrows container direction-horizontal align-end"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="arrow leftArrow disabled container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowLeft"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m13 4-6 6 6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+      <span
+        class="arrow rightArrow container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowRight"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m7 16 6-6-6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="slides gradient rightGradient"
+  >
+    <div
+      class="wrapper"
+    >
+      <div
+        style="width: 300px;"
+      >
+        <div
+          style="width: 300px;"
+        >
+          1
+        </div>
+      </div>
+      <div
+        style="width: 300px;"
+      >
+        <div
+          style="width: 300px;"
+        >
+          2
+        </div>
+      </div>
+      <div
+        style="width: 300px;"
+      >
+        <div
+          style="width: 300px;"
+        >
+          3
+        </div>
+      </div>
+      <div
+        style="width: 300px;"
+      >
+        <div
+          style="width: 300px;"
+        >
+          4
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Carousel should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Carousel"
+  style="--position: 0px;"
+>
+  <div
+    class="header container direction-horizontal justify-space-between"
+    data-qa="Space"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="arrows container direction-horizontal align-end"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="arrow leftArrow disabled container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowLeft"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m13 4-6 6 6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+      <span
+        class="arrow rightArrow container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowRight"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m7 16 6-6-6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="slides rightGradient"
+  >
+    <div
+      class="wrapper"
+    />
+  </div>
+</div>
+`;
+
+exports[`Carousel should render correctly with slides 1`] = `
+<div
+  class="container"
+  data-qa="Carousel"
+  style="--position: 0px;"
+>
+  <div
+    class="header container direction-horizontal justify-space-between"
+    data-qa="Space"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="arrows container direction-horizontal align-end"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="arrow leftArrow disabled container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowLeft"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m13 4-6 6 6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+      <span
+        class="arrow rightArrow container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowRight"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m7 16 6-6-6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="slides rightGradient"
+  >
+    <div
+      class="wrapper"
+    >
+      <div>
+        <div>
+          1
+        </div>
+      </div>
+      <div>
+        <div>
+          2
+        </div>
+      </div>
+      <div>
+        <div>
+          3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Carousel should render correctly with slides and gradient 1`] = `
+<div
+  class="container"
+  data-qa="Carousel"
+  style="--position: 0px;"
+>
+  <div
+    class="header container direction-horizontal justify-space-between"
+    data-qa="Space"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="arrows container direction-horizontal align-end"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="arrow leftArrow disabled container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowLeft"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m13 4-6 6 6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+      <span
+        class="arrow rightArrow container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowRight"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m7 16 6-6-6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="slides gradient rightGradient"
+  >
+    <div
+      class="wrapper"
+    >
+      <div
+        style="width: 300px;"
+      >
+        <div
+          style="width: 300px;"
+        >
+          1
+        </div>
+      </div>
+      <div
+        style="width: 300px;"
+      >
+        <div
+          style="width: 300px;"
+        >
+          2
+        </div>
+      </div>
+      <div
+        style="width: 300px;"
+      >
+        <div
+          style="width: 300px;"
+        >
+          3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Carousel should render with title 1`] = `
+<div
+  class="container"
+  data-qa="Carousel"
+  style="--position: 0px;"
+>
+  <div
+    class="header container direction-horizontal justify-space-between"
+    data-qa="Space"
+  >
+    <div
+      class="title"
+    >
+      Title
+    </div>
+    <div
+      class="arrows container direction-horizontal align-end"
+      data-qa="Space"
+      style="column-gap: 12px; row-gap: 12px;"
+    >
+      <span
+        class="arrow leftArrow disabled container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowLeft"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m13 4-6 6 6 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+      <span
+        class="arrow rightArrow container size-16 asContainer shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowRight"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m7 16 6-6-6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="slides rightGradient"
+  >
+    <div
+      class="wrapper"
+    />
+  </div>
+</div>
+`;

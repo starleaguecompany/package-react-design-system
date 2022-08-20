@@ -1,0 +1,941 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumberInput should allow to input only digits, comma and dot 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          10
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="10"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should execute onChange callback on input value 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should format input value on blur 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should format value on enter key press 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly on update value 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          50
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="50"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          id="test-id"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with autoFocus prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container focused active"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input active"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with decimalScale prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          12,34
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="12,34"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with decimalSeparator prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with defaultValue prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          10
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="10"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with disabled prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container disabled"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input disabled"
+          disabled=""
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with fixedDecimalScale prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          100
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="100"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with format prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          31/12/2021
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="31/12/2021"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with icon prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container with-icon"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <span
+      class="icon container size-20 shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Menu"
+        fill="none"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 5h12M4 10h12M4 15h12"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with invalid prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container invalid"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input invalid"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with loading prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container with-icon"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <span
+      class="icon container size-20"
+      data-qa="Spinner"
+    >
+      <svg
+        class="svg"
+        viewBox="0 0 150 150"
+      >
+        <circle
+          class="circle circle-1"
+          cx="75"
+          cy="75"
+          r="60"
+        />
+        <circle
+          class="circle circle-2"
+          cx="75"
+          cy="75"
+          r="60"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with max prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          100
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="100"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with min prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          100
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="100"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with postfix prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          10
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="10"
+        />
+        <div
+          class="inputPostfix"
+        >
+           
+          ₽
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with readOnly prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          50
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          readonly=""
+          spellcheck="false"
+          type="text"
+          value="50"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with step prop (step < 1) 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with step prop (step > 1) 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with thousandSeparator prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          123 456 789
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="123 456 789"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with undefined value 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should render correctly with value prop 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          10
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="10"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NumberInput should reset value 1`] = `
+<div
+  class="container"
+  data-qa="NumberInput"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment centered"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        >
+          500
+        </div>
+        <input
+          autocomplete="off"
+          class="input filled"
+          inputmode="decimal"
+          spellcheck="false"
+          type="text"
+          value="500"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

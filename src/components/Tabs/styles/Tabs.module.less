@@ -1,0 +1,65 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+
+.tabs {
+  width: 100%;
+  padding-bottom: 4px;
+  overflow-x: auto;
+  white-space: nowrap;
+  // for firefox
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+    height: 0;
+  }
+}
+
+.panes {
+  position: relative;
+}
+
+.tab {
+  position: relative;
+  transition: color 0.3s @ease-in-out;
+  color: var(--color-D60);
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transition: background-color 0.3s @ease-in-out;
+    background-color: transparent;
+  }
+
+  &:hover {
+    color: var(--color-D100);
+
+    &::after {
+      background-color: var(--color-B30);
+    }
+  }
+
+  &.active {
+    color: var(--color-D100);
+
+    &::after {
+      background-color: var(--color-B100);
+    }
+  }
+}
+
+.pane {
+  display: none;
+  margin-top: 20px;
+
+  &.active {
+    display: block;
+  }
+}

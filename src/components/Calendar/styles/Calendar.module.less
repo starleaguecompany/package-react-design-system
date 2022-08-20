@@ -1,0 +1,122 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 4px 8px;
+}
+
+.current-month {
+  width: 100%;
+  text-align: center;
+  .typography-title-5();
+}
+
+.base-day {
+  position: relative;
+  min-width: 40px;
+  height: 40px;
+  font-weight: 600;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.days-of-week {
+  justify-content: space-between;
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    justify-content: center;
+  }
+}
+
+.day-of-week {
+  composes: base-day;
+  .typography-title-6();
+}
+
+.day {
+  border: 1px solid transparent;
+  border-radius: 16px;
+  cursor: pointer;
+  composes: base-day;
+
+  &:hover:not(.disabled, .active, .highlighted) {
+    border-color: var(--color-D20);
+    font-weight: 700;
+  }
+
+  &.weekend {
+    color: var(--color-D60);
+  }
+
+  &.highlighted {
+    background-color: var(--color-B06);
+    color: var(--color-B100);
+  }
+
+  &.today {
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      width: 20px;
+      height: 2px;
+      transform: translateX(-50%);
+      background-color: currentColor;
+    }
+  }
+
+  &.active {
+    border-color: var(--color-B100);
+    background-color: var(--color-B100);
+    color: var(--color-L100);
+    font-weight: 700;
+  }
+
+  &.disabled {
+    color: var(--color-D30);
+    font-weight: normal;
+    cursor: not-allowed;
+  }
+
+  &.without-top-left-border-radius {
+    border-top-left-radius: 0;
+  }
+
+  &.without-top-right-border-radius {
+    border-top-right-radius: 0;
+  }
+
+  &.without-bottom-left-border-radius {
+    border-bottom-left-radius: 0;
+  }
+
+  &.without-bottom-right-border-radius {
+    border-bottom-right-radius: 0;
+  }
+}
+
+.week {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    justify-content: center;
+  }
+}
+
+.footer {
+  margin-top: 16px;
+}
+
+.footerButton {
+  flex-grow: 1;
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    flex-grow: inherit;
+  }
+}

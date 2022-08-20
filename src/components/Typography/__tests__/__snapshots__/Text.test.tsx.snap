@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render correctly with attributes 1`] = `
+<div>
+  <div
+    class="test-class size-14"
+    id="test-id"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with capitalize prop 1`] = `
+<div>
+  <div
+    class="size-14 capitalize"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with div element 1`] = `
+<div>
+  <div
+    class="size-14"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with lineThrough prop 1`] = `
+<div>
+  <div
+    class="size-14 lineThrough"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with lower prop 1`] = `
+<div>
+  <div
+    class="size-14 lowercase"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with no props 1`] = `
+<div>
+  <div
+    class="size-14"
+  />
+</div>
+`;
+
+exports[`Text should render correctly with paragraph element 1`] = `
+<div>
+  <p
+    class="size-14"
+  >
+    Testing text
+  </p>
+</div>
+`;
+
+exports[`Text should render correctly with size prop 1`] = `
+<div>
+  <div
+    class="size-10"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with strong prop 1`] = `
+<div>
+  <div
+    class="size-14 strong"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with text 1`] = `
+<div>
+  <div
+    class="size-14"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with truncate prop 1`] = `
+<div>
+  <div
+    class="size-14 truncate"
+  >
+    Testing text
+  </div>
+</div>
+`;
+
+exports[`Text should render correctly with upper prop 1`] = `
+<div>
+  <div
+    class="size-14 uppercase"
+  >
+    Testing text
+  </div>
+</div>
+`;
