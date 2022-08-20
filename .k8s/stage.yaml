@@ -1,0 +1,18 @@
+app:
+  team: platform
+  port: 80
+  probes:
+    livenessPath: "/"
+    readinessPath: "/"
+    initialDelaySeconds: 10
+
+ingresses:
+  - host: design-system.{{ .Release.Namespace }}.qa.sravni-team.ru
+    ssl: disabled
+    paths:
+      - /
+  - host: design-system-web.{{ .Release.Namespace }}.qa.sravni-team.ru
+    name: web
+    ssl: disabled
+    paths:
+      - /

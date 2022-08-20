@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner should have svg inside  1`] = `
+<span
+  class="container size-24"
+  data-qa="Spinner"
+>
+  <svg
+    class="svg"
+    viewBox="0 0 150 150"
+  >
+    <circle
+      class="circle circle-1"
+      cx="75"
+      cy="75"
+      r="60"
+    />
+    <circle
+      class="circle circle-2"
+      cx="75"
+      cy="75"
+      r="60"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Spinner should render correctly with attributes 1`] = `
+<span
+  class="test-class container size-20"
+  data-qa="Spinner"
+  id="test-id"
+>
+  <svg
+    class="svg"
+    viewBox="0 0 150 150"
+  >
+    <circle
+      class="circle circle-1"
+      cx="75"
+      cy="75"
+      r="60"
+    />
+    <circle
+      class="circle circle-2"
+      cx="75"
+      cy="75"
+      r="60"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Spinner should render correctly with no props 1`] = `
+<span
+  class="container size-20"
+  data-qa="Spinner"
+>
+  <svg
+    class="svg"
+    viewBox="0 0 150 150"
+  >
+    <circle
+      class="circle circle-1"
+      cx="75"
+      cy="75"
+      r="60"
+    />
+    <circle
+      class="circle circle-2"
+      cx="75"
+      cy="75"
+      r="60"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Spinner should render correctly with size prop 1`] = `
+<span
+  class="container size-24"
+  data-qa="Spinner"
+>
+  <svg
+    class="svg"
+    viewBox="0 0 150 150"
+  >
+    <circle
+      class="circle circle-1"
+      cx="75"
+      cy="75"
+      r="60"
+    />
+    <circle
+      class="circle circle-2"
+      cx="75"
+      cy="75"
+      r="60"
+    />
+  </svg>
+</span>
+`;

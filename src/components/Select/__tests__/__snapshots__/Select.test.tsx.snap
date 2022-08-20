@@ -1,0 +1,2092 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should change display value on item click 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should check and uncheck item on Enter key down 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should clear value by click on Cross icon 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 2
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 2"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should correctly change display value on Enter key down 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 2
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 2"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should correctly work keyboard navigation (arrow up, arrow down) 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should display list of option and have focus by click 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should execute onBlur callback on blurring input 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should execute onChange callback when select value by Enter keydown 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should execute onChange callback when select value by click 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should execute onFocus callback on focusing input 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should hide list of option and blur focus by Tab keypress 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should hide list of option and blur focus by click outside 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should hide list of option and blur focus on Tab key down 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should hide list of option and save focus by arrow click 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should hide list of option and save focus on Esc key down 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should lost focus on Tab keydown 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should lost focus on Tab keydown 2`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should not execute onBlur callback when select value by Enter keydown 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should not execute onBlur callback when select value by click 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly on external options update 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly on external value update 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 1
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 1"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            id="test-id"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with autoFocus prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container focused with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 1
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 1"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with defaultValue prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 2
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 2"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with disabled items in options 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with disabled prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container disabled with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input disabled"
+            disabled=""
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <label
+        class="placeholder disabled with-icon"
+      >
+        Test label
+      </label>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with icon prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Menu"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 5h12M4 10h12M4 15h12"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with invalid prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container invalid with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input invalid"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <label
+        class="placeholder invalid with-icon"
+      >
+        Test label
+      </label>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with loading prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 1
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 1"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20"
+        data-qa="Spinner"
+      >
+        <svg
+          class="svg"
+          viewBox="0 0 150 150"
+        >
+          <circle
+            class="circle circle-1"
+            cx="75"
+            cy="75"
+            r="60"
+          />
+          <circle
+            class="circle circle-2"
+            cx="75"
+            cy="75"
+            r="60"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with mode prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with placement prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with postfix prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 1
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 1"
+          />
+          <div
+            class="inputPostfix"
+          >
+             
+            $
+          </div>
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with readOnly prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 1
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 1"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with required option prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly with value prop 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 2
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 2"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render without Cross icon 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            label 2
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="label 2"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should toggle menu on click and keep focus 1`] = `
+<div
+  class="container"
+  data-qa="Select"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;

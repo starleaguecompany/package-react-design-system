@@ -1,0 +1,56 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+
+.container {
+  position: relative;
+  transition: color 0.3s @ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+
+  &[disabled] {
+    color: var(--color-D20);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.color {
+  &-blue {
+    color: var(--color-B100);
+
+    &:hover {
+      color: var(--color-B200);
+    }
+
+    &:active {
+      color: var(--color-B300);
+    }
+  }
+
+  &-gray {
+    color: var(--color-D60);
+
+    &:hover {
+      color: var(--color-D30);
+    }
+
+    &:active {
+      color: var(--color-D30);
+    }
+  }
+
+  &-black {
+    color: var(--color-D100);
+
+    &:hover {
+      color: var(--color-B100);
+    }
+
+    &:active {
+      color: var(--color-B100);
+    }
+  }
+}
+
+.strong {
+  font-weight: 600;
+}

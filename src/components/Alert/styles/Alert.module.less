@@ -1,0 +1,82 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/shadow";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  gap: 12px;
+}
+
+.color {
+  &-light {
+    background-color: var(--color-L100);
+  }
+
+  &-dark {
+    background-color: var(--color-D10);
+  }
+
+  &-green {
+    background-color: var(--color-G06);
+  }
+
+  &-orange {
+    background-color: var(--color-O06);
+  }
+
+  &-red {
+    background-color: var(--color-R06);
+  }
+
+  &-blue {
+    background-color: var(--color-B06);
+  }
+}
+
+.header {
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 600;
+  .typography-by-size('l');
+}
+
+.titleWrapper {
+  align-self: center;
+}
+
+.subtitle {
+  .typography-by-size('s');
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    flex-direction: row;
+  }
+}
+
+.close {
+  flex-shrink: 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+}

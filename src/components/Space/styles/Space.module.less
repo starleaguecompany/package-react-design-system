@@ -1,0 +1,79 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: normal;
+  width: 100%;
+}
+
+.direction {
+  &-horizontal {
+    flex-direction: row;
+  }
+
+  &-vertical {
+    flex-direction: column;
+  }
+
+  &-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  &-column-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.align {
+  &-start {
+    align-items: flex-start;
+  }
+
+  &-end {
+    align-items: flex-end;
+  }
+
+  &-center {
+    align-items: center;
+  }
+
+  &-baseline {
+    align-items: baseline;
+  }
+}
+
+.justify {
+  &-start {
+    justify-content: flex-start;
+  }
+
+  &-end {
+    justify-content: flex-end;
+  }
+
+  &-center {
+    justify-content: center;
+  }
+
+  &-space-between {
+    justify-content: space-between;
+  }
+
+  &-space-around {
+    justify-content: space-around;
+  }
+
+  &-stretch {
+    justify-content: stretch;
+  }
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.inline {
+  display: inline-flex;
+  width: auto;
+}

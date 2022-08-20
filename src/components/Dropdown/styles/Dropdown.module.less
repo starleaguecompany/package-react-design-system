@@ -1,0 +1,25 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/shadow";
+
+.container {
+  cursor: pointer;
+}
+
+.menu {
+  max-height: 341px;
+  padding: 0;
+  overflow-y: auto;
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    padding: 8px;
+  }
+}
+
+.content {
+  overflow: hidden;
+  border-radius: 8px;
+  background-clip: padding-box;
+  background-color: var(--color-L100);
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.02), 0 10px 14px rgba(20, 36, 56, 0.06);
+  color: var(--color-D100);
+}

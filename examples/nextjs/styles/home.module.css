@@ -1,0 +1,21 @@
+.container {
+    background: var(--color-L100);
+}
+
+.inner {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.column {
+    width: 50%;
+}
+
+.button {
+    max-width: 260px;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 20px;
+}

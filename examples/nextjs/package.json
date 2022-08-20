@@ -1,0 +1,43 @@
+{
+  "name": "design-system-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "sideEffects": [
+    "@starleaguecompany/design-system-theme",
+    "@starleaguecompany/react-auth-dialog",
+    "@starleaguecompany/react-design-system",
+    "@starleaguecompany/react-header",
+    "@starleaguecompany/react-footer",
+    "@starleaguecompany/react-icons",
+    "@starleaguecompany/react-pre-footer",
+    "@starleaguecompany/react-region-dialog"
+  ],
+  "dependencies": {
+    "classnames": "^2.3.1"
+  },
+  "devDependencies": {
+    "next-transpile-modules": "^9.0.0",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@next/bundle-analyzer": "^12.0.4",
+    "@starleaguecompany/design-system-theme": "^0.1.3",
+    "@starleaguecompany/react-auth-dialog": "^0.1.2",
+    "@starleaguecompany/react-design-system": "^0.2.2",
+    "@starleaguecompany/react-footer": "^0.1.2",
+    "@starleaguecompany/react-header": "^0.1.12",
+    "@starleaguecompany/react-icons": "^0.1.3",
+    "@starleaguecompany/react-pre-footer": "^0.1.1",
+    "@starleaguecompany/react-region-dialog": "^0.1.0",
+    "@starleaguecompany/package-react-utils": "^0.1.0",
+    "@starleaguecompany/utils": "^1.1.1-dev.3",
+    "next": "^12.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.2"
+  }
+}

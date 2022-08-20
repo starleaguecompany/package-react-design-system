@@ -1,0 +1,101 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/shadow";
+
+@tooltip-color: var(--color-D100);
+
+.bubble {
+  position: relative;
+  z-index: @zindex-tooltip;
+  max-width: 300px;
+  max-height: 341px;
+  border-radius: 12px;
+  background-color: @tooltip-color;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.02), 0 10px 14px rgba(20, 36, 56, 0.06);
+
+  &[data-popper-placement="top"], &[data-popper-placement="top-start"], &[data-popper-placement="top-end"] {
+    margin-bottom: 6px;
+
+    .arrow {
+      top: 100%;
+
+      &::after {
+        transform: translateY(-50%) rotate(45deg);
+      }
+    }
+  }
+
+  &[data-popper-placement="bottom"], &[data-popper-placement="bottom-start"], &[data-popper-placement="bottom-end"] {
+    margin-top: 6px;
+    //.shadow(true);
+
+    .arrow {
+      bottom: 100%;
+
+      &::after {
+        transform: translateY(50%) rotate(225deg);
+      }
+    }
+  }
+
+  &[data-popper-placement="left"] {
+    margin-right: 6px;
+
+    .arrow {
+      left: 100%;
+
+      &::after {
+        transform: translateX(-50%) rotate(-45deg);
+      }
+    }
+  }
+
+  &[data-popper-placement="right"] {
+    margin-left: 6px;
+
+    .arrow {
+      right: 100%;
+
+      &::after {
+        transform: translateX(50%) rotate(135deg);
+      }
+    }
+  }
+}
+
+.container {
+  padding: 16px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-clip: padding-box;
+  background-color: @tooltip-color;
+  color: var(--color-L100);
+}
+
+.close {
+  cursor: pointer;
+}
+
+.arrow {
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent @tooltip-color @tooltip-color transparent;
+    background-color: @tooltip-color;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.07);
+  }
+}
+
+.outlineNone {
+  outline: none;
+}

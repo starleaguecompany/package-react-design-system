@@ -1,0 +1,1132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rate should execute onchangeCallback on stars click 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly on external value update 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly when hover mouse on stars 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly with allowHalf prop 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star half fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+    <span
+      class="star fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star half fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Rate"
+  id="test-id"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly with count prop 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly with defaultValue prop 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly with disabled prop 1`] = `
+<div
+  class="container disabled"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer disabled"
+  >
+    <span
+      class="star disabled container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer disabled"
+  >
+    <span
+      class="star disabled container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer disabled"
+  >
+    <span
+      class="star disabled container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer disabled"
+  >
+    <span
+      class="star disabled container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer disabled"
+  >
+    <span
+      class="star disabled container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should render correctly with value prop 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star fill container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rate should return value of rate on stars clicking 1`] = `
+<div
+  class="container"
+  data-qa="Rate"
+>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="starContainer"
+  >
+    <span
+      class="star container size-20 color-orange shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Star"
+        fill="none"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.637 3.287a.4.4 0 0 1 .726 0L14.87 8.72a.4.4 0 0 0 .316.23l5.94.704a.4.4 0 0 1 .224.691l-4.391 4.061a.4.4 0 0 0-.121.372l1.166 5.867a.4.4 0 0 1-.588.427l-5.22-2.922a.4.4 0 0 0-.39 0l-5.22 2.922a.4.4 0 0 1-.588-.427l1.166-5.867a.4.4 0 0 0-.12-.372l-4.392-4.06a.4.4 0 0 1 .224-.692l5.94-.704a.4.4 0 0 0 .316-.23l2.506-5.432Z"
+          stroke="currentColor"
+          stroke-width="1.25"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;

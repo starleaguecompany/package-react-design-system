@@ -1,0 +1,123 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/size";
+
+@padding-h: 16px;
+
+.container {
+  display: flex;
+  position:relative;
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  padding: 19px @padding-h 11px;
+  overflow: hidden;
+  transition: all .3s cubic-bezier(.46, 0, .03, .99);
+  border: 1px solid transparent;
+  border-radius:12px;
+  background-color: var(--color-D10);
+  cursor: text;
+  will-change: color, border-color, background-color;
+  .typography-by-size('l');
+
+  &.active,
+  &.focused {
+    border-color: var(--color-B100);
+    background-color: var(--color-L100);
+  }
+
+  &.invalid {
+    border-color: var(--color-R100);
+  }
+
+  &.disabled {
+    border-color: var(--color-D06);
+    background-color: var(--color-D06);
+    color: var(--color-D20);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &.with-label {
+    padding: 27px @padding-h 11px;
+  }
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  color: var(--color-D100);
+  text-overflow: ellipsis;
+  will-change: color, border-color, background-color;
+  .typography-by-size('l');
+  resize: none;
+
+  &.resize {
+    @media screen and (min-width: @breakpoint-tablet) {
+      resize: both;
+    }
+  }
+
+  &.with-icon {
+    padding-right: 36px;
+  }
+
+  &[disabled] {
+    color: var(--color-D20);
+    cursor: not-allowed;
+    user-select: none;
+    -webkit-text-fill-color: var(--color-D20);
+  }
+
+  &[readonly] {
+    user-select: none;
+  }
+}
+
+.placeholder {
+  position:absolute;
+  top: 30px;
+  left: 16px;
+  width: calc(100% - 16px);
+  padding-right: 16px;
+  overflow:hidden;
+  transform: translateY(-50%);
+  transform-origin: left top;
+  transition: transform 150ms cubic-bezier(0.86, 0, 0.07, 1);
+  color: var(--color-D60);
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  pointer-events:none;
+  user-select:none;
+  will-change: transform;
+  .typography-by-size('l');
+
+  &.focused,
+  &.filled {
+    width: calc(133% - @padding-h);
+    transform: translateY(-90%) scale(0.75);
+  }
+
+  &.disabled {
+    color: var(--color-D20);
+  }
+
+  &.with-icon {
+    padding-right: 60px;
+  }
+}
+
+.icon {
+  position:absolute;
+  top: 30px;
+  right: 16px;
+  transform: translateY(-50%);
+  color: var(--color-D30);
+}

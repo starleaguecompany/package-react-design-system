@@ -1,0 +1,37 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+
+.container {
+  display: flex;
+  position: fixed;
+  z-index: @zindex-tooltip;
+  top: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  max-height: 100%;
+  pointer-events: none;
+  //overflow-x: hidden;
+  //overflow-y: auto;
+  gap: 12px;
+}
+
+div.alert {
+  width: auto;
+  max-width: 100%;
+  margin: 0 30px;
+  background-color: var(--color-D100);
+  color: var(--color-L100);
+  pointer-events: auto;
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    max-width: 400px;
+  }
+
+  &:first-child {
+    margin-top: 20px;
+  }
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}

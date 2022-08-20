@@ -1,0 +1,131 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/size";
+
+.container {
+  display: inline-flex;
+  flex-shrink: 0;
+
+  & > svg {
+    width: 100%;
+  }
+
+  &.circle {
+    border-radius: 50%;
+  }
+}
+
+.asContainer {
+  overflow: hidden;
+}
+
+.color {
+  &-gray {
+    color: var(--color-D100);
+
+    &.asContainer {
+      background-color: var(--color-D10);
+      color: var(--color-D100);
+    }
+  }
+
+  &-green {
+    color: var(--color-G100);
+
+    &.asContainer {
+      background-color: var(--color-G06);
+      color: var(--color-G100);
+    }
+  }
+
+  &-blue {
+    color: var(--color-B100);
+
+    &.asContainer {
+      background-color: var(--color-B06);
+      color: var(--color-B100);
+    }
+  }
+
+  &-violet {
+    color: var(--color-V100);
+
+    &.asContainer {
+      background-color: var(--color-V06);
+      color: var(--color-V100);
+    }
+  }
+
+  &-orange {
+    color: var(--color-O100);
+
+    &.asContainer {
+      background-color: var(--color-O06);
+      color: var(--color-O100);
+    }
+  }
+
+  &-red {
+    color: var(--color-R100);
+
+    &.asContainer {
+      background-color: var(--color-R06);
+      color: var(--color-R100);
+    }
+  }
+}
+
+.size {
+  &-16 {
+    .square(16px);
+
+    &.asContainer {
+      .square(36px, 10px);
+      padding: 8px;
+    }
+  }
+
+  &-20 {
+    .square(20px);
+
+    &.asContainer {
+      .square(44px, 12px);
+      padding: 12px;
+    }
+  }
+
+  &-24 {
+    .square(24px);
+
+    &.asContainer {
+      .square(52px, 14px);
+      padding: 14px;
+    }
+  }
+
+  &-28 {
+    .square(28px);
+
+    &.asContainer {
+      .square(60px, 16px);
+      padding: 16px;
+    }
+  }
+}
+
+.strong {
+  & > svg {
+    path {
+      stroke-width: 2px;
+    }
+  }
+}
+
+
+.shape {
+  //&-round {}
+  &-circle {
+    &.asContainer {
+      border-radius: 50%;
+    }
+  }
+}

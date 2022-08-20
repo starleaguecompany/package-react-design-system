@@ -1,0 +1,118 @@
+---
+name: Build Workflow
+
+on:
+  push:
+    branches-ignore:
+      - '**'
+#    paths-ignore:
+#      - 'README.md'
+#      - '.github/**'
+#    branches:
+#      - 'main'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Yarn cache path
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+          registry-url: https://npm.pkg.github.com/
+          scope: '@starleaguecompany'
+
+      - name: Load Yarn cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: yarn install --frozen-lockfile
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Test
+        run: yarn test
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+
+    env:
+      image_registry: sravni.azurecr.io
+      nuget_username: 'sravni'
+
+    steps:
+      - name: Set image name
+        run: echo "image_name=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Set Build Number
+        id: get_build_number
+        run: |
+          branch=${GITHUB_REF#refs/heads/}
+          build_number="${{ github.run_id }}"
+          echo "##[set-output name=build_number;]$build_number"
+
+      - name: Login to ACR
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ env.image_registry }}
+          username: ${{ secrets.DOCKER_LOGIN }}
+          password: ${{ secrets.DOCKER_PASS }}
+
+      - name: Validate values files
+        run: |
+          docker run --rm -i \
+          -v ${PWD}:/app \
+          ${image_registry}/qa-environment-helpers:v0.0.3 \
+          qa-environment-helpers/scripts/validations/netcore-yamale.sh -f '/app/*.yaml'
+
+      - name: Docker build
+        env:
+          build_number: ${{ steps.get_build_number.outputs.build_number }}
+        id: docker_build
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          file: Dockerfile
+          build-args: |
+            GITHUB_NPM_TOKEN=${{ secrets.GH_TOKEN }}
+            build_number=${{ env.build_number }}
+          push: false
+          tags: "${{env.image_registry}}/${{env.image_name}}:${{env.build_number}}"
+
+      - name: Trivy Scanning
+        shell: bash
+        env:
+          build_number: ${{ steps.get_build_number.outputs.build_number }}
+          trivy_version: 0.9.0
+        run: |
+          docker run -v /var/run/docker.sock:/var/run/docker.sock:rw -v /trivy/cache:/tmp/trivy/db \
+          aquasec/trivy:$trivy_version \
+          --cache-dir /tmp/trivy/ --severity CRITICAL,HIGH --no-progress --ignore-unfixed \
+          --exit-code 0 "${{env.image_registry}}/${{env.image_name}}:${{env.build_number}}"
+
+      - name: Docker Push
+        shell: bash
+        env:
+          build_number: ${{ steps.get_build_number.outputs.build_number }}
+        run: |
+          branch=${GITHUB_REF#refs/heads/}
+          image_alias="${{env.image_registry}}/${{env.image_name}}"
+          docker push "$image_alias:${{env.build_number}}"
+          docker tag "$image_alias:${{env.build_number}}" "$image_alias:latest"
+          docker push "$image_alias:latest"

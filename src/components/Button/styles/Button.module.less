@@ -1,0 +1,276 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.color-variant(@color, @background, @border) {
+  border-color: @border;
+  background-color: @background;
+  color: @color;
+}
+
+.color-block(@color-prefix) {
+  //TODO: check '&-outlined' section after design is done
+  &-outlined {
+    .color-variant(var(~'--color-@{color-prefix}100'), transparent, var(~'--color-@{color-prefix}30'));
+
+    &:hover,
+    &:focus-visible {
+      .color-variant(var(~'--color-@{color-prefix}200'), var(~'--color-@{color-prefix}06'), var(~'--color-@{color-prefix}200'));
+    }
+
+    &:active,
+    &.active {
+      .color-variant(var(~'--color-@{color-prefix}300'), var(~'--color-@{color-prefix}06'), var(~'--color-@{color-prefix}300'));
+    }
+  }
+  &-text {
+    .color-variant(var(~'--color-@{color-prefix}100'), transparent, transparent);
+
+    &:hover,
+    &:focus-visible  {
+      .color-variant(var(~'--color-@{color-prefix}200'), transparent, transparent);
+
+      //& > .text {
+      //  &::after {
+      //    background-color: currentColor;
+      //  }
+      //}
+    }
+
+    &:active,
+    &.active {
+      .color-variant(var(~'--color-@{color-prefix}300'), transparent, transparent);
+    }
+  }
+  &-primary {
+    .color-variant(var(--color-L100), var(~'--color-@{color-prefix}100'), transparent);
+
+    &:hover,
+    &:focus-visible  {
+      .color-variant(var(--color-L100), var(~'--color-@{color-prefix}200'), transparent);
+    }
+
+    &:active,
+    &.active {
+      .color-variant(var(--color-L100), var(~'--color-@{color-prefix}300'), transparent);
+    }
+  }
+  &-secondary {
+    .color-variant(var(~'--color-@{color-prefix}100'), var(~'--color-@{color-prefix}06'), transparent);
+
+    &:hover,
+    &:focus-visible  {
+      .color-variant(var(~'--color-@{color-prefix}200'), var(~'--color-@{color-prefix}06'), transparent);
+    }
+
+    &:active,
+    &.active {
+      .color-variant(var(~'--color-@{color-prefix}300'), var(~'--color-@{color-prefix}06'), transparent);
+    }
+  }
+}
+
+.text {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  //&::after {
+  //  content: '';
+  //  position: absolute;
+  //  top: 100%;
+  //  width: 100%;
+  //  height: 2px;
+  //  transition: background-color 0.3s @ease-in-out;
+  //  background-color: transparent;
+  //}
+}
+
+.container {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s @ease-in-out;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  outline: none;
+  font-weight: 600;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  gap: 4px;
+
+  &[disabled] {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.color {
+  &-gray {
+    &-outlined {
+      .color-variant(var(--color-D100), transparent, var(--color-D20));
+
+      &:hover,
+      &:focus-visible  {
+        .color-variant(var(--color-D100), transparent, var(--color-D30))
+      }
+
+      &:active,
+      &.active {
+        .color-variant(var(--color-D100), var(--color-D10), var(--color-D20))
+      }
+    }
+
+    &-text {
+      .color-variant(var(--color-B300), transparent, transparent);
+
+      &:hover,
+      &:focus-visible  {
+        .color-variant(var(--color-D100), transparent, transparent);
+
+        & > .text {
+          &::after {
+            background-color: currentColor;
+          }
+        }
+      }
+
+      &:active,
+      &.active {
+        .color-variant(var(--color-D100), transparent, transparent);
+      }
+    }
+
+    &-primary {
+      .color-variant(var(--color-L100), var(--color-B300), transparent);
+
+      &:hover,
+      &:focus-visible  {
+        .color-variant(var(--color-L100), var(--color-D100), transparent);
+      }
+
+      &:active,
+      &.active {
+        .color-variant(var(--color-L100), var(--color-D100), transparent);
+      }
+    }
+
+    &-secondary {
+      .color-variant(var(--color-D100), var(--color-D10), transparent);
+
+      &:hover,
+      &:focus-visible  {
+        .color-variant(var(--color-D100), var(--color-D20), transparent);
+      }
+
+      &:active,
+      &.active {
+        .color-variant(var(--color-B300), var(--color-D10), transparent);
+      }
+    }
+  }
+
+  &-green {
+    .color-block('G');
+  }
+
+  &-blue {
+    .color-block('B');
+  }
+
+  &-violet {
+    .color-block('V');
+  }
+
+  &-orange {
+    .color-block('O');
+  }
+
+  &-red {
+    .color-block('R');
+  }
+}
+
+.size {
+  &-36 {
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 8px;
+    .typography-by-size('m')
+  }
+
+  &-44 {
+    height: 44px;
+    padding: 0 16px;
+    border-radius: 8px;
+    .typography-by-size('m')
+  }
+
+  &-52 {
+    height: 52px;
+    padding: 0 20px;
+    border-radius: 12px;
+    .typography-by-size('l')
+  }
+
+  &-60 {
+    height: 60px;
+    padding: 0 24px;
+    border-radius: 12px;
+    .typography-by-size('l')
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.disabled {
+  &-outlined {
+    &[disabled] {
+      .color-variant(var(--color-D20), var(--color-L100), var(--color-D06))
+    }
+  }
+
+  &-primary {
+    &[disabled] {
+      .color-variant(var(--color-D20), var(--color-D06), var(--color-D06))
+    }
+  }
+
+  &-secondary {
+    &[disabled] {
+      .color-variant(var(--color-D20), var(--color-L100), var(--color-D06))
+    }
+  }
+
+  &-text {
+    &[disabled] {
+      .color-variant(var(--color-D20), transparent, transparent)
+    }
+  }
+}
+
+.loading {
+  .text {
+    color: transparent;
+  }
+}
+
+.block {
+  display: flex;
+  width: 100%;
+}
+
+.active {
+  cursor: not-allowed;
+  pointer-events: none;
+}

@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag should render correctly on external value update 1`] = `
+<span
+  class="container size-44"
+  data-qa="Tag"
+/>
+`;
+
+exports[`Tag should render correctly with active prop 1`] = `
+<span
+  class="container active size-44"
+  data-qa="Tag"
+>
+  Testing tag
+</span>
+`;
+
+exports[`Tag should render correctly with attributes 1`] = `
+<span
+  class="test-class container size-44"
+  data-qa="Tag"
+  id="test-id"
+/>
+`;
+
+exports[`Tag should render correctly with closable prop and execute onClose callback on click 1`] = `
+<span
+  class="container size-44"
+  data-qa="Tag"
+>
+  Testing tag
+  <span
+    class="container size-20 shape-round"
+    data-qa="Icon"
+  >
+    <svg
+      data-qa="Cross"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        clip-path="url(#clip0)"
+      >
+        <path
+          d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+        <path
+          d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+          stroke="currentColor"
+          stroke-dasharray="10 5"
+        />
+      </g>
+      <defs>
+        <clippath
+          id="clip0"
+        >
+          <path
+            d="M0 0h20v20H0z"
+            fill="currentColor"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </span>
+</span>
+`;
+
+exports[`Tag should render correctly with icon 1`] = `
+<span
+  class="container size-44"
+  data-qa="Tag"
+>
+  <span
+    class="container size-20 shape-round"
+    data-qa="Icon"
+  >
+    <svg
+      data-qa="Menu"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 5h12M4 10h12M4 15h12"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </svg>
+  </span>
+  Testing pane
+</span>
+`;
+
+exports[`Tag should render correctly with no props 1`] = `
+<span
+  class="container size-44"
+  data-qa="Tag"
+/>
+`;
+
+exports[`Tag should render correctly with size prop 1`] = `
+<span
+  class="container size-36"
+  data-qa="Tag"
+>
+  Testing tag
+</span>
+`;
+
+exports[`Tag should render correctly with text 1`] = `
+<span
+  class="container size-44"
+  data-qa="Tag"
+>
+  Testing tag
+</span>
+`;

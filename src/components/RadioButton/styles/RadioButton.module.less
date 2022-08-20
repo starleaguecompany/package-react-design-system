@@ -1,0 +1,71 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/shadow";
+
+.block {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: stretch;
+  padding: 4px;
+  border-radius: 12px;
+  background-color: var(--color-D10);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 12px;
+  transition: all .3s @ease-in-out;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: var(--color-D10);
+  color: var(--color-D100);
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  gap: 4px;
+  .typography-by-size('m');
+
+  &:hover {
+    border-color: var(--color-D30);
+  }
+
+  &:focus-visible {
+    border-color: var(--color-D30);
+    outline: none;
+  }
+
+  &.active {
+    border-color: var(--color-L100);
+    background-color: var(--color-L100);
+    .shadow();
+  }
+
+  &.disabled {
+    content: var(--color-D60);
+    cursor: not-allowed;
+  }
+}
+
+.size {
+  &-36 {
+    height: 36px;
+  }
+
+  &-44 {
+    height: 44px;
+  }
+
+  &-52 {
+    height: 52px;
+  }
+}

@@ -1,0 +1,1263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateInput should change display date when external dateFormat changed 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04 октября
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04 октября"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should change value by clicking Choose date button in range mode 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021 — 04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021 — 04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should change value on calendar date click 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should display calendar and focus input on click 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should execute onChange callback and return value on Choose date 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should execute onFocus callback on focus 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should hide calendar and blur on click outside 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should highlight a single date in the Calendar by clicking on it 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should highlight dates range in Calendar when choose it (in range mode) 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021 — 04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021 — 04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly Calendar in range mode 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            03.10.2021 — 05.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="03.10.2021 — 05.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly Calendar with defaultDate prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly Calendar with defaultValue prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            05.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="05.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly Input in range mode 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            03.10.2021 — 05.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="03.10.2021 — 05.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly Input with defaultValue prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly on external value update 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly when value is updated from outside 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            id="test-id"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with autoFocus prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container focused"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with dateFormat prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04 октября
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04 октября"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with disabled prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container disabled"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input disabled"
+            disabled=""
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with disabledIntervals prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021 — 04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021 — 04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with icon prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Menu"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 5h12M4 10h12M4 15h12"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with invalid prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container invalid"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled invalid"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with label prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+      <label
+        class="placeholder filled"
+      >
+        Test label
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with loading prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container with-icon"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+      <span
+        class="icon container size-20"
+        data-qa="Spinner"
+      >
+        <svg
+          class="svg"
+          viewBox="0 0 150 150"
+        >
+          <circle
+            class="circle circle-1"
+            cx="75"
+            cy="75"
+            r="60"
+          />
+          <circle
+            class="circle circle-2"
+            cx="75"
+            cy="75"
+            r="60"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with maxDate prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with minDate prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with placement prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          />
+          <input
+            autocomplete="off"
+            class="input"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with postfix prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+          <div
+            class="inputPostfix"
+          >
+             
+            $
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with rangeLimit prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021 — 04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021 — 04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with readOnly prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should render correctly with value prop 1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateInput should reset value by external setting undefine  1`] = `
+<div
+  class="container"
+  data-qa="DateInput"
+>
+  <div>
+    <div
+      class="container"
+      data-qa="TextInput"
+    >
+      <div
+        class="inputSegment centered"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <div
+            class="inputValue"
+          >
+            04.10.2021
+          </div>
+          <input
+            autocomplete="off"
+            class="input filled"
+            readonly=""
+            spellcheck="false"
+            type="text"
+            value="04.10.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

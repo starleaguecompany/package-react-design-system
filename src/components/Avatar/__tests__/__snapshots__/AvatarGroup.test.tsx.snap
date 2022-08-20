@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarGroup should render correctly with attributes 1`] = `
+<div
+  class="test-class group"
+  data-qa="AvatarGroup"
+  id="test-id"
+/>
+`;
+
+exports[`AvatarGroup should render correctly with avatars 1`] = `
+<div
+  class="group"
+  data-qa="AvatarGroup"
+>
+  <div
+    class="avatar size-36"
+    data-qa="Avatar"
+  >
+    <img
+      alt="avatar"
+      class="image"
+      loading="lazy"
+      src="test"
+    />
+  </div>
+  <div
+    class="avatar size-36"
+    data-qa="Avatar"
+  >
+    <img
+      alt="avatar"
+      class="image"
+      loading="lazy"
+      src="test"
+    />
+  </div>
+</div>
+`;
+
+exports[`AvatarGroup should render correctly with no props 1`] = `
+<div
+  class="group"
+  data-qa="AvatarGroup"
+/>
+`;
+
+exports[`AvatarGroup should render correctly with size prop 1`] = `
+<div
+  class="group"
+  data-qa="AvatarGroup"
+>
+  <div
+    class="avatar size-60"
+    data-qa="Avatar"
+  >
+    <img
+      alt="avatar"
+      class="image"
+      loading="lazy"
+      src="test"
+    />
+  </div>
+  <div
+    class="avatar size-60"
+    data-qa="Avatar"
+  >
+    <img
+      alt="avatar"
+      class="image"
+      loading="lazy"
+      src="test"
+    />
+  </div>
+</div>
+`;

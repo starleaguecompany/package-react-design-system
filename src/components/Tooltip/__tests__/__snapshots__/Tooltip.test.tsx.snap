@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip should execute callback on clicking cross icon 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="container direction-horizontal justify-space-between"
+      data-qa="Space"
+      style="column-gap: 8px; row-gap: 8px;"
+    >
+      <div
+        class="size-16 strong"
+      >
+        Title
+      </div>
+      <span
+        class="close container size-16 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip should hide tooltip on end of hover 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="container direction-horizontal justify-space-between"
+      data-qa="Space"
+      style="column-gap: 8px; row-gap: 8px;"
+    >
+      <div
+        class="size-16 strong"
+      >
+        Title
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Tooltip"
+  id="test-id"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  />
+</div>
+`;
+
+exports[`Tooltip should render correctly with closable prop 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="container direction-horizontal justify-space-between"
+      data-qa="Space"
+      style="column-gap: 8px; row-gap: 8px;"
+    >
+      <div
+        class="size-16 strong"
+      >
+        Title
+      </div>
+      <span
+        class="close container size-16 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Cross"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0)"
+          >
+            <path
+              d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+            />
+            <path
+              d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+              stroke="currentColor"
+              stroke-dasharray="10 5"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0"
+            >
+              <path
+                d="M0 0h20v20H0z"
+                fill="currentColor"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip should render correctly with content and visible on hover 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="size-14"
+    >
+      Tooltip content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip should render correctly with footer and visible on hover 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    Tooltip footer
+  </div>
+</div>
+`;
+
+exports[`Tooltip should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  />
+</div>
+`;
+
+exports[`Tooltip should render correctly with placement prop 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="container direction-horizontal justify-space-between"
+      data-qa="Space"
+      style="column-gap: 8px; row-gap: 8px;"
+    >
+      <div
+        class="size-16 strong"
+      >
+        Tooltip title
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip should render correctly with title and visible on hover 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 300px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  >
+    <div
+      class="container direction-horizontal justify-space-between"
+      data-qa="Space"
+      style="column-gap: 8px; row-gap: 8px;"
+    >
+      <div
+        class="size-16 strong"
+      >
+        Tooltip title
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tooltip should render correctly with width and visible on hover 1`] = `
+<div
+  class="container"
+  data-qa="Tooltip"
+  style="width: 400px;"
+>
+  <div
+    class="container direction-vertical"
+    data-qa="Space"
+    style="column-gap: 8px; row-gap: 8px;"
+  />
+</div>
+`;

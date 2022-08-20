@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabPane should render correctly with attributes 1`] = `
+<div
+  class="test-class pane"
+  data-qa="TabPane"
+  id="test-id"
+/>
+`;
+
+exports[`TabPane should render correctly with content 1`] = `
+<div
+  class="pane"
+  data-qa="TabPane"
+  title="Title pane"
+>
+  Pane content
+</div>
+`;
+
+exports[`TabPane should render correctly with no props 1`] = `
+<div
+  class="pane"
+  data-qa="TabPane"
+/>
+`;
+
+exports[`TabPane should render correctly with title prop 1`] = `
+<div
+  class="pane"
+  data-qa="TabPane"
+  title="Title pane"
+/>
+`;

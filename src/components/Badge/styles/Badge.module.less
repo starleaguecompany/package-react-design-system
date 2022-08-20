@@ -1,0 +1,107 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/size";
+
+.color-variant(@background1; @background2;) {
+  &-secondary {
+    background-color: @background1;
+    color: var(--color-D100);
+  }
+
+  &-primary {
+    background-color: @background2;
+    color: var(--color-L100);
+  }
+}
+
+.container {
+  display: inline-flex;
+  position: relative;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s @ease-in-out;
+  font-weight: 600;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  user-select: none;
+  gap: 4px;
+  .typography-by-size('xs');
+}
+
+.floating {
+  position: absolute;
+  box-shadow: 0 0 0 2px var(--color-L100);
+
+  &-top-end {
+    top: 1px;
+    right: 1px;
+    transform: translate(30%, -30%);
+  }
+
+  &-bottom-end {
+    right: 1px;
+    bottom: 1px;
+    transform: translate(30%, 30%);
+  }
+}
+
+.color {
+  &-gray {
+    .color-variant(var(--color-D10), var(--color-D100));
+  }
+
+  &-green {
+    .color-variant(var(--color-G06), var(--color-G100));
+  }
+
+  &-blue {
+    .color-variant(var(--color-B06), var(--color-B100));
+  }
+
+  &-violet {
+    .color-variant(var(--color-V06), var(--color-V100));
+  }
+
+  &-orange {
+    .color-variant(var(--color-O06), var(--color-O100));
+  }
+
+  &-red {
+    .color-variant(var(--color-R06), var(--color-R100));
+  }
+
+  &-white {
+    &-secondary {
+      background-color: var(--color-L100);
+      color: var(--color-D100);
+    }
+
+    &-primary {
+      background-color: var(--color-L100);
+      color: var(--color-D100);
+    }
+  }
+}
+
+.shape {
+  &-round {
+    height: 20px;
+    padding: 0 8px;
+    border-radius: 20px;
+  }
+
+  &-circle {
+    .circle(20px);
+  }
+
+  &-dot {
+    padding: 0;
+    .circle(6px);
+  }
+}
