@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio should execute onChangeCallback on click radio 1`] = `
+<label
+  class="container"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    type="radio"
+    value=""
+  />
+  <div
+    class="control"
+  />
+</label>
+`;
+
+exports[`Radio should render correctly on external value update 1`] = `
+<label
+  class="container"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    type="radio"
+    value=""
+  />
+  <div
+    class="control"
+  />
+</label>
+`;
+
+exports[`Radio should render correctly with attributes 1`] = `
+<label
+  class="test-class container"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    id="test-id"
+    type="radio"
+    value=""
+  />
+  <div
+    class="control"
+  />
+</label>
+`;
+
+exports[`Radio should render correctly with checked prop 1`] = `
+<label
+  class="container checked"
+  data-qa="Radio"
+>
+  <input
+    checked=""
+    class="input"
+    type="radio"
+    value=""
+  />
+  <div
+    class="control checked"
+  >
+    <svg
+      class="icon"
+      data-qa="Check"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m6 11 3 3 6-7"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </svg>
+  </div>
+</label>
+`;
+
+exports[`Radio should render correctly with disabled prop 1`] = `
+<label
+  class="container disabled"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    disabled=""
+    type="radio"
+    value=""
+  />
+  <div
+    class="control disabled"
+  />
+</label>
+`;
+
+exports[`Radio should render correctly with label 1`] = `
+<label
+  class="container"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    type="radio"
+    value=""
+  />
+  <div
+    class="control"
+  />
+  <span
+    class="label"
+  >
+    Radio label
+  </span>
+</label>
+`;
+
+exports[`Radio should render correctly with name prop 1`] = `
+<label
+  class="container"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    name="Radio name"
+    type="radio"
+    value=""
+  />
+  <div
+    class="control"
+  />
+</label>
+`;
+
+exports[`Radio should render correctly with no props 1`] = `
+<label
+  class="container"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    type="radio"
+    value=""
+  />
+  <div
+    class="control"
+  />
+</label>
+`;
+
+exports[`Radio should render correctly with readOnly prop 1`] = `
+<label
+  class="container readOnly"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    type="radio"
+    value=""
+  />
+  <div
+    class="control"
+  />
+</label>
+`;
+
+exports[`Radio should render correctly with value prop 1`] = `
+<label
+  class="container"
+  data-qa="Radio"
+>
+  <input
+    class="input"
+    type="radio"
+    value="Radio value"
+  />
+  <div
+    class="control"
+  />
+</label>
+`;

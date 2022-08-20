@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnorderedList should render correctly with ListItem 1`] = `
+<ul
+  class="unordered"
+>
+  <li
+    class="item"
+  >
+    Testing list
+  </li>
+</ul>
+`;
+
+exports[`UnorderedList should render correctly with attributes 1`] = `
+<ul
+  class="test-class unordered"
+  id="test-id"
+>
+  Testing list
+</ul>
+`;
+
+exports[`UnorderedList should render correctly with no props 1`] = `
+<div>
+  <ul
+    class="unordered"
+  />
+</div>
+`;

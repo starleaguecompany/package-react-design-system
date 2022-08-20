@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portal should be not a child of container element 1`] = `
+<div
+  sr-portal-container=""
+>
+  Test portal
+</div>
+`;
+
+exports[`Portal should render correctly with content 1`] = `
+<div
+  sr-portal-container=""
+>
+  Test portal
+</div>
+`;

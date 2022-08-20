@@ -1,0 +1,122 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.container {
+  overflow: hidden;
+
+  .wrapper {
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    & > div > * {
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    @media screen and (min-width: @breakpoint-desktop) {
+      margin-left: var(--position);
+      padding-right: 0;
+      padding-left: 0;
+      overflow: visible;
+      transition: margin 0.2s linear;
+    }
+  }
+}
+
+.slides{
+  position: relative;
+
+  &.gradient::before,
+  &.gradient::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: all 0.2s linear;
+    transition-property: width, opacity;
+    opacity: 0;
+    background: linear-gradient(270deg, var(--color-D06) 0%, rgba(246, 245, 244, 0) 100%);
+  }
+
+  &.gradient::after {
+    right: 0;
+  }
+
+  &.gradient::before {
+    left: 0;
+  }
+
+  &.rightGradient::after,
+  &.leftGradient::before {
+    width: 60px;
+    opacity: 1;
+  }
+
+  &.leftGradient::before {
+    transform: rotate(-180deg);
+  }
+}
+
+.header {
+  margin-bottom: 16px;
+
+  @media screen and (min-width: @breakpoint-desktop) {
+    margin-bottom: 32px;
+  }
+}
+
+.title {
+  color: var(--color-D80);
+  .mobile-typography-title-3();
+
+  @media screen and (min-width: @breakpoint-desktop) {
+    .typography-title-3();
+  }
+}
+
+.arrows {
+  width: auto;
+}
+
+.arrow {
+  display: none;
+  z-index: 2;
+
+  @media screen and (min-width: @breakpoint-desktop) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-L100);
+    color: var(--color-D100);
+    cursor: pointer;
+
+    &.disabled{
+      color: var(--color-D20);
+      pointer-events: none;
+    }
+
+    &:hover {
+      .icon {
+        color: var(--color-B100);
+      }
+    }
+
+    &.rightArrow {
+      right: 16px;
+    }
+
+    &.leftArrow {
+      left: 16px;
+    }
+  }
+}

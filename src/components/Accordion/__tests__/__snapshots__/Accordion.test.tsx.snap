@@ -1,0 +1,1206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion should execute callback when active item is change 1`] = `
+<div
+  class="separator-space container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="2"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 3
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should expand/collapse items by Enter keydown 1`] = `
+<div
+  class="separator-space container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should expand/collapse items by click 1`] = `
+<div
+  class="separator-space container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should render correctly with attributes 1`] = `
+<div
+  class="test-class separator-space container direction-vertical"
+  data-qa="Accordion"
+  id="test-id"
+  style="column-gap: 16px; row-gap: 16px;"
+/>
+`;
+
+exports[`Accordion should render correctly with background prop 1`] = `
+<div
+  class="separator-space background-white container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="2"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 3
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should render correctly with children items 1`] = `
+<div
+  class="separator-space container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="icon"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="Warning"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m2.257 14.765 6.436-11.44a1.5 1.5 0 0 1 2.614 0l6.435 11.44A1.5 1.5 0 0 1 16.436 17H3.565a1.5 1.5 0 0 1-1.308-2.235ZM9.996 13a1 1 0 1 0 .009 2 1 1 0 0 0-.009-2Zm-.444-6a.5.5 0 0 0-.497.55l.4 4a.5.5 0 0 0 .497.45h.095a.5.5 0 0 0 .498-.45l.4-4a.5.5 0 0 0-.498-.55h-.895Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+          <div
+            class="subtitle"
+          >
+            Subtitle 1
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="icon"
+        >
+          <span
+            class="container size-20 shape-round"
+            data-qa="Icon"
+          >
+            <svg
+              data-qa="Menu"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 5h12M4 10h12M4 15h12"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+          <div
+            class="subtitle"
+          >
+            Subtitle 2
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should render correctly with defaultIndex prop 1`] = `
+<div
+  class="separator-space container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel active"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header active"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+    <div
+      class="content"
+      style="overflow: hidden; opacity: 1; height: auto;"
+    >
+      <div
+        class="content-wrapper"
+      >
+        Content 2
+      </div>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="2"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 3
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should render correctly with empty children 1`] = `
+<div
+  class="separator-space background-white container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="2"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 3
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should render correctly with no props 1`] = `
+<div
+  class="separator-space container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+/>
+`;
+
+exports[`Accordion should render correctly with separator prop 1`] = `
+<div
+  class="separator-divider container direction-vertical"
+  data-qa="Accordion"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="2"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 3
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should render with null/undefined items 1`] = `
+<div
+  class="separator-space container direction-vertical"
+  data-qa="Accordion"
+  style="column-gap: 16px; row-gap: 16px;"
+>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="0"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 1
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    class="panel"
+    data-qa="CollapseItem"
+  >
+    <div
+      class="header"
+      data-index="1"
+      tabindex="0"
+    >
+      <div
+        class="container direction-horizontal align-center"
+        data-qa="Space"
+        style="column-gap: 12px; row-gap: 12px;"
+      >
+        <div
+          class="titleWrapper container direction-vertical"
+          data-qa="Space"
+          style="column-gap: 2px; row-gap: 2px;"
+        >
+          <div
+            class="title"
+          >
+            Title 2
+          </div>
+        </div>
+      </div>
+      <span
+        class="collapseIcon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;

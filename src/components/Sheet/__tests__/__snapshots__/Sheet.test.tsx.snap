@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sheet should execute onClose callback on close button click 1`] = `
+<div
+  class="container"
+  data-qa="Sheet"
+  draggable="false"
+  style="transform: translateY(1000px) translateZ(0); user-select: none;"
+>
+  <span
+    class="close container size-20 shape-round"
+    data-qa="Icon"
+  >
+    <svg
+      data-qa="Cross"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        clip-path="url(#clip0)"
+      >
+        <path
+          d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+        <path
+          d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+          stroke="currentColor"
+          stroke-dasharray="10 5"
+        />
+      </g>
+      <defs>
+        <clippath
+          id="clip0"
+        >
+          <path
+            d="M0 0h20v20H0z"
+            fill="currentColor"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Sheet should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Sheet"
+  draggable="false"
+  id="test-id"
+  style="transform: translateY(1000px) translateZ(0); user-select: none;"
+/>
+`;
+
+exports[`Sheet should render correctly with closable prop 1`] = `
+<div
+  class="container"
+  data-qa="Sheet"
+  draggable="false"
+  style="transform: translateY(1000px) translateZ(0); user-select: none;"
+>
+  <span
+    class="close container size-20 shape-round"
+    data-qa="Icon"
+  >
+    <svg
+      data-qa="Cross"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        clip-path="url(#clip0)"
+      >
+        <path
+          d="m10 10-4.95 4.95m0-9.9L10 10 5.05 5.05ZM10 10l4.95 4.95L10 10Zm0 0 4.95-4.95L10 10Z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+        <path
+          d="M79-22H-51a5 5 0 0 0-5 5v54a5 5 0 0 0 5 5H79a5 5 0 0 0 5-5v-54a5 5 0 0 0-5-5Z"
+          stroke="currentColor"
+          stroke-dasharray="10 5"
+        />
+      </g>
+      <defs>
+        <clippath
+          id="clip0"
+        >
+          <path
+            d="M0 0h20v20H0z"
+            fill="currentColor"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Sheet should render correctly with content 1`] = `
+<div
+  class="container"
+  data-qa="Sheet"
+  draggable="false"
+  style="transform: translateY(1000px) translateZ(0); user-select: none;"
+>
+  <div
+    class="content"
+  >
+    Test content
+  </div>
+</div>
+`;
+
+exports[`Sheet should render correctly with footer prop 1`] = `
+<div
+  class="container"
+  data-qa="Sheet"
+  draggable="false"
+  style="transform: translateY(1000px) translateZ(0); user-select: none;"
+>
+  <div
+    class="footer container direction-horizontal justify-stretch"
+    data-qa="Space"
+    style="column-gap: 12px; row-gap: 12px;"
+  >
+    Test footer
+  </div>
+</div>
+`;
+
+exports[`Sheet should render correctly with no props 1`] = `<div />`;
+
+exports[`Sheet should render correctly with subtitle prop 1`] = `
+<div
+  class="container"
+  data-qa="Sheet"
+  draggable="false"
+  style="transform: translateY(1000px) translateZ(0); user-select: none;"
+>
+  <div
+    class="header"
+  >
+    <div
+      class="titleWrapper container direction-vertical"
+      data-qa="Space"
+    >
+      <div
+        class="subtitle"
+      >
+        Test subtitle
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Sheet should render correctly with title prop 1`] = `
+<div
+  class="container"
+  data-qa="Sheet"
+  draggable="false"
+  style="transform: translateY(1000px) translateZ(0); user-select: none;"
+>
+  <div
+    class="header"
+  >
+    <div
+      class="titleWrapper container direction-vertical"
+      data-qa="Space"
+    >
+      <div
+        class="title"
+      >
+        Test title
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Sheet should render correctly with visible prop 1`] = `
+<div
+  class="container"
+  data-qa="Sheet"
+  draggable="false"
+  style="transform: translateY(1000px) translateZ(0); user-select: none;"
+/>
+`;

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb should render correctly breadcrumb items with icon 1`] = `
+<div
+  class="container container direction-horizontal align-center"
+  data-qa="Breadcrumb"
+  style="column-gap: 8px; row-gap: 8px;"
+>
+  <a
+    class="item container color-black"
+    href="/href_1"
+  >
+    <span
+      class="container size-20 shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Menu"
+        fill="none"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 5h12M4 10h12M4 15h12"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+      </svg>
+    </span>
+    Breadcrumb 1
+  </a>
+  <span
+    class="container size-16 shape-round"
+    data-qa="Icon"
+  >
+    <svg
+      data-qa="ArrowRight"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m7 16 6-6-6-6"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </svg>
+  </span>
+  <a
+    class="item container color-black"
+    href="/href_2"
+  >
+    <span
+      class="container size-20 shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Menu"
+        fill="none"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 5h12M4 10h12M4 15h12"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+      </svg>
+    </span>
+    Breadcrumb 2
+  </a>
+</div>
+`;
+
+exports[`Breadcrumb should render correctly breadcrumb items with text 1`] = `
+<div
+  class="container container direction-horizontal align-center"
+  data-qa="Breadcrumb"
+  style="column-gap: 8px; row-gap: 8px;"
+>
+  <a
+    class="item container color-black"
+    href="/href_1"
+  >
+    Breadcrumb 1
+  </a>
+  <span
+    class="container size-16 shape-round"
+    data-qa="Icon"
+  >
+    <svg
+      data-qa="ArrowRight"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m7 16 6-6-6-6"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </svg>
+  </span>
+  <a
+    class="item container color-black"
+    href="/href_2"
+  >
+    Breadcrumb 2
+  </a>
+  <span
+    class="container size-16 shape-round"
+    data-qa="Icon"
+  >
+    <svg
+      data-qa="ArrowRight"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m7 16 6-6-6-6"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </svg>
+  </span>
+  <a
+    class="item container color-black"
+    href="/href_3"
+  >
+    Breadcrumb 3
+  </a>
+</div>
+`;
+
+exports[`Breadcrumb should render correctly with attributes 1`] = `
+<div
+  class="test-class container container direction-horizontal align-center"
+  data-qa="Breadcrumb"
+  id="test-id"
+  style="column-gap: 8px; row-gap: 8px;"
+/>
+`;
+
+exports[`Breadcrumb should render correctly with no props 1`] = `
+<div
+  class="container container direction-horizontal align-center"
+  data-qa="Breadcrumb"
+  style="column-gap: 8px; row-gap: 8px;"
+/>
+`;

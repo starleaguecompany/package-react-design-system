@@ -1,0 +1,35 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+
+.container {
+  width: 100%;
+
+  .textarea>textarea {
+    resize: none;
+  }
+
+  .with-icon {
+    padding-right: 52px;
+  }
+}
+
+.menu {
+  max-height: 341px;
+  padding: 0;
+  overflow-y: auto;
+  border-radius: 12px;
+  background-color: var(--color-L100);
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.02), 0 10px 14px rgba(20, 36, 56, 0.06);
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    padding: 8px;
+  }
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.isArrowTurned {
+  transform: rotate(180deg);
+  transition: transform 150ms cubic-bezier(0.86, 0, 0.07, 1);
+}

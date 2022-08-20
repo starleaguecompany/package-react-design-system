@@ -1,0 +1,1725 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete should change display value on item click 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should clear value by click on close icon 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 2
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should correctly change display value on Enter key down 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 2
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should correctly work keyboard navigation (arrow up, arrow down) 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should correctly work keyboard navigation (arrow up, arrow down) when search is done 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should display list of option and have focus by click 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should display matching items in options list when typing symbols 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should execute onBlur callback on blurring input 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should execute onBlur callback when select value by Enter keydown 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should execute onBlur callback when select value by click 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should execute onChange callback when select value by Enter keydown 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should execute onChange callback when select value by click 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should execute onFocus callback on focusing input 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should execute onSearch callback when searching items (typing symbols) 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should hide list of option and blur focus by arrow click 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should hide list of option and blur focus by click outside 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should hide list of option and blur focus on Esc key down 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should hide list of option and blur focus on Tab key down 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should not change value on Tab keydown 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 1
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly on external options update 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly on external value update 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 1
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly when icon prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          data-qa="Menu"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 5h12M4 10h12M4 15h12"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        id="test-id"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with autoFocus prop (Autocomplete inside Dialog) 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container focused"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea focused with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon isArrowTurned"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with autoFocus prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container focused"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea focused with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon isArrowTurned"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with defaultValue prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 2
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with defaultValue prop equals 0 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 0
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with disabled items in options 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with disabled prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container disabled"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea disabled with-icon"
+        disabled=""
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <label
+        class="placeholder disabled with-icon"
+      >
+        Test label
+      </label>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with invalid prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container invalid"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea invalid with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <label
+        class="placeholder invalid with-icon"
+      >
+        Test label
+      </label>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with loading prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20"
+        data-qa="Spinner"
+      >
+        <svg
+          class="svg"
+          viewBox="0 0 150 150"
+        >
+          <circle
+            class="circle circle-1"
+            cx="75"
+            cy="75"
+            r="60"
+          />
+          <circle
+            class="circle circle-2"
+            cx="75"
+            cy="75"
+            r="60"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with loading prop 2`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20"
+        data-qa="Spinner"
+      >
+        <svg
+          class="svg"
+          viewBox="0 0 150 150"
+        >
+          <circle
+            class="circle circle-1"
+            cx="75"
+            cy="75"
+            r="60"
+          />
+          <circle
+            class="circle circle-2"
+            cx="75"
+            cy="75"
+            r="60"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with notFoundContent 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with placeholder prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container with-label"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 1
+      </textarea>
+      <label
+        class="placeholder filled with-icon"
+      >
+        Test label
+      </label>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with placement prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with readOnly prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        readonly=""
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 1
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with required option prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      />
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with resizable prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 1
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with value prop 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 2
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Autocomplete should render correctly with value prop equals 0 1`] = `
+<div
+  class="container"
+  data-qa="Autocomplete"
+>
+  <div>
+    <div
+      class="textarea with-icon container"
+      data-qa="Textarea"
+    >
+      <textarea
+        class="textarea filled with-icon"
+        rows="1"
+        spellcheck="false"
+        wrap="off"
+      >
+        label 0
+      </textarea>
+      <span
+        class="icon container size-20 shape-round"
+        data-qa="Icon"
+      >
+        <svg
+          class="icon"
+          data-qa="ArrowDown"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m4 7 6 6 6-6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;

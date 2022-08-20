@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge should render correctly as dot 1`] = `
+<span
+  class="container"
+  data-qa="Badge"
+>
+  <span
+    class="element color-gray-secondary shape-dot"
+  />
+</span>
+`;
+
+exports[`Badge should render correctly with attributes 1`] = `
+<span
+  class="test-class container"
+  data-qa="Badge"
+  id="test-id"
+>
+  <span
+    class="element color-gray-secondary shape-dot"
+  />
+</span>
+`;
+
+exports[`Badge should render correctly with color prop 1`] = `
+<span
+  class="container"
+  data-qa="Badge"
+>
+  <span
+    class="element color-green-secondary shape-round"
+  >
+    Testing badge
+  </span>
+</span>
+`;
+
+exports[`Badge should render correctly with no props 1`] = `
+<span
+  class="container"
+  data-qa="Badge"
+>
+  <span
+    class="element color-gray-secondary shape-dot"
+  />
+</span>
+`;
+
+exports[`Badge should render correctly with placement prop 1`] = `
+<span
+  class="container"
+  data-qa="Badge"
+>
+  <div>
+    Test child
+  </div>
+  <span
+    class="element color-gray-secondary shape-round floating floating-bottom-end"
+  >
+    Testing badge
+  </span>
+</span>
+`;
+
+exports[`Badge should render correctly with shape prop 1`] = `
+<span
+  class="container"
+  data-qa="Badge"
+>
+  <span
+    class="element color-gray-secondary shape-circle"
+  >
+    Testing badge
+  </span>
+</span>
+`;
+
+exports[`Badge should render correctly with text 1`] = `
+<span
+  class="container"
+  data-qa="Badge"
+>
+  Testing badge
+  <span
+    class="element color-gray-secondary shape-dot floating floating-top-end"
+  />
+</span>
+`;
+
+exports[`Badge should render correctly with text prop 1`] = `
+<span
+  class="container"
+  data-qa="Badge"
+>
+  <span
+    class="element color-gray-secondary shape-round"
+  >
+    Testing badge
+  </span>
+</span>
+`;
+
+exports[`Badge should render correctly with variant prop 1`] = `
+<span
+  class="container"
+  data-qa="Badge"
+>
+  <span
+    class="element color-gray-primary shape-round"
+  >
+    Testing badge
+  </span>
+</span>
+`;

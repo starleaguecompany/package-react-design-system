@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Col should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Col"
+  id="test-id"
+>
+  Testing col
+</div>
+`;
+
+exports[`Col should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Col"
+/>
+`;
+
+exports[`Col should render correctly with order prop 1`] = `
+<div
+  class="container wrap align-top justify-start"
+  data-qa="Row"
+>
+  <div
+    class="container"
+    data-qa="Col"
+    style="order: 3;"
+  >
+    Testing col 1
+  </div>
+  <div
+    class="container"
+    data-qa="Col"
+    style="order: 1;"
+  >
+    Testing col 2
+  </div>
+  <div
+    class="container"
+    data-qa="Col"
+    style="order: 2;"
+  >
+    Testing col 3
+  </div>
+</div>
+`;
+
+exports[`Col should render correctly with span prop 1`] = `
+<div
+  class="container span-6"
+  data-qa="Col"
+>
+  Testing col
+</div>
+`;
+
+exports[`Col should render correctly with text 1`] = `
+<div
+  class="container"
+  data-qa="Col"
+>
+  Testing col
+</div>
+`;

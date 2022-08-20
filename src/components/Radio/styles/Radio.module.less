@@ -1,0 +1,82 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/size";
+
+.container {
+  display: inline-flex;
+  vertical-align: top;
+  cursor: pointer;
+  user-select: none;
+  gap: 12px;
+
+  &:not(.checked) {
+    &:hover {
+      .control {
+        border-color: var(--color-D30);
+      }
+    }
+  }
+
+  &.disabled {
+    color: var(--color-D20);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &.readOnly {
+    pointer-events: none;
+  }
+}
+
+.input {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  opacity: 0;
+}
+
+.control {
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-D20);
+  background-color: var(--color-L100);
+  color: var(--color-L100);
+  will-change: background-color, border-color;
+  .square(20px, 50%);
+
+  &.checked {
+    border-color: var(--color-B100);
+    background-color: var(--color-B100);
+  }
+
+  &.disabled {
+    border-color: var(--color-D10);
+    background-color: var(--color-L100);
+  }
+
+  &.checked&.disabled {
+    border-color: var(--color-D10);
+    background-color: var(--color-D10);
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  stroke: var(--color-L100);
+  fill: none;
+
+  path {
+    stroke-width: 2px;
+  }
+}

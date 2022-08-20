@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should render correctly with attributes 1`] = `
+<div
+  class="test-class avatar size-44"
+  data-qa="Avatar"
+  id="test-id"
+>
+  <div
+    class="size-16 strong uppercase"
+  />
+</div>
+`;
+
+exports[`Avatar should render correctly with no props 1`] = `
+<div
+  class="avatar size-44"
+  data-qa="Avatar"
+>
+  <div
+    class="size-16 strong uppercase"
+  />
+</div>
+`;
+
+exports[`Avatar should render correctly with size prop 1`] = `
+<div
+  class="avatar size-60"
+  data-qa="Avatar"
+>
+  <div
+    class="size-20 strong uppercase"
+  >
+    test
+  </div>
+</div>
+`;
+
+exports[`Avatar should render correctly with src prop 1`] = `
+<div
+  class="avatar size-44"
+  data-qa="Avatar"
+>
+  <img
+    alt="avatar"
+    class="image"
+    loading="lazy"
+    src="test"
+  />
+</div>
+`;
+
+exports[`Avatar should render correctly with text 1`] = `
+<div
+  class="avatar size-44"
+  data-qa="Avatar"
+>
+  <div
+    class="size-16 strong uppercase"
+  >
+    test
+  </div>
+</div>
+`;

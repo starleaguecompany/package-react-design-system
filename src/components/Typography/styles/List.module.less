@@ -1,0 +1,68 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/size";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
+  gap: 12px;
+  //.typography-by-size('l');
+}
+
+.ordered {
+  composes: list;
+  counter-reset: item;
+
+  & > .item {
+    &::before {
+      content: counter(item) ".";
+      counter-increment: item;
+    }
+  }
+}
+
+.unordered {
+  composes: list;
+
+  & > .item {
+    &::before {
+      content: "";
+      background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMiIgZmlsbD0iIzE0MjQzOCIvPgo8L3N2Zz4K) no-repeat;
+    }
+  }
+}
+
+.item {
+  position: relative;
+  //display: flex;
+  //align-items: center;
+  margin: 0 0 0 20px;
+  padding: 0 0 0 8px;
+  //gap: 5px;
+
+  &::before {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    align-items: center;
+    justify-content: center;
+    .square(20px)
+  }
+
+  &.with-icon {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  margin-right: 8px;
+  .square(20px)
+}

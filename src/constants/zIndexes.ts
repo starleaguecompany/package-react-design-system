@@ -1,0 +1,8 @@
+export const Z_INDEXES = {
+  DROPDOWN: 1060,
+  STICKY: 1020,
+  FIXED: 1030,
+  MODAL_BACKDROP: 1040,
+  MODAL: 1050,
+  TOOLTIP: 1060,
+} as const

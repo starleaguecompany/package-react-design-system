@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountDown should render correctly with attributes 1`] = `
+<span
+  class="test-class container"
+  data-qa="CountDown"
+  id="test-id"
+>
+  0
+</span>
+`;
+
+exports[`CountDown should render correctly with formatter prop 1`] = `
+<span
+  class="container"
+  data-qa="CountDown"
+>
+  100,00 ₽
+</span>
+`;
+
+exports[`CountDown should render correctly with from, to props 1`] = `
+<span
+  class="container"
+  data-qa="CountDown"
+>
+  100
+</span>
+`;
+
+exports[`CountDown should render correctly with interval prop 1`] = `
+<span
+  class="container"
+  data-qa="CountDown"
+>
+  100
+</span>
+`;
+
+exports[`CountDown should render correctly with no props 1`] = `
+<span
+  class="container"
+  data-qa="CountDown"
+>
+  0
+</span>
+`;
+
+exports[`CountDown should render correctly with speed prop 1`] = `
+<span
+  class="container"
+  data-qa="CountDown"
+>
+  100
+</span>
+`;

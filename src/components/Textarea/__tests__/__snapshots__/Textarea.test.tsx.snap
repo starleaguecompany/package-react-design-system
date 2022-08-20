@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea should execute onBlur callback when blur focus 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea resize"
+    rows="1"
+    spellcheck="false"
+  />
+</div>
+`;
+
+exports[`Textarea should execute onChange callback when typing 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea filled resize"
+    rows="1"
+    spellcheck="false"
+  >
+    Test value
+  </textarea>
+</div>
+`;
+
+exports[`Textarea should execute onFocus callback on click textarea 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea resize"
+    rows="1"
+    spellcheck="false"
+  />
+</div>
+`;
+
+exports[`Textarea should render correctly on external value update 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea resize"
+    rows="1"
+    spellcheck="false"
+  />
+</div>
+`;
+
+exports[`Textarea should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea resize"
+    id="test-id"
+    rows="1"
+    spellcheck="false"
+  />
+</div>
+`;
+
+exports[`Textarea should render correctly with disabled prop 1`] = `
+<div
+  class="container disabled with-label"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea disabled resize"
+    disabled=""
+    rows="1"
+    spellcheck="false"
+  />
+  <label
+    class="placeholder disabled"
+  >
+    Test label
+  </label>
+</div>
+`;
+
+exports[`Textarea should render correctly with icon prop 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea with-icon resize"
+    rows="1"
+    spellcheck="false"
+  />
+  <span
+    class="icon container size-20 shape-round"
+    data-qa="Icon"
+  >
+    <svg
+      data-qa="Menu"
+      fill="none"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 5h12M4 10h12M4 15h12"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Textarea should render correctly with invalid prop 1`] = `
+<div
+  class="container invalid with-label"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea invalid resize"
+    rows="1"
+    spellcheck="false"
+  />
+  <label
+    class="placeholder invalid"
+  >
+    Test label
+  </label>
+</div>
+`;
+
+exports[`Textarea should render correctly with loading prop 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea with-icon resize"
+    rows="1"
+    spellcheck="false"
+  />
+  <span
+    class="icon container size-20"
+    data-qa="Spinner"
+  >
+    <svg
+      class="svg"
+      viewBox="0 0 150 150"
+    >
+      <circle
+        class="circle circle-1"
+        cx="75"
+        cy="75"
+        r="60"
+      />
+      <circle
+        class="circle circle-2"
+        cx="75"
+        cy="75"
+        r="60"
+      />
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Textarea should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea resize"
+    rows="1"
+    spellcheck="false"
+  />
+</div>
+`;
+
+exports[`Textarea should render correctly with placeholder prop 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea resize"
+    rows="1"
+    spellcheck="false"
+  />
+  <label
+    class="placeholder"
+  >
+    Test placeholder
+  </label>
+</div>
+`;
+
+exports[`Textarea should render correctly with readOnly prop 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea filled resize"
+    readonly=""
+    rows="1"
+    spellcheck="false"
+  >
+    Test value
+  </textarea>
+</div>
+`;
+
+exports[`Textarea should render correctly with resizable prop 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea resize"
+    rows="1"
+    spellcheck="false"
+  />
+</div>
+`;
+
+exports[`Textarea should render correctly with rows prop 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea resize"
+    rows="4"
+    spellcheck="false"
+  />
+</div>
+`;
+
+exports[`Textarea should render correctly with value prop 1`] = `
+<div
+  class="container"
+  data-qa="Textarea"
+>
+  <textarea
+    class="textarea filled resize"
+    rows="1"
+    spellcheck="false"
+  >
+    Test text
+  </textarea>
+</div>
+`;

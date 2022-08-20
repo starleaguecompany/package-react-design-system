@@ -1,0 +1,16 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+
+.container {
+  display: block;
+  position: relative;
+  min-height: 1px;
+}
+
+each(range(@grid-columns), {
+  @percent: percentage((@value / @grid-columns));
+
+  .span-@{value} {
+    flex: 0 0 @percent;
+    max-width: @percent;
+  }
+});

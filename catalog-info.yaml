@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-design-system-v0-package
+  description: Sravni.ru React Design System
+  tags:
+  - less
+  - react
+  - typescript
+  annotations:
+    github.com/project-slug: sravni/package-react-design-system
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  lifecycle: production
+  owner: group:ui
+  dependsOn:
+  - component:design-system-theme-v0-package
+  - component:package-utils-v0-package
+  - component:react-icons-v0-package
+  - component:react-utils-v0-package
+  - component:rollup-plugin-styles-v3-package
+  - component:types-v0-package

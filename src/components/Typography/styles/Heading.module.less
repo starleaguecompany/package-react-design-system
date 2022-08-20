@@ -1,0 +1,59 @@
+@import "~@starleaguecompany/design-system-theme/lib/less/core/variables";
+@import "~@starleaguecompany/design-system-theme/lib/less/core/mixins/typography";
+
+.container {
+  font-family: var(--font-aeroport);
+  font-weight: bold;
+}
+
+.size {
+  &-1 {
+    .mobile-typography-title-1();
+  }
+
+  &-2 {
+    .mobile-typography-title-2();
+  }
+
+  &-3 {
+    .mobile-typography-title-3();
+  }
+
+  &-4 {
+    .mobile-typography-title-4();
+  }
+
+  &-5 {
+    .mobile-typography-title-5();
+  }
+
+  &-6 {
+    .mobile-typography-title-6();
+  }
+
+  @media screen and (min-width: @breakpoint-tablet) {
+    &-1 {
+      .typography-title-1();
+    }
+
+    &-2 {
+      .typography-title-2();
+    }
+
+    &-3 {
+      .typography-title-3();
+    }
+
+    &-4 {
+      .typography-title-4();
+    }
+
+    &-5 {
+      .typography-title-5();
+    }
+
+    &-6 {
+      .typography-title-6();
+    }
+  }
+}

@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should change active item in list of option on select it 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should display list of option by click on dropdown element 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should execute callbacks on open and on close dropdown 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should execute onChangeCallback on select item 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should hide list of option by click outside 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should render correctly on external value update 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should render correctly with attributes 1`] = `
+<button
+  class="container test-class container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  id="test-id"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should render correctly with defaultValue prop 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should render correctly with mode prop 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should render correctly with no props 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should render correctly with placement prop 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should render correctly with required option prop 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should render correctly with value prop 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`Dropdown should return selected value on select item 1`] = `
+<button
+  class="container container size-44 color-gray-outlined"
+  data-qa="Dropdown"
+  tabindex="0"
+>
+  <span
+    class="text"
+  >
+    OK
+  </span>
+</button>
+`;

@@ -1,0 +1,10 @@
+#Readme https://sravniru.atlassian.net/wiki/spaces/PLAT/pages/1026392402
+package-react-design-system:
+  team: platform
+  product: Design system
+  type:
+  - package
+  language: TypeScript
+  description: Новая дизайн система
+  path: .
+  gitUrl: https://github.com/sravni/package-react-design-system

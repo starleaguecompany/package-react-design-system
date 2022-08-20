@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormControl should change disabled attribute 1`] = `
+<div
+  class="container"
+  data-qa="FormControl"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="placeholder"
+    >
+      Test placeholder
+    </label>
+  </div>
+  <div
+    class="helperText"
+  >
+    Test helper text
+  </div>
+</div>
+`;
+
+exports[`FormControl should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="FormControl"
+  id="test-id"
+/>
+`;
+
+exports[`FormControl should render correctly with children 1`] = `
+<div
+  class="container"
+  data-qa="FormControl"
+>
+  <div
+    class="container"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="placeholder"
+    >
+      Test placeholder
+    </label>
+  </div>
+  <div
+    class="helperText"
+  >
+    Test helper text
+  </div>
+</div>
+`;
+
+exports[`FormControl should render correctly with disabled prop 1`] = `
+<div
+  class="container"
+  data-qa="FormControl"
+>
+  <div
+    class="container disabled"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input disabled"
+          disabled=""
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="placeholder disabled"
+    >
+      Test placeholder
+    </label>
+  </div>
+  <div
+    class="helperText disabled"
+  >
+    Test helper text
+  </div>
+</div>
+`;
+
+exports[`FormControl should render correctly with invalid prop 1`] = `
+<div
+  class="container"
+  data-qa="FormControl"
+>
+  <div
+    class="container invalid"
+    data-qa="TextInput"
+  >
+    <div
+      class="inputSegment"
+    >
+      <div
+        class="inputWrapper"
+      >
+        <div
+          class="inputValue"
+        />
+        <input
+          autocomplete="off"
+          class="input invalid"
+          spellcheck="false"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <label
+      class="placeholder invalid"
+    >
+      Test placeholder
+    </label>
+  </div>
+  <div
+    class="helperText invalid"
+  >
+    Test helper text
+  </div>
+</div>
+`;
+
+exports[`FormControl should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="FormControl"
+/>
+`;

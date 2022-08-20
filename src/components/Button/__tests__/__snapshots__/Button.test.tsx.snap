@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should execute callBack on click 1`] = `
+<button
+  class="container size-44 color-gray-outlined"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with active prop 1`] = `
+<button
+  class="container active size-44 color-gray-outlined"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with attributes 1`] = `
+<button
+  class="test-class container size-44 color-gray-outlined"
+  data-qa="Button"
+  id="test-id"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with block prop 1`] = `
+<button
+  class="container block size-44 color-gray-outlined"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with color and variant props 1`] = `
+<button
+  class="container size-44 color-blue-primary"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with color prop 1`] = `
+<button
+  class="container size-44 color-blue-outlined"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with disabled prop 1`] = `
+<button
+  class="container size-44 disabled-outlined color-gray-outlined"
+  data-qa="Button"
+  disabled=""
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with icon 1`] = `
+<button
+  class="container size-44 color-gray-outlined"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    <span
+      class="container size-20 shape-round"
+      data-qa="Icon"
+    >
+      <svg
+        data-qa="Menu"
+        fill="none"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 5h12M4 10h12M4 15h12"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+        />
+      </svg>
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with loading prop 1`] = `
+<button
+  class="container loading size-44 disabled-outlined color-gray-outlined"
+  data-qa="Button"
+  disabled=""
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+  <span
+    class="spinner container size-20"
+    data-qa="Spinner"
+  >
+    <svg
+      class="svg"
+      viewBox="0 0 150 150"
+    >
+      <circle
+        class="circle circle-1"
+        cx="75"
+        cy="75"
+        r="60"
+      />
+      <circle
+        class="circle circle-2"
+        cx="75"
+        cy="75"
+        r="60"
+      />
+    </svg>
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with no props 1`] = `
+<button
+  class="container size-44 color-gray-outlined"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  />
+</button>
+`;
+
+exports[`Button should render correctly with size prop 1`] = `
+<button
+  class="container size-60 color-gray-outlined"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with text 1`] = `
+<button
+  class="container size-44 color-gray-outlined"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;
+
+exports[`Button should render correctly with variant prop 1`] = `
+<button
+  class="container size-44 color-gray-primary"
+  data-qa="Button"
+>
+  <span
+    class="text"
+  >
+    Testing button
+  </span>
+</button>
+`;

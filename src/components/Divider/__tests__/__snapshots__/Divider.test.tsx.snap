@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider should render correctly with attributes 1`] = `
+<div
+  class="test-class container"
+  data-qa="Divider"
+  id="test-id"
+/>
+`;
+
+exports[`Divider should render correctly with no props 1`] = `
+<div
+  class="container"
+  data-qa="Divider"
+/>
+`;
+
+exports[`Divider should render correctly with size prop 1`] = `
+<div
+  class="container size-2"
+  data-qa="Divider"
+/>
+`;
