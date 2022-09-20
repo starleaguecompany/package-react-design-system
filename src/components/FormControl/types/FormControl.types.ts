@@ -1,8 +1,8 @@
-import * as React from 'react'
+import * as React from 'react';
 
 export interface FormControlProps extends React.HTMLAttributes<HTMLDivElement> {
-  invalid?: boolean
-  disabled?: boolean
+  invalid?: boolean;
+  disabled?: boolean;
 }
 
-export type HelperTextProps = React.HTMLAttributes<HTMLDivElement>
+export type HelperTextProps = React.HTMLAttributes<HTMLDivElement>;

@@ -1,4 +1,4 @@
-import RadioButton from './src/RadioButton'
-import { RadioButtonProps } from './types/RadioButton.types'
+import RadioButton from './src/RadioButton';
+import { RadioButtonProps } from './types/RadioButton.types';
 
-export { RadioButton, RadioButtonProps }
+export { RadioButton, RadioButtonProps };

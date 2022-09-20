@@ -1,4 +1,4 @@
-import Space from './src/Space'
-import { SpaceProps } from './types/Space.types'
+import Space from './src/Space';
+import { SpaceProps } from './types/Space.types';
 
-export { Space, SpaceProps }
+export { Space, SpaceProps };

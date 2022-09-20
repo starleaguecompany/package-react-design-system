@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 import {
   useStyles,
   useBoolean,
@@ -7,20 +7,20 @@ import {
   useDebounceValue,
   error,
   safeInvoke,
-} from '@starleaguecompany/package-react-utils'
-import { Cross } from '@starleaguecompany/react-icons'
+} from '@starleaguecompany/package-react-utils';
+import { Cross } from '@starleaguecompany/react-icons';
 
-import { Z_INDEXES } from '../../../constants/zIndexes'
+import { Z_INDEXES } from '../../../constants/zIndexes';
 
-import { Portal } from '../../Portal'
-import { Fade } from '../../Transition'
-import { Space } from '../../Space'
-import { Text } from '../../Typography'
-import { Icon } from '../../Icon'
+import { Portal } from '../../Portal';
+import { Fade } from '../../Transition';
+import { Space } from '../../Space';
+import { Text } from '../../Typography';
+import { Icon } from '../../Icon';
 
-import { TooltipProps } from '../types/Tooltip.types'
+import { TooltipProps } from '../types/Tooltip.types';
 
-import styles from '../styles/Tooltip.module.less'
+import styles from '../styles/Tooltip.module.less';
 
 /**
  * @description The Tooltip component is used to show more content of a target
@@ -35,13 +35,13 @@ import styles from '../styles/Tooltip.module.less'
  */
 const Tooltip = React.forwardRef<HTMLDivElement, TooltipProps>((props, ref) => {
   const { title, content, footer, closable, placement, width, className, style, children, onClose, ...restProps } =
-    props
+    props;
 
-  const cx = useStyles(styles)
-  const reference = React.useRef<Element | null>(null)
-  const popper = React.useRef<HTMLElement | null>(null)
-  const [visible, setVisible] = useBoolean(false)
-  const visibleDebounce = useDebounceValue(visible, 300)
+  const cx = useStyles(styles);
+  const reference = React.useRef<Element | null>(null);
+  const popper = React.useRef<HTMLElement | null>(null);
+  const [visible, setVisible] = useBoolean(false);
+  const visibleDebounce = useDebounceValue(visible, 300);
   const { referenceRef, popperRef, arrowRef, getReferenceProps, getPopperProps } = usePositioner({
     placement,
     offset: [0, 16],
@@ -53,45 +53,45 @@ const Tooltip = React.forwardRef<HTMLDivElement, TooltipProps>((props, ref) => {
         },
       },
     ],
-  })
+  });
 
   const elementStyles: React.CSSProperties = React.useMemo(() => {
-    const styles: React.CSSProperties = { ...style }
-    styles.width = width
+    const styles: React.CSSProperties = { ...style };
+    styles.width = width;
 
-    return styles
-  }, [style, width])
+    return styles;
+  }, [style, width]);
 
-  let triggerElement: React.ReactNode
+  let triggerElement: React.ReactNode;
 
   // Ensure tooltip has only one child node
-  const count = React.useMemo(() => React.Children.count(children), [children])
-  const condition = count === 0 || count > 1
+  const count = React.useMemo(() => React.Children.count(children), [children]);
+  const condition = count === 0 || count > 1;
 
   if (condition) {
     error({
       condition,
       message: 'Ensure tooltip has only one child node',
-    })()
+    })();
 
-    triggerElement = children
+    triggerElement = children;
   } else {
-    const child = React.Children.only(children) as React.ReactElement & { ref: React.Ref<HTMLElement> }
+    const child = React.Children.only(children) as React.ReactElement & { ref: React.Ref<HTMLElement> };
 
     const handleMouseEnter = (event: React.MouseEvent) => {
-      setVisible.on()
-      safeInvoke(child.props.onMouseEnter, event)
-    }
+      setVisible.on();
+      safeInvoke(child.props.onMouseEnter, event);
+    };
 
     const handleMouseLeave = (event: React.MouseEvent) => {
-      setVisible.off()
-      safeInvoke(child.props.onMouseLeave, event)
-    }
+      setVisible.off();
+      safeInvoke(child.props.onMouseLeave, event);
+    };
 
     const handleTouchEnd = (event: React.TouchEvent) => {
-      setVisible.toggle()
-      safeInvoke(child.props.onTouchEnd, event)
-    }
+      setVisible.toggle();
+      safeInvoke(child.props.onTouchEnd, event);
+    };
 
     const triggerProps = {
       ...child.props,
@@ -99,22 +99,22 @@ const Tooltip = React.forwardRef<HTMLDivElement, TooltipProps>((props, ref) => {
       tabIndex: child.props.tabIndex ?? 0,
       className: cx('outlineNone', child.props.className),
       ref: useMergedRef(referenceRef, child.ref),
-    }
+    };
 
-    triggerProps.onMouseEnter = handleMouseEnter
-    triggerProps.onMouseLeave = handleMouseLeave
-    triggerProps.onTouchEnd = handleTouchEnd
+    triggerProps.onMouseEnter = handleMouseEnter;
+    triggerProps.onMouseLeave = handleMouseLeave;
+    triggerProps.onTouchEnd = handleTouchEnd;
 
-    triggerElement = React.cloneElement(child, triggerProps)
+    triggerElement = React.cloneElement(child, triggerProps);
   }
 
   const handleClose = React.useCallback(
     (event: React.MouseEvent<HTMLDivElement>) => {
-      setVisible.off()
-      safeInvoke(onClose, event)
+      setVisible.off();
+      safeInvoke(onClose, event);
     },
     [onClose]
-  )
+  );
 
   return (
     <React.Fragment>
@@ -153,12 +153,12 @@ const Tooltip = React.forwardRef<HTMLDivElement, TooltipProps>((props, ref) => {
         </Fade>
       </Portal>
     </React.Fragment>
-  )
-})
+  );
+});
 
 Tooltip.defaultProps = {
   placement: 'top',
   width: 300,
-}
+};
 
-export default Tooltip
+export default Tooltip;

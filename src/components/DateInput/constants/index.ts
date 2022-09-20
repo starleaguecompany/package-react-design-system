@@ -1,4 +1,4 @@
-export const DAYS_OF_WEEK = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']
+export const DAYS_OF_WEEK = ['П', 'В', 'С', 'Ч', 'П', 'С', 'В'];
 export const MONTHS = [
   'Январь',
   'Февраль',
@@ -12,4 +12,4 @@ export const MONTHS = [
   'Октябрь',
   'Ноябрь',
   'Декабрь',
-]
+];

@@ -1,20 +1,20 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { CONTENT_SIZES } from '../../../constants/sizes'
+import { CONTENT_SIZES } from '../../../constants/sizes';
 
-import * as Grid from '../../Grid'
+import * as Grid from '../../Grid';
 
-import { Spinner } from '..'
-import { SpinnerProps } from '../types/Spinner.types'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Spinner } from '..';
+import { SpinnerProps } from '../types/Spinner.types';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Spinner } from '${reactDSImportPath}'
 // Import types
 import { SpinnerProps } from '${reactDSImportPath}/lib/Spinner'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Spinner',
@@ -27,16 +27,16 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
-export const Basic: Story = () => <Spinner />
+export const Basic: Story = () => <Spinner />;
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
-const variants = [{ size: CONTENT_SIZES.S16 }, { size: CONTENT_SIZES.S20 }, { size: CONTENT_SIZES.S24 }]
+const variants = [{ size: CONTENT_SIZES.S16 }, { size: CONTENT_SIZES.S20 }, { size: CONTENT_SIZES.S24 }];
 
 export const Sizes: Story = () => (
   <Grid.Row gutter={20}>
@@ -46,4 +46,4 @@ export const Sizes: Story = () => (
       </Grid.Col>
     ))}
   </Grid.Row>
-)
+);

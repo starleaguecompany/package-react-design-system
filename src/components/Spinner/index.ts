@@ -1,4 +1,4 @@
-import Spinner from './src/Spinner'
-import { SpinnerProps } from './types/Spinner.types'
+import Spinner from './src/Spinner';
+import { SpinnerProps } from './types/Spinner.types';
 
-export { Spinner, SpinnerProps }
+export { Spinner, SpinnerProps };

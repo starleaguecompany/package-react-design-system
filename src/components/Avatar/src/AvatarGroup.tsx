@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { SizeContextProvider } from './SizeContext'
+import { SizeContextProvider } from './SizeContext';
 
-import { AvatarGroupProps } from '../types/AvatarGroup.types'
-import styles from '../styles/Avatar.module.less'
+import { AvatarGroupProps } from '../types/AvatarGroup.types';
+import styles from '../styles/Avatar.module.less';
 
 /**
  * @description AvatarGroup component.
@@ -19,20 +19,20 @@ import styles from '../styles/Avatar.module.less'
  * ```
  */
 const AvatarGroup = React.forwardRef<HTMLDivElement, AvatarGroupProps>((props, ref) => {
-  const { size, className, children, ...restProps } = props
+  const { size, className, children, ...restProps } = props;
 
-  const cx = useStyles(styles)
-  const classNames = cx(className, 'group')
+  const cx = useStyles(styles);
+  const classNames = cx(className, 'group');
 
   return (
     <div ref={ref} data-qa="AvatarGroup" className={classNames} {...restProps}>
       <SizeContextProvider size={size}>{children}</SizeContextProvider>
     </div>
-  )
-})
+  );
+});
 
 AvatarGroup.defaultProps = {
   size: 36,
-}
+};
 
-export default AvatarGroup
+export default AvatarGroup;

@@ -1,12 +1,12 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Source } from '@storybook/addon-docs'
-import { linkTo } from '@storybook/addon-links'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Source } from '@storybook/addon-docs';
+import { linkTo } from '@storybook/addon-links';
 
-import { SPACE_SIZES } from '../constants/spaces'
-import { Typography } from '..'
+import { SPACE_SIZES } from '../constants/spaces';
+import { Typography } from '..';
 
-const { Text } = Typography
+const { Text } = Typography;
 
 export default {
   title: 'Foundations/Helpers',
@@ -19,7 +19,7 @@ export default {
     },
     viewMode: 'docs',
   },
-} as Meta
+} as Meta;
 
 const colors = {
   L: [100],
@@ -29,15 +29,15 @@ const colors = {
   O: [300, 200, 100, 30, '06'],
   V: [300, 200, 100, 30, '06'],
   R: [300, 200, 100, 30, '06'],
-}
+};
 
-const spaces = Object.values(SPACE_SIZES).slice(1)
+const spaces = Object.values(SPACE_SIZES).slice(1);
 
 export const Margins: Story = () => {
-  const topMargins = spaces.map((size: number | string) => `<p className="h-mt-${size}">Text</p>`).join('\n')
-  const bottomMargins = spaces.map((size: number | string) => `<p className="h-mb-${size}">Text</p>`).join('\n')
-  const rightMargins = spaces.map((size: number | string) => `<p className="h-mr-${size}">Text</p>`).join('\n')
-  const leftMargins = spaces.map((size: number | string) => `<p className="h-ml-${size}">Text</p>`).join('\n')
+  const topMargins = spaces.map((size: number | string) => `<p className="h-mt-${size}">Text</p>`).join('\n');
+  const bottomMargins = spaces.map((size: number | string) => `<p className="h-mb-${size}">Text</p>`).join('\n');
+  const rightMargins = spaces.map((size: number | string) => `<p className="h-mr-${size}">Text</p>`).join('\n');
+  const leftMargins = spaces.map((size: number | string) => `<p className="h-ml-${size}">Text</p>`).join('\n');
 
   return (
     <React.Fragment>
@@ -73,14 +73,14 @@ ${leftMargins}
         `}
       />
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const Paddings: Story = () => {
-  const topPaddings = spaces.map((size: number | string) => `<p className="h-pt-${size}">Text</p>`).join('\n')
-  const bottomPaddings = spaces.map((size: number | string) => `<p className="h-pb-${size}">Text</p>`).join('\n')
-  const rightPaddings = spaces.map((size: number | string) => `<p className="h-pr-${size}">Text</p>`).join('\n')
-  const leftPaddings = spaces.map((size: number | string) => `<p className="h-pl-${size}">Text</p>`).join('\n')
+  const topPaddings = spaces.map((size: number | string) => `<p className="h-pt-${size}">Text</p>`).join('\n');
+  const bottomPaddings = spaces.map((size: number | string) => `<p className="h-pb-${size}">Text</p>`).join('\n');
+  const rightPaddings = spaces.map((size: number | string) => `<p className="h-pr-${size}">Text</p>`).join('\n');
+  const leftPaddings = spaces.map((size: number | string) => `<p className="h-pl-${size}">Text</p>`).join('\n');
 
   return (
     <React.Fragment>
@@ -116,8 +116,8 @@ ${leftPaddings}
         `}
       />
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const TextAlignment: Story = () => (
   <React.Fragment>
@@ -143,7 +143,7 @@ export const TextAlignment: Story = () => (
       `}
     />
   </React.Fragment>
-)
+);
 
 export const Shadow: Story = () => (
   <React.Fragment>
@@ -155,16 +155,16 @@ export const Shadow: Story = () => (
       `}
     />
   </React.Fragment>
-)
+);
 
 export const Colors: Story = () => {
   const items = Object.keys(colors)
     .map((name: string) => {
-      const theme = colors[name]
+      const theme = colors[name];
 
-      return theme.map((color: number | string) => `<div className="h-color-${name}${color}">Text</div>`).join('\n')
+      return theme.map((color: number | string) => `<div className="h-color-${name}${color}">Text</div>`).join('\n');
     })
-    .join('\n')
+    .join('\n');
 
   return (
     <React.Fragment>
@@ -182,5 +182,5 @@ ${items}
         `}
       />
     </React.Fragment>
-  )
-}
+  );
+};

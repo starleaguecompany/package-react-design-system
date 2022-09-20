@@ -1,13 +1,13 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { COLORS } from '../../../constants/colors'
-import { CONTAINER_SIZES } from '../../../constants/sizes'
+import { COLORS } from '../../../constants/colors';
+import { CONTAINER_SIZES } from '../../../constants/sizes';
 
-import { Spinner } from '../../Spinner'
+import { Spinner } from '../../Spinner';
 
-import { ButtonProps } from '../types/Button.types'
-import styles from '../styles/Button.module.less'
+import { ButtonProps } from '../types/Button.types';
+import styles from '../styles/Button.module.less';
 
 /**
  * @description A Button triggers an action or an event
@@ -21,8 +21,8 @@ import styles from '../styles/Button.module.less'
  * ```
  */
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
-  const { variant, color, size, block, loading, disabled, active, className, children, ...restProps } = props
-  const cx = useStyles(styles)
+  const { variant, color, size, block, loading, disabled, active, className, children, ...restProps } = props;
+  const cx = useStyles(styles);
 
   const classNames = cx(className, 'container', {
     block: block,
@@ -31,21 +31,21 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => 
     [`size-${size}`]: size,
     [`disabled-${variant}`]: disabled || loading,
     [`color-${color}-${variant}`]: true,
-  })
-  const textClassNames = cx('text')
+  });
+  const textClassNames = cx('text');
 
   return (
     <button data-qa="Button" ref={ref} className={classNames} disabled={disabled || loading} {...restProps}>
       <span className={textClassNames}>{children}</span>
       {loading && <Spinner className={cx('spinner')} />}
     </button>
-  )
-})
+  );
+});
 
 Button.defaultProps = {
   variant: 'outlined',
   color: COLORS.GRAY,
   size: CONTAINER_SIZES.S44,
-}
+};
 
-export default Button
+export default Button;

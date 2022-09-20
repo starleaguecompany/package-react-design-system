@@ -1,4 +1,4 @@
-import Layout from './src/Layout'
-import { LayoutProps } from './types/Layout.types'
+import Layout from './src/Layout';
+import { LayoutProps } from './types/Layout.types';
 
-export { Layout, LayoutProps }
+export { Layout, LayoutProps };

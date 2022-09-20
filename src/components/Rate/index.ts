@@ -1,4 +1,4 @@
-import Rate from './src/Rate'
-import { RateProps } from './types/Rate.types'
+import Rate from './src/Rate';
+import { RateProps } from './types/Rate.types';
 
-export { Rate, RateProps }
+export { Rate, RateProps };

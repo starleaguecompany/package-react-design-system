@@ -1,4 +1,4 @@
-import DateInput from './src/DateInput'
-import { DateInputProps } from './types/DateInput.types'
+import DateInput from './src/DateInput';
+import { DateInputProps } from './types/DateInput.types';
 
-export { DateInput, DateInputProps }
+export { DateInput, DateInputProps };

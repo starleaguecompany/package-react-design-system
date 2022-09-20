@@ -1,19 +1,19 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Title, Subtitle, Description, Primary, ArgsTable, Stories } from '@storybook/addon-docs'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Title, Subtitle, Description, Primary, ArgsTable, Stories } from '@storybook/addon-docs';
 
-import { ControlGroup } from '..'
-import { NumberInput } from '../../NumberInput'
-import { SliderInput } from '../../SliderInput'
-import { Select } from '../../Select'
-import { reactDSImportPath } from '../../../constants/imports'
+import { ControlGroup } from '..';
+import { NumberInput } from '../../NumberInput';
+import { SliderInput } from '../../SliderInput';
+import { Select } from '../../Select';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { ControlGroup } from '${reactDSImportPath}'
 // Import types
 import { ControlGroupProps } from '${reactDSImportPath}/lib/ControlGroup'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/ControlGroup',
@@ -37,12 +37,12 @@ export default {
       ),
     },
   },
-} as Meta
+} as Meta;
 
 const options = [
   { label: 'Все', value: 0 },
   { label: 'Не все', value: 1 },
-]
+];
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -60,13 +60,13 @@ export const Basic: Story = () => (
       <Select placeholder="Форма организации" defaultValue={0} options={options} />
     </ControlGroup>
   </React.Fragment>
-)
+);
 
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const Vertical: Story = () => (
   <React.Fragment>
@@ -84,10 +84,10 @@ export const Vertical: Story = () => (
       <Select placeholder="Форма организации" defaultValue={0} options={options} />
     </ControlGroup>
   </React.Fragment>
-)
+);
 
 Vertical.parameters = {
   docs: {
     storyDescription: 'Vertical direction of group (ex. for mobile)',
   },
-}
+};

@@ -1,3 +1,3 @@
-import Portal from './src/Portal'
+import Portal from './src/Portal';
 
-export { Portal }
+export { Portal };

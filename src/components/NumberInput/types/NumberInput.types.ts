@@ -1,28 +1,28 @@
-import { Omit, tuple } from '@starleaguecompany/package-react-utils'
+import { Omit, tuple } from '@starleaguecompany/package-react-utils';
 
-import { FieldProps } from '../../../types/Field.types'
+import { FieldProps } from '../../../types/Field.types';
 
-const DecimalSeparators = tuple('.', ',')
+const DecimalSeparators = tuple('.', ',');
 
-export type DecimalSeparator = typeof DecimalSeparators[number]
+export type DecimalSeparator = typeof DecimalSeparators[number];
 
 export interface NumberInputProps extends Omit<FieldProps<HTMLInputElement, number | ''>, 'onChange'> {
   /** The minimum value */
-  min?: number
+  min?: number;
   /** The maximum value */
-  max?: number
+  max?: number;
   /** The number to which the current value rounded. It can be an integer or decimal */
-  step?: number
+  step?: number;
   /** The decimal separator */
-  decimalSeparator?: DecimalSeparator
+  decimalSeparator?: DecimalSeparator;
   /** The thousand separator */
-  thousandSeparator?: string
+  thousandSeparator?: string;
   /** Specifies the number of decimal places */
-  decimalScale?: number
+  decimalScale?: number;
   /** Enable for adding zeros to the end to match the decimal scale */
-  fixedDecimalScale?: boolean
+  fixedDecimalScale?: boolean;
   /** Specifies the format of the value presented, puts numbers instead of a hash (ex. '##/##') */
-  format?: string
+  format?: string;
   /** Callback function that is fired when the user changes the input's value */
-  onChange?: (value: number | undefined) => void
+  onChange?: (value: number | undefined) => void;
 }

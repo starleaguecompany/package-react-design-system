@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { useStyles, safeInvoke } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles, safeInvoke } from '@starleaguecompany/package-react-utils';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import { TabsProps } from '../types/Tabs.types'
-import styles from '../styles/Tabs.module.less'
+import { TabsProps } from '../types/Tabs.types';
+import styles from '../styles/Tabs.module.less';
 
 /**
  * @description Use Tabs to organize your content in logical groupings
@@ -18,44 +18,44 @@ import styles from '../styles/Tabs.module.less'
  * ```
  */
 const Tabs = React.forwardRef<HTMLDivElement, TabsProps>((props, ref) => {
-  const { defaultIndex = 0, onChange, className, children, ...restProps } = props
+  const { defaultIndex = 0, onChange, className, children, ...restProps } = props;
 
-  const [innerValue, setInnerValue] = React.useState<number>(defaultIndex)
-  const cx = useStyles(styles)
+  const [innerValue, setInnerValue] = React.useState<number>(defaultIndex);
+  const cx = useStyles(styles);
 
   const handleChangeActiveTab = React.useCallback(
     event => {
-      const value = Number(event.currentTarget.dataset.index)
-      setInnerValue(value)
-      safeInvoke(onChange, value)
+      const value = Number(event.currentTarget.dataset.index);
+      setInnerValue(value);
+      safeInvoke(onChange, value);
     },
     [defaultIndex]
-  )
+  );
 
   const navigation = React.useMemo(() => {
     return React.Children.map(children as React.ReactElement, (child, index) => {
       const classNames = cx('tab', {
         active: index === innerValue,
-      })
+      });
 
       return (
         <Space size={4} align="center" inline className={classNames} data-index={index} onClick={handleChangeActiveTab}>
           {child.props.title}
         </Space>
-      )
-    })
-  }, [innerValue, children])
+      );
+    });
+  }, [innerValue, children]);
 
   const panes = React.useMemo(() => {
     return React.Children.map(children as React.ReactElement, (child, index) => {
       const classNames = cx(child.props.className, 'pane', {
         active: index === innerValue,
-      })
+      });
 
       // return <div {...child.props} className={classNames}>{child.props.children}</div>
-      return React.cloneElement(child, { ...child.props, className: classNames })
-    })
-  }, [innerValue, children])
+      return React.cloneElement(child, { ...child.props, className: classNames });
+    });
+  }, [innerValue, children]);
 
   return (
     <div ref={ref} data-qa="Tabs" className={className} {...restProps}>
@@ -64,9 +64,9 @@ const Tabs = React.forwardRef<HTMLDivElement, TabsProps>((props, ref) => {
       </Space>
       <div className={cx('panes')}>{panes}</div>
     </div>
-  )
-})
+  );
+});
 
-Tabs.defaultProps = {}
+Tabs.defaultProps = {};
 
-export default Tabs
+export default Tabs;

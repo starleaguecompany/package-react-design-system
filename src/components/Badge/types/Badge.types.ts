@@ -1,27 +1,27 @@
-import * as React from 'react'
+import * as React from 'react';
 
-import { tuple } from '@starleaguecompany/package-react-utils'
-import { COLORS } from '../../../constants/colors'
+import { tuple } from '@starleaguecompany/package-react-utils';
+import { COLORS } from '../../../constants/colors';
 
-const BadgeVariants = tuple('primary', 'secondary')
-const BadgeShapes = tuple('circle', 'round')
-const BadgePlacements = tuple('top-end', 'bottom-end')
-const BadgeColors = tuple('white', ...Object.values(COLORS))
+const BadgeVariants = tuple('primary', 'secondary');
+const BadgeShapes = tuple('circle', 'round');
+const BadgePlacements = tuple('top-end', 'bottom-end');
+const BadgeColors = tuple('white', ...Object.values(COLORS));
 
-export type BadgeVariant = typeof BadgeVariants[number]
-export type BadgeShape = typeof BadgeShapes[number]
-export type BadgePlacement = typeof BadgePlacements[number]
-export type BadgeColor = typeof BadgeColors[number]
+export type BadgeVariant = typeof BadgeVariants[number];
+export type BadgeShape = typeof BadgeShapes[number];
+export type BadgePlacement = typeof BadgePlacements[number];
+export type BadgeColor = typeof BadgeColors[number];
 
 export interface BadgeProps extends React.HTMLAttributes<HTMLSpanElement> {
   /** Text */
-  text?: string | number | React.ReactNode
+  text?: string | number | React.ReactNode;
   /** View variant */
-  variant?: BadgeVariant
+  variant?: BadgeVariant;
   /** Color */
-  color?: BadgeColor
+  color?: BadgeColor;
   /** Shape */
-  shape?: BadgeShape
+  shape?: BadgeShape;
   /** Placement of the badge relatively to a child element */
-  placement?: BadgePlacement
+  placement?: BadgePlacement;
 }

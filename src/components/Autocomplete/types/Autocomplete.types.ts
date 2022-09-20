@@ -1,14 +1,14 @@
-import { Omit } from '@starleaguecompany/package-react-utils'
-import * as React from 'react'
+import { Omit } from '@starleaguecompany/package-react-utils';
+import * as React from 'react';
 
-import { SelectOption } from '../../../types/Select.types'
-import { FieldProps } from '../../../types/Field.types'
-import { Placement } from '../../../types/Placements.types'
-import { InputPlacemenInGroup } from '../../../types/InputPlacemenInGroup'
+import { SelectOption } from '../../../types/Select.types';
+import { FieldProps } from '../../../types/Field.types';
+import { Placement } from '../../../types/Placements.types';
+import { InputPlacemenInGroup } from '../../../types/InputPlacemenInGroup';
 
-export { SelectOption as AutocompleteOption }
+export { SelectOption as AutocompleteOption };
 
-export type AutocompleteValue = string | number | undefined
+export type AutocompleteValue = string | number | undefined;
 
 export interface AutocompleteProps
   extends Omit<FieldProps<HTMLTextAreaElement, AutocompleteValue>, 'onChange'>,
@@ -17,21 +17,21 @@ export interface AutocompleteProps
    * **Deprecated:** The input postfix
    * @deprecated Since version 0.2.24 Will be removed soon
    */
-  postfix?: string | undefined
+  postfix?: string | undefined;
   /** Select options. Will get better perf than jsx definition */
-  options: Array<SelectOption>
+  options: Array<SelectOption>;
   /** Dropdown menu position */
-  placement?: Placement
+  placement?: Placement;
   /** Fixed dropdown menu width. If `true`, the dropdown menu will match the width of the input at all times */
-  fixedWidth?: boolean
+  fixedWidth?: boolean;
   /** Allows to replace default message with custom component when no result matches */
-  notFoundContent?: React.ReactNode
+  notFoundContent?: React.ReactNode;
   /** Autocomplete height adjusts to label content. **NOTE, should be used with mobile devices only** */
-  resizable?: boolean
+  resizable?: boolean;
   /** Defines the behavior of the scroll. By default is `true`, when opening a list of options, scrolls it so that the active option is visible to the user */
-  scrollIntoView?: boolean
+  scrollIntoView?: boolean;
   /** Called when searching items */
-  onSearch?: (value: string) => void
+  onSearch?: (value: string) => void;
   /** Callback function that is fired when the user changes the select value */
-  onChange?: (value: AutocompleteValue) => void
+  onChange?: (value: AutocompleteValue) => void;
 }

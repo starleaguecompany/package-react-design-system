@@ -1,12 +1,12 @@
-import { MenuItem } from './MenuItem.types'
+import { MenuItem } from './MenuItem.types';
 
 export interface SelectOption extends MenuItem {
   /** Label text */
-  label: string
+  label: string;
   /** Value */
-  value: string | number
+  value: string | number;
 }
 
-export type SelectValue = string | number | Array<string | number>
+export type SelectValue = string | number | Array<string | number>;
 
-export type SelectMode = 'multiple'
+export type SelectMode = 'multiple';

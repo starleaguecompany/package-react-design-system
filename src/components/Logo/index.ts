@@ -1,3 +1,3 @@
-import Logo from './src/Logo'
+import Logo from './src/Logo';
 
-export { Logo }
+export { Logo };

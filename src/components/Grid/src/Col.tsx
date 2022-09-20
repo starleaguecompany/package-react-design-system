@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { ColProps } from '../types/Col.types'
-import RowContext from './RowContext'
-import styles from '../styles/Col.module.less'
+import { ColProps } from '../types/Col.types';
+import RowContext from './RowContext';
+import styles from '../styles/Col.module.less';
 
 /**
  * @description Column element for Grid system.
@@ -17,8 +17,8 @@ import styles from '../styles/Col.module.less'
  * ```
  */
 const Col = React.forwardRef<HTMLDivElement, ColProps>((props, ref) => {
-  const { className, span, order, breakpoints, style, children, ...restProps } = props
-  const cx = useStyles(styles)
+  const { className, span, order, breakpoints, style, children, ...restProps } = props;
+  const cx = useStyles(styles);
   // const [match] = useMediaQuery()
 
   // const breakPointProps = React.useMemo(() => {
@@ -33,36 +33,36 @@ const Col = React.forwardRef<HTMLDivElement, ColProps>((props, ref) => {
   const classNames = cx(className, 'container', {
     // [`span-${breakPointProps.span || span}`]: breakPointProps.span || span,
     [`span-${span}`]: span,
-  })
-  const { gutter } = React.useContext(RowContext)
+  });
+  const { gutter } = React.useContext(RowContext);
   const mergedStyle: React.CSSProperties = {
     ...style,
     // order: breakPointProps.order || order || undefined,
     order: order || undefined,
     // ...breakPointProps.style,
-  }
+  };
 
   // Horizontal gutter use padding
   if (gutter && gutter[0] > 0) {
-    const horizontalGutter = gutter[0] / 2
-    mergedStyle.paddingLeft = horizontalGutter
-    mergedStyle.paddingRight = horizontalGutter
+    const horizontalGutter = gutter[0] / 2;
+    mergedStyle.paddingLeft = horizontalGutter;
+    mergedStyle.paddingRight = horizontalGutter;
   }
 
   // Vertical gutter use padding when gap not support
   if (gutter && gutter[1] > 0) {
-    const verticalGutter = gutter[1] / 2
-    mergedStyle.paddingTop = verticalGutter
-    mergedStyle.paddingBottom = verticalGutter
+    const verticalGutter = gutter[1] / 2;
+    mergedStyle.paddingTop = verticalGutter;
+    mergedStyle.paddingBottom = verticalGutter;
   }
 
   return (
     <div data-qa="Col" ref={ref} className={classNames} style={{ ...mergedStyle }} {...restProps}>
       {children}
     </div>
-  )
-})
+  );
+});
 
-Col.defaultProps = {}
+Col.defaultProps = {};
 
-export default Col
+export default Col;

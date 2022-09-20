@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Radio } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Radio } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Radio } from '${reactDSImportPath}'
 // Import types
 import { RadioProps } from '${reactDSImportPath}/lib/Radio'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Radio',
@@ -22,14 +22,14 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => {
-  const [checked, setChecked] = React.useState(false)
+  const [checked, setChecked] = React.useState(false);
 
   const handleChange = (event: React.FormEvent<HTMLInputElement>) => {
-    setChecked(event.currentTarget.checked)
-  }
+    setChecked(event.currentTarget.checked);
+  };
 
   return (
     <React.Fragment>
@@ -37,20 +37,20 @@ export const Basic: Story = () => {
         Radio default
       </Radio>
     </React.Fragment>
-  )
-}
+  );
+};
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 const variants = [
   { label: 'Radio default' },
   { label: 'Radio disabled', disabled: true },
   { label: 'Radio checked', checked: true },
   { label: 'Radio checked and disabled', disabled: true, checked: true },
-]
+];
 
 export const Variants: Story = () => (
   <React.Fragment>
@@ -60,5 +60,5 @@ export const Variants: Story = () => (
       </div>
     ))}
   </React.Fragment>
-)
+);
 // Basic.storyName = 'Radio'

@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Divider } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Divider } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Divider } from '${reactDSImportPath}'
 // Import types
 import { DividerProps } from '${reactDSImportPath}/lib/Divider'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Divider',
@@ -22,15 +22,15 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <React.Fragment>
     <Divider />
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};

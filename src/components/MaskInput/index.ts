@@ -1,4 +1,4 @@
-import MaskInput from './src/MaskInput'
-import { MaskInputProps } from './types/MaskInput.types'
+import MaskInput from './src/MaskInput';
+import { MaskInputProps } from './types/MaskInput.types';
 
-export { MaskInput, MaskInputProps }
+export { MaskInput, MaskInputProps };

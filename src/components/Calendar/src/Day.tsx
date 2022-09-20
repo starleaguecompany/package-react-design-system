@@ -1,46 +1,40 @@
-import * as React from 'react'
-import { useStyles, safeInvoke } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles, safeInvoke } from '@starleaguecompany/package-react-utils';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import { getDayFormatted, getISODate } from '../utils/date'
+import { getDayFormatted, getISODate } from '../utils/date';
 
-import { DayProps } from '../types/Calendar.types'
-import styles from '../styles/Calendar.module.less'
+import { DayProps } from '../types/Calendar.types';
 
 const Day: React.FC<DayProps> = props => {
-  const { date, weekend, active, disabled, highlighted, today, className, onChange, ...restProps } = props
-  const cx = useStyles(styles)
-
-  const classNames = cx(className, 'day', {
-    today,
-    weekend,
-    active,
-    disabled,
-    highlighted,
-  })
+  const { date, weekend, active, disabled, highlighted, today, sameMonth, className, onChange, ...restProps } = props;
+  const cx = useStyles({});
 
   const handleClick = React.useCallback(() => {
     if (disabled) {
-      return
+      return;
     }
 
-    safeInvoke(onChange, date)
-  }, [date])
+    safeInvoke(onChange, date);
+  }, [date]);
 
   return (
     <Space
-      size={0}
       align="center"
       justify="center"
-      className={classNames}
+      className={cx('rounded-full', {
+        'text-white font-bold bg-red-500 rounded-100 hover:bg-red-500': active,
+        'hover:bg-red-400 hover:font-bold hover:text-white': !disabled,
+        'opacity-25': disabled,
+      })}
       {...restProps}
       data-date={getISODate(date)}
       onClick={handleClick}
     >
-      {getDayFormatted(date)}
+      {!sameMonth ? ' ' : getDayFormatted(date)}
     </Space>
-  )
-}
+  );
+};
 
-export default Day
+export default Day;

@@ -1,18 +1,18 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Space } from '../../Space'
-import { Button } from '../../Button'
+import { Space } from '../../Space';
+import { Button } from '../../Button';
 
-import { Notifications, NotificationManager } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Notifications, NotificationManager } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Notifications, NotificationManager } from '${reactDSImportPath}'
 // Import types
 import { NotificationsProps } from '${reactDSImportPath}/lib/Notifications'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Notifications',
@@ -25,7 +25,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => {
   const handleClickShow = () => {
@@ -33,8 +33,8 @@ export const Basic: Story = () => {
       'Информационное сообщение',
       'Здесь можно указать подробное описание',
       'Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod.'
-    )
-  }
+    );
+  };
 
   return (
     <React.Fragment>
@@ -47,10 +47,10 @@ export const Basic: Story = () => {
         <Notifications />
       </React.Fragment>
     </React.Fragment>
-  )
-}
+  );
+};
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};

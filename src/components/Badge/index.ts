@@ -1,4 +1,4 @@
-import Badge from './src/Badge'
-import { BadgeProps } from './types/Badge.types'
+import Badge from './src/Badge';
+import { BadgeProps } from './types/Badge.types';
 
-export { Badge, BadgeProps }
+export { Badge, BadgeProps };

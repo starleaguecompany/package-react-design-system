@@ -5,4 +5,4 @@ export const COLORS = {
   ORANGE: 'orange',
   VIOLET: 'violet',
   RED: 'red',
-} as const
+} as const;

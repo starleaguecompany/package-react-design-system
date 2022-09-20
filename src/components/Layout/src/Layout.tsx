@@ -1,8 +1,8 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { LayoutProps } from '../types/Layout.types'
-import styles from '../styles/Layout.module.less'
+import { LayoutProps } from '../types/Layout.types';
+import styles from '../styles/Layout.module.less';
 
 /**
  * @description Container component.
@@ -14,17 +14,17 @@ import styles from '../styles/Layout.module.less'
  * ```
  */
 const Layout = React.forwardRef<HTMLDivElement, LayoutProps>((props, ref) => {
-  const { className, children, ...restProps } = props
+  const { className, children, ...restProps } = props;
 
-  const cx = useStyles(styles)
+  const cx = useStyles(styles);
 
   return (
     <div ref={ref} data-qa="Layout" className={cx(className, 'container')} {...restProps}>
       {children}
     </div>
-  )
-})
+  );
+});
 
-Layout.defaultProps = {}
+Layout.defaultProps = {};
 
-export default Layout
+export default Layout;

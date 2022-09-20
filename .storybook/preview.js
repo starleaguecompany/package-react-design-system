@@ -1,22 +1,23 @@
-import * as React from 'react'
-import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
-import { ThemeProvider } from '@starleaguecompany/design-system-theme'
+import * as React from 'react';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+import { ThemeProvider } from '@starleaguecompany/design-system-theme';
+import '../src/index.css';
 
-require('./demo.css')
+require('./demo.css');
 
 const themeDecorator = (Story, context) => {
   const {
     globals: { theme = 'lager' },
-  } = context
+  } = context;
 
   return (
     <ThemeProvider theme={theme}>
       <Story />
     </ThemeProvider>
-  )
-}
+  );
+};
 
-export const decorators = [themeDecorator]
+export const decorators = [themeDecorator];
 
 const dsViewPorts = {
   mobile: {
@@ -40,7 +41,7 @@ const dsViewPorts = {
       height: '100%',
     },
   },
-}
+};
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -72,10 +73,10 @@ export const parameters = {
       ],
     },
   },
-}
+};
 
 const getStyles = theme => {
-  const background = theme === 'lager' ? '#F8F8F8' : '#333333'
+  const background = theme === 'lager' ? '#F8F8F8' : '#333333';
 
   return {
     borderRadius: '1rem',
@@ -84,8 +85,8 @@ const getStyles = theme => {
     width: '1rem',
     background,
     boxShadow: '0 0 0 1px inset',
-  }
-}
+  };
+};
 
 export const globalTypes = {
   theme: {
@@ -101,4 +102,4 @@ export const globalTypes = {
       ],
     },
   },
-}
+};

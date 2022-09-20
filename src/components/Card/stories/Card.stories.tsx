@@ -1,26 +1,26 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import cx from 'classnames'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import cx from 'classnames';
 
-import { Menu } from '@starleaguecompany/react-icons'
+import { Menu } from '@starleaguecompany/react-icons';
 
-import { COLORS } from '../../../constants/colors'
+import { COLORS } from '../../../constants/colors';
 
-import { Heading, Text } from '../../Typography'
-import { Space } from '../../Space'
-import { Icon } from '../../Icon'
-import * as Grid from '../../Grid'
+import { Heading, Text } from '../../Typography';
+import { Space } from '../../Space';
+import { Icon } from '../../Icon';
+import * as Grid from '../../Grid';
 
-import { Card } from '../index'
-import { CardSize, CardVariant, CardColor } from '../types/Card.types'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Card } from '../index';
+import { CardSize, CardVariant, CardColor } from '../types/Card.types';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Card } from '${reactDSImportPath}'
 // Import types
 import { CardProps } from '${reactDSImportPath}/lib/Card'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Card',
@@ -33,11 +33,11 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
-const sizes = [16, 24, 32, 40] as Array<CardSize>
-const variants = ['outlined', 'primary'] as Array<CardVariant>
-const colors = ['light', 'dark', COLORS.GREEN, COLORS.BLUE, COLORS.RED, COLORS.ORANGE] as Array<CardColor>
+const sizes = [16, 24, 32, 40] as Array<CardSize>;
+const variants = ['outlined', 'primary'] as Array<CardVariant>;
+const colors = ['light', 'dark', COLORS.GREEN, COLORS.BLUE, COLORS.RED, COLORS.ORANGE] as Array<CardColor>;
 
 const content = (
   <Space size={20} align="center">
@@ -57,7 +57,7 @@ const content = (
       <Menu />
     </Icon>
   </Space>
-)
+);
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -65,23 +65,23 @@ export const Basic: Story = () => (
       {content}
     </Card>
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const Shadow: Story = () => (
   <React.Fragment>
     <Card shadow>{content}</Card>
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'The Card component has a `shadow` property',
   },
-}
+};
 
 export const Variants: Story = () => (
   <React.Fragment>
@@ -95,12 +95,12 @@ export const Variants: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Variants.parameters = {
   docs: {
     storyDescription: 'The Card component has a `variant` property',
   },
-}
+};
 
 export const Colors: Story = () => (
   <React.Fragment>
@@ -114,12 +114,12 @@ export const Colors: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Colors.parameters = {
   docs: {
     storyDescription: 'The Card component has a `color` property',
   },
-}
+};
 
 export const MixingVariantAndColor: Story = () => (
   <React.Fragment>
@@ -138,12 +138,12 @@ export const MixingVariantAndColor: Story = () => (
       </React.Fragment>
     ))}
   </React.Fragment>
-)
+);
 MixingVariantAndColor.parameters = {
   docs: {
     storyDescription: 'The `color` property works with any `variant`',
   },
-}
+};
 
 export const Sizes: Story = () => (
   <React.Fragment>
@@ -157,9 +157,9 @@ export const Sizes: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'The Card component has a size property',
   },
-}
+};

@@ -5,4 +5,4 @@ export const Z_INDEXES = {
   MODAL_BACKDROP: 1040,
   MODAL: 1050,
   TOOLTIP: 1060,
-} as const
+} as const;

@@ -1,4 +1,4 @@
-import Tag from './src/Tag'
-import { TagProps } from './types/Tag.types'
+import Tag from './src/Tag';
+import { TagProps } from './types/Tag.types';
 
-export { Tag, TagProps }
+export { Tag, TagProps };

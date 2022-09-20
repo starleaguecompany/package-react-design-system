@@ -1,19 +1,12 @@
-import * as React from 'react'
-import addMonth from 'date-fns/addMonths'
-import startOfDay from 'date-fns/startOfDay'
-import { useStyles, safeInvoke } from '@starleaguecompany/package-react-utils'
+import React, { useEffect } from 'react';
+import { forwardRef, useCallback, useState } from 'react';
+import startOfDay from 'date-fns/startOfDay';
+import { useStyles, safeInvoke } from '@starleaguecompany/package-react-utils';
 
-import { Button } from '../../Button'
-import { Space } from '../../Space'
+import Month from './Month';
 
-import { isValid } from '../utils/date'
-
-import Header from './Header'
-import Month from './Month'
-
-import { DateRange } from '../../../types/Date.types'
-import { CalendarProps } from '../types/Calendar.types'
-import styles from '../styles/Calendar.module.less'
+import { DateRange } from '../../../types/Date.types';
+import { CalendarProps } from '../types/Calendar.types';
 
 /**
  * @description Calendar component.
@@ -24,7 +17,7 @@ import styles from '../styles/Calendar.module.less'
  * <Calendar />
  * ```
  */
-const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>((props, ref) => {
+const Calendar = forwardRef<HTMLDivElement, CalendarProps>((props, ref) => {
   const {
     minDate,
     maxDate,
@@ -32,110 +25,40 @@ const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>((props, ref) =>
     disabledIntervals,
     mode,
     selection,
-    defaultDate = minDate !== undefined ? minDate : new Date(),
+    activeMonth,
     className,
     onChange,
     ...restProps
-  } = props
+  } = props;
+  const [selectionStart, setSelectionStart] = useState<Date | undefined>(selection?.from);
+  const [selectionEnd, setSelectionEnd] = useState<Date | undefined>(selection?.to);
+  const [selectionInProgress, setSelectionInProgress] = useState<boolean>(false);
+  const cx = useStyles({});
 
-  const [activeMonth, setActiveMonth] = React.useState<Date>(() => {
-    if (selection && selection.from && isValid(selection.from)) {
-      return selection.from
-    }
+  const normalizedMinDate = minDate ? startOfDay(minDate) : minDate;
 
-    return defaultDate
-  })
-  const [selectionStart, setSelectionStart] = React.useState<Date | undefined>(selection && selection.from)
-  const [selectionEnd, setSelectionEnd] = React.useState<Date | undefined>(selection && selection.to)
-  const [selectionInProgress, setSelectionInProgress] = React.useState<boolean>(false)
-  const cx = useStyles(styles)
-
-  const classNames = cx(className, 'container')
-  const normalizedMinDate = minDate ? startOfDay(minDate) : minDate
-
-  const handleChangeMonth = React.useCallback(
-    direction => {
-      switch (direction) {
-        case 'prev':
-          return setActiveMonth(addMonth(activeMonth, -1))
-        case 'next':
-          return setActiveMonth(addMonth(activeMonth, 1))
-      }
-    },
-    [activeMonth]
-  )
-
-  const handleChangeSelected = React.useCallback(
+  const handleChangeSelected = useCallback(
     (range: DateRange) => {
-      if (mode === 'range') {
-        if (selectionInProgress) {
-          setSelectionEnd(range.to)
-          setSelectionInProgress(false)
+      setSelectionInProgress(false);
+      setSelectionStart(range.from);
+      setSelectionEnd(range.to);
 
-          // safeInvoke(onChange, range)
-        } else {
-          setSelectionInProgress(true)
-          setSelectionStart(range.from)
-          setSelectionEnd(range.to)
-        }
-      } else {
-        setSelectionInProgress(false)
-        setSelectionStart(range.from)
-        setSelectionEnd(range.to)
-
-        safeInvoke(onChange, range)
-      }
+      safeInvoke(onChange, range);
     },
     [selectionStart, selectionEnd, selectionInProgress]
-  )
+  );
 
-  const handleClickReset = React.useCallback(() => {
-    const range = { from: undefined, to: undefined }
-
-    setSelectionInProgress(false)
-    setSelectionStart(range.from)
-    setSelectionEnd(range.to)
-
-    safeInvoke(onChange, range)
-  }, [])
-
-  const handleClickSelect = React.useCallback(() => {
-    const range = { from: selectionStart, to: selectionEnd }
-
-    safeInvoke(onChange, range)
-  }, [selectionStart, selectionEnd, selectionInProgress])
-
-  const footer = React.useMemo(() => {
-    if (mode === 'range') {
-      return (
-        <Space size={0} justify="end" className={cx('footer')}>
-          <Button
-            className={cx('footerButton')}
-            variant="text"
-            disabled={!selectionStart || !selectionEnd}
-            onClick={handleClickReset}
-          >
-            Отмена
-          </Button>
-          <Button
-            className={cx('footerButton')}
-            variant="primary"
-            color="gray"
-            disabled={!selectionStart || !selectionEnd}
-            onClick={handleClickSelect}
-          >
-            Выбрать
-          </Button>
-        </Space>
-      )
-    }
-
-    return null
-  }, [mode, selectionStart, selectionEnd, handleClickSelect])
+  useEffect(() => {
+    setSelectionStart(selection?.from);
+  }, [selection]);
 
   return (
-    <div ref={ref} data-qa="Calendar" className={classNames} {...restProps}>
-      <Header month={activeMonth} onChange={handleChangeMonth} />
+    <div
+      ref={ref}
+      data-qa="Calendar"
+      className={cx('flex flex-col bg-white rounded-lg p-2 shadow', className)}
+      {...restProps}
+    >
       <Month
         month={activeMonth}
         minDate={normalizedMinDate}
@@ -148,11 +71,8 @@ const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>((props, ref) =>
         selectionInProgress={selectionInProgress}
         onChange={handleChangeSelected}
       />
-      {footer}
     </div>
-  )
-})
+  );
+});
 
-Calendar.defaultProps = {}
-
-export default Calendar
+export default Calendar;

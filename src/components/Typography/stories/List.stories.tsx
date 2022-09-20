@@ -1,11 +1,11 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Check } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Check } from '@starleaguecompany/react-icons';
 
-import { Icon } from '../../Icon'
+import { Icon } from '../../Icon';
 
-import { OrderedList, ListItem, UnorderedList } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { OrderedList, ListItem, UnorderedList } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
@@ -14,7 +14,7 @@ import { Typography } from '${reactDSImportPath}'
 import { OrderedListProps, UnorderedListProps, ListItemProps } from '${reactDSImportPath}/lib/Typography'
 
 const { OrderedList, UnorderedList, ListItem } = Typography
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Typography/List',
@@ -29,7 +29,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Unordered: Story = () => (
   <React.Fragment>
@@ -39,7 +39,7 @@ export const Unordered: Story = () => (
       <ListItem>Lorem ipsum dolar set amet</ListItem>
     </UnorderedList>
   </React.Fragment>
-)
+);
 
 export const Ordered: Story = () => (
   <React.Fragment>
@@ -49,7 +49,7 @@ export const Ordered: Story = () => (
       <ListItem>Lorem ipsum dolar set amet</ListItem>
     </OrderedList>
   </React.Fragment>
-)
+);
 
 export const WithIcon: Story = () => (
   <React.Fragment>
@@ -59,4 +59,4 @@ export const WithIcon: Story = () => (
       <ListItem icon={<Icon icon={<Check />} color="green" />}>Lorem ipsum dolar set amet</ListItem>
     </UnorderedList>
   </React.Fragment>
-)
+);

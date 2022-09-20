@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { motion, AnimatePresence, HTMLMotionProps } from 'framer-motion'
+import * as React from 'react';
+import { motion, AnimatePresence, HTMLMotionProps } from 'framer-motion';
 
-import { EASINGS, MotionVariants } from './_utils'
+import { EASINGS, MotionVariants } from './_utils';
 
-type ScaleFadeVariants = MotionVariants<'enter' | 'exit'>
+type ScaleFadeVariants = MotionVariants<'enter' | 'exit'>;
 
 const variants: ScaleFadeVariants = {
   exit: props => ({
@@ -22,34 +22,34 @@ const variants: ScaleFadeVariants = {
       ease: EASINGS.easeInOut,
     },
   },
-}
+};
 
 export const scaleFadeConfig: HTMLMotionProps<'div'> = {
   variants,
   initial: 'exit',
   animate: 'enter',
   exit: 'exit',
-}
+};
 
 export interface ScaleFadeProps extends HTMLMotionProps<'div'> {
   /**
    * The initial scale of the element
    * @default 0.95
    */
-  initialScale?: number
+  initialScale?: number;
   /** If `true`, the element will transition back to exit state */
-  reverse?: boolean
+  reverse?: boolean;
   /** If `true`, the element will unmount when `visible={false}` and animation is done */
-  unmountOnExit?: boolean
+  unmountOnExit?: boolean;
   /** Show the component; triggers the enter or exit states */
-  visible?: boolean
+  visible?: boolean;
 }
 
 export const ScaleFade = React.forwardRef<HTMLDivElement, ScaleFadeProps>((props, ref) => {
-  const { reverse = true, initialScale = 0.95, unmountOnExit, visible, ...rest } = props
+  const { reverse = true, initialScale = 0.95, unmountOnExit, visible, ...rest } = props;
 
-  const show = unmountOnExit ? visible && unmountOnExit : true
-  const custom = { initialScale, reverse }
+  const show = unmountOnExit ? visible && unmountOnExit : true;
+  const custom = { initialScale, reverse };
   const motionProps = React.useMemo(
     () => ({
       ...scaleFadeConfig,
@@ -57,9 +57,9 @@ export const ScaleFade = React.forwardRef<HTMLDivElement, ScaleFadeProps>((props
       animate: visible || unmountOnExit ? 'enter' : 'exit',
     }),
     [visible, unmountOnExit, initialScale, reverse]
-  )
+  );
 
   return (
     <AnimatePresence custom={custom}>{show && <motion.div ref={ref} {...motionProps} {...rest} />}</AnimatePresence>
-  )
-})
+  );
+});

@@ -1,8 +1,8 @@
-import * as React from 'react'
+import * as React from 'react';
 
-import { CONTAINER_SIZES } from '../../../constants/sizes'
+import { CONTAINER_SIZES } from '../../../constants/sizes';
 
 export interface AvatarGroupProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Size */
-  size?: typeof CONTAINER_SIZES[keyof typeof CONTAINER_SIZES]
+  size?: typeof CONTAINER_SIZES[keyof typeof CONTAINER_SIZES];
 }

@@ -1,8 +1,8 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Heading, Text } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Heading, Text } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
@@ -11,7 +11,7 @@ import { Typography } from '${reactDSImportPath}'
 import { HeadingProps } from '${reactDSImportPath}/lib/Typography'
 
 const { Heading } = Typography
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Typography/Heading',
@@ -24,7 +24,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -51,5 +51,5 @@ export const Basic: Story = () => (
     <Text className="h-mb-8 h-color-D60">Level 6. Desktop - 14px/18px, Mobile - 12px/16px</Text>
     <Heading level={6}>The quick brown fox jumps over the lazy dog</Heading>
   </React.Fragment>
-)
-Basic.storyName = 'Heading'
+);
+Basic.storyName = 'Heading';

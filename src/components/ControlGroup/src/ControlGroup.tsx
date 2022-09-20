@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { useStyles, error } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles, error } from '@starleaguecompany/package-react-utils';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import { ControlGroupProps } from '../types/ControlGroup.types'
-import styles from '../styles/ControlGroup.module.less'
+import { ControlGroupProps } from '../types/ControlGroup.types';
+import styles from '../styles/ControlGroup.module.less';
 
 /**
  * @description ControlGroup component.
@@ -20,39 +20,39 @@ import styles from '../styles/ControlGroup.module.less'
  * ```
  */
 const ControlGroup = React.forwardRef<HTMLDivElement, ControlGroupProps>((props, ref) => {
-  const { className, children, direction, ...restProps } = props
+  const { className, children, direction, ...restProps } = props;
 
-  const cx = useStyles(styles)
-  const count = React.useMemo(() => React.Children.count(children), [children])
-  const condition = count < 2
+  const cx = useStyles(styles);
+  const count = React.useMemo(() => React.Children.count(children), [children]);
+  const condition = count < 2;
 
   // Ensure group has more than one child node
   if (condition) {
     error({
       condition,
       message: 'Ensure group has more than one child node',
-    })()
+    })();
   }
 
   const group = React.useMemo(() => {
     return React.Children.map(children as React.ReactElement, (child, index) => {
       if (condition) {
-        return child
+        return child;
       }
 
-      let positionInGroup
+      let positionInGroup;
 
       if (index === 0) {
-        positionInGroup = 'start'
+        positionInGroup = 'start';
       } else if (index === count - 1) {
-        positionInGroup = 'end'
+        positionInGroup = 'end';
       } else {
-        positionInGroup = 'middle'
+        positionInGroup = 'middle';
       }
 
-      return React.cloneElement(child, { ...child.props, positionInGroup, directionGroup: direction })
-    })
-  }, [children])
+      return React.cloneElement(child, { ...child.props, positionInGroup, directionGroup: direction });
+    });
+  }, [children]);
 
   return (
     <div ref={ref} data-qa="ControlGroup" className={cx(className, 'container')} {...restProps}>
@@ -60,11 +60,11 @@ const ControlGroup = React.forwardRef<HTMLDivElement, ControlGroupProps>((props,
         {group}
       </Space>
     </div>
-  )
-})
+  );
+});
 
 ControlGroup.defaultProps = {
   direction: 'horizontal',
-}
+};
 
-export default ControlGroup
+export default ControlGroup;

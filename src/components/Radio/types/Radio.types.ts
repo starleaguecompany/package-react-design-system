@@ -1,16 +1,16 @@
-import * as React from 'react'
+import * as React from 'react';
 
 export interface RadioProps extends React.HTMLAttributes<HTMLInputElement> {
   /** Name */
-  name?: string
+  name?: string;
   /** Value */
-  value?: any
+  value?: any;
   /** Checked state */
-  checked?: boolean
+  checked?: boolean;
   /** Disabled state */
-  disabled?: boolean
+  disabled?: boolean;
   /** readOnly state */
-  readOnly?: boolean
+  readOnly?: boolean;
   /** Check handler */
-  onChange?: React.FormEventHandler<HTMLInputElement>
+  onChange?: React.FormEventHandler<HTMLInputElement>;
 }

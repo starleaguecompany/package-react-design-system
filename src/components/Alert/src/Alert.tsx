@@ -1,12 +1,12 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
-import { Cross } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
+import { Cross } from '@starleaguecompany/react-icons';
 
-import { Space } from '../../Space'
-import { Icon } from '../../Icon'
+import { Space } from '../../Space';
+import { Icon } from '../../Icon';
 
-import { AlertProps } from '../types/Alert.types'
-import styles from '../styles/Alert.module.less'
+import { AlertProps } from '../types/Alert.types';
+import styles from '../styles/Alert.module.less';
 
 /**
  * @description The Alert component is used to show feedback to the user about an action or state
@@ -18,12 +18,12 @@ import styles from '../styles/Alert.module.less'
  * ```
  */
 const Alert = React.forwardRef<HTMLDivElement, AlertProps>((props, ref) => {
-  const { title, subtitle, icon, color, footer, closable, onClose, className, children, ...restProps } = props
+  const { title, subtitle, icon, color, footer, closable, onClose, className, children, ...restProps } = props;
 
-  const cx = useStyles(styles)
+  const cx = useStyles(styles);
   const classNames = cx(className, 'container', {
     [`color-${color}`]: color,
-  })
+  });
 
   return (
     <div ref={ref} data-qa="Alert" className={classNames} {...restProps}>
@@ -44,11 +44,11 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>((props, ref) => {
         </Space>
       )}
     </div>
-  )
-})
+  );
+});
 
 Alert.defaultProps = {
   color: 'dark',
-}
+};
 
-export default Alert
+export default Alert;

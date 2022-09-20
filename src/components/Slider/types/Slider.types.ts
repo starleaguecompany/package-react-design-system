@@ -1,19 +1,19 @@
-import * as React from 'react'
-import { Omit } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { Omit } from '@starleaguecompany/package-react-utils';
 
 export interface SliderProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
   /** The minimum value the slider can slide to */
-  min?: number
+  min?: number;
   /** The maximum value the slider can slide to */
-  max?: number
+  max?: number;
   /** The granularity the slider can step through values. Must greater than 0, and be divided by (max - min) */
-  step?: number
+  step?: number;
   /** The value of slider */
-  value?: number
+  value?: number;
   /** Disabled state */
-  disabled?: boolean
+  disabled?: boolean;
   /** Logarithmic scale */
-  logarithmic?: boolean
+  logarithmic?: boolean;
   /** Callback function that is fired when the user changes the slider's value */
-  onChange?: (value: number) => void
+  onChange?: (value: number) => void;
 }

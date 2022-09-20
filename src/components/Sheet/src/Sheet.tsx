@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { motion, AnimatePresence, PanInfo } from 'framer-motion'
-import { useStyles, useMergedRef, safeInvoke, preventBodyScroll } from '@starleaguecompany/package-react-utils'
-import { Cross } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { motion, AnimatePresence, PanInfo } from 'framer-motion';
+import { useStyles, useMergedRef, safeInvoke, preventBodyScroll } from '@starleaguecompany/package-react-utils';
+import { Cross } from '@starleaguecompany/react-icons';
 
-import { Portal } from '../../Portal'
-import { Icon } from '../../Icon'
-import { EASINGS } from '../../Transition'
+import { Portal } from '../../Portal';
+import { Icon } from '../../Icon';
+import { EASINGS } from '../../Transition';
 
-import { SheetProps } from '../types/Sheet.types'
+import { SheetProps } from '../types/Sheet.types';
 
-import styles from '../styles/Sheet.module.less'
+import styles from '../styles/Sheet.module.less';
 
 /**
  * @description Sheet component.
@@ -21,42 +21,42 @@ import styles from '../styles/Sheet.module.less'
  * ```
  */
 const Sheet = React.forwardRef<HTMLDivElement, SheetProps>((props, ref) => {
-  const { visible, closable, fullscreen, onClose, className, children, ...restProps } = props
+  const { visible, closable, fullscreen, onClose, className, children, ...restProps } = props;
 
-  const cx = useStyles(styles)
-  const sheetRef = React.useRef<HTMLDivElement>(null)
-  const isUnmountEvent = React.useRef(true)
-  const referenceRef = useMergedRef(sheetRef, ref)
+  const cx = useStyles(styles);
+  const sheetRef = React.useRef<HTMLDivElement>(null);
+  const isUnmountEvent = React.useRef(true);
+  const referenceRef = useMergedRef(sheetRef, ref);
 
   const handleClose = React.useCallback(
     (event: React.MouseEvent<HTMLDivElement>) => {
-      preventBodyScroll()
-      safeInvoke(onClose, event)
-      isUnmountEvent.current = false
+      preventBodyScroll();
+      safeInvoke(onClose, event);
+      isUnmountEvent.current = false;
     },
     [onClose]
-  )
+  );
 
   const handleDragEnd = React.useCallback(
     (event: React.MouseEvent<HTMLDivElement>, { velocity }: PanInfo) => {
-      const sheetEl = sheetRef.current
-      if (!sheetEl) return
+      const sheetEl = sheetRef.current;
+      if (!sheetEl) return;
 
-      const contentHeight = sheetEl.getBoundingClientRect().height
+      const contentHeight = sheetEl.getBoundingClientRect().height;
 
       // Close if dragged over 60%
       if (velocity.y / contentHeight > 0.6) {
-        handleClose(event)
+        handleClose(event);
       }
     },
     [sheetRef, handleClose]
-  )
+  );
 
   const handlePreventBodyScroll = React.useCallback(() => {
     if (visible && isUnmountEvent.current) {
-      preventBodyScroll()
+      preventBodyScroll();
     }
-  }, [visible, isUnmountEvent])
+  }, [visible, isUnmountEvent]);
 
   const sheetMotionProps = React.useMemo(
     () => ({
@@ -72,7 +72,7 @@ const Sheet = React.forwardRef<HTMLDivElement, SheetProps>((props, ref) => {
       animate: visible ? 'enter' : 'exit',
     }),
     [visible, sheetRef.current]
-  )
+  );
   const backdropMotionProps = React.useMemo(
     () => ({
       variants: {
@@ -98,7 +98,7 @@ const Sheet = React.forwardRef<HTMLDivElement, SheetProps>((props, ref) => {
       exit: 'exit',
     }),
     [visible]
-  )
+  );
 
   const dragProps = React.useMemo(
     () => ({
@@ -109,16 +109,16 @@ const Sheet = React.forwardRef<HTMLDivElement, SheetProps>((props, ref) => {
       onDragEnd: handleDragEnd,
     }),
     [handleDragEnd]
-  )
+  );
 
   React.useEffect(() => {
     if (visible) {
-      preventBodyScroll(true)
-      isUnmountEvent.current = true
+      preventBodyScroll(true);
+      isUnmountEvent.current = true;
     }
 
-    return handlePreventBodyScroll
-  }, [visible])
+    return handlePreventBodyScroll;
+  }, [visible]);
 
   return (
     <Portal>
@@ -142,9 +142,9 @@ const Sheet = React.forwardRef<HTMLDivElement, SheetProps>((props, ref) => {
         )}
       </AnimatePresence>
     </Portal>
-  )
-})
+  );
+});
 
-Sheet.defaultProps = {}
+Sheet.defaultProps = {};
 
-export default Sheet
+export default Sheet;

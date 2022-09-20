@@ -1,11 +1,11 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Source } from '@storybook/addon-docs'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Source } from '@storybook/addon-docs';
 
-import { Typography } from '..'
-import { reactDSImportPath } from '../constants/imports'
+import { Typography } from '..';
+import { reactDSImportPath } from '../constants/imports';
 
-const { Text, Heading } = Typography
+const { Text, Heading } = Typography;
 
 export default {
   title: 'Introduction/Getting started',
@@ -18,7 +18,7 @@ export default {
     },
     viewMode: 'docs',
   },
-} as Meta
+} as Meta;
 
 export const Start: Story = () => (
   <React.Fragment>
@@ -54,5 +54,5 @@ const App = () => (
       `}
     />
   </React.Fragment>
-)
-Start.storyName = 'Getting started'
+);
+Start.storyName = 'Getting started';

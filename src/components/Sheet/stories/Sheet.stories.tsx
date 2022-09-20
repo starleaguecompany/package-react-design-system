@@ -1,18 +1,18 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { useBoolean } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { useBoolean } from '@starleaguecompany/package-react-utils';
 
-import { Button } from '../../Button'
+import { Button } from '../../Button';
 
-import { Sheet } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Sheet } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Sheet } from '${reactDSImportPath}'
 // Import types
 import { SheetProps } from '${reactDSImportPath}/lib/Sheet'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Sheet',
@@ -30,17 +30,17 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
   const footer = React.useMemo(() => {
     return (
       <Button variant="primary" color="blue" onClick={setVisible.off}>
         Ясно
       </Button>
-    )
-  }, [visible])
+    );
+  }, [visible]);
 
   return (
     <React.Fragment>
@@ -51,23 +51,23 @@ export const Basic: Story = () => {
         <Sheet.Footer>{footer}</Sheet.Footer>
       </Sheet>
     </React.Fragment>
-  )
-}
+  );
+};
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const Fullscreen: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
   const footer = React.useMemo(() => {
     return (
       <Button variant="primary" color="blue" onClick={setVisible.off}>
         Ясно
       </Button>
-    )
-  }, [visible])
+    );
+  }, [visible]);
 
   return (
     <React.Fragment>
@@ -78,18 +78,18 @@ export const Fullscreen: Story = () => {
         <Sheet.Footer>{footer}</Sheet.Footer>
       </Sheet>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const Closable: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
   const footer = React.useMemo(() => {
     return (
       <Button variant="primary" color="blue" onClick={setVisible.off}>
         Ясно
       </Button>
-    )
-  }, [visible])
+    );
+  }, [visible]);
 
   return (
     <React.Fragment>
@@ -100,5 +100,5 @@ export const Closable: Story = () => {
         <Sheet.Footer>{footer}</Sheet.Footer>
       </Sheet>
     </React.Fragment>
-  )
-}
+  );
+};

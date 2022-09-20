@@ -1,24 +1,24 @@
 export type DateRange = {
   /** Start date */
-  from?: Date
+  from?: Date;
   /** End date */
-  to?: Date
-}
+  to?: Date;
+};
 
-export type DateValue = Date | DateRange
-export type Mode = 'single' | 'range'
+export type DateValue = Date | DateRange;
+export type Mode = 'single' | 'range';
 
 export type DateGenericProps = {
   /** End date */
-  maxDate?: Date
+  maxDate?: Date;
   /** Start date */
-  minDate?: Date
+  minDate?: Date;
   /** Range limit */
-  rangeLimit?: number
+  rangeLimit?: number;
   /** Defines the date (respectively month) of the calendar to be displayed when it is opened */
-  defaultDate?: Date
+  defaultDate?: Date;
   /** Disabled interval */
-  disabledIntervals?: DateRange[]
+  disabledIntervals?: DateRange[];
   /** Change callback */
-  onChange?: (range: DateRange) => void
-}
+  onChange?: (range: DateRange) => void;
+};

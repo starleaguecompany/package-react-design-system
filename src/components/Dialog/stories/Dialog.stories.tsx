@@ -1,24 +1,24 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { useBoolean } from '@starleaguecompany/package-react-utils'
-import { Warning } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { useBoolean } from '@starleaguecompany/package-react-utils';
+import { Warning } from '@starleaguecompany/react-icons';
 
-import { Heading, Text } from '../../Typography'
-import { Button } from '../../Button'
-import { Space } from '../../Space'
-import { Icon } from '../../Icon'
-import { Avatar } from '../../Avatar'
-import { Accordion } from '../../Accordion'
+import { Heading, Text } from '../../Typography';
+import { Button } from '../../Button';
+import { Space } from '../../Space';
+import { Icon } from '../../Icon';
+import { Avatar } from '../../Avatar';
+import { Accordion } from '../../Accordion';
 
-import { Dialog } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Dialog } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Dialog } from '${reactDSImportPath}'
 // Import types
 import { DialogProps } from '${reactDSImportPath}/lib/Dialog'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Dialog',
@@ -37,7 +37,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 const content = (
   <div style={{ maxWidth: 600 }}>
@@ -54,10 +54,10 @@ const content = (
       esse laborum eiusmod pariatur proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
     </Text>
   </div>
-)
+);
 
 export const Basic: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   return (
     <React.Fragment>
@@ -67,16 +67,16 @@ export const Basic: Story = () => {
         <Dialog.Content>{content}</Dialog.Content>
       </Dialog>
     </React.Fragment>
-  )
-}
+  );
+};
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const WithDescription: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   return (
     <React.Fragment>
@@ -86,16 +86,16 @@ export const WithDescription: Story = () => {
         <Dialog.Content>{content}</Dialog.Content>
       </Dialog>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const WithIcon: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
   const icon = (
     <Icon color="red" size={24}>
       <Warning />
     </Icon>
-  )
+  );
 
   return (
     <React.Fragment>
@@ -105,12 +105,12 @@ export const WithIcon: Story = () => {
         <Dialog.Content>{content}</Dialog.Content>
       </Dialog>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const WithAvatar: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
-  const icon = <Avatar size={52} src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" />
+  const [visible, setVisible] = useBoolean(false);
+  const icon = <Avatar size={52} src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" />;
 
   return (
     <React.Fragment>
@@ -120,20 +120,20 @@ export const WithAvatar: Story = () => {
         <Dialog.Content>{content}</Dialog.Content>
       </Dialog>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const WithFooter: Story = () => {
-  const [visible1, setVisible1] = useBoolean(false)
-  const [visible2, setVisible2] = useBoolean(false)
+  const [visible1, setVisible1] = useBoolean(false);
+  const [visible2, setVisible2] = useBoolean(false);
 
   const footer1 = React.useMemo(() => {
     return (
       <Button variant="primary" color="blue" onClick={setVisible1.off}>
         Ясно
       </Button>
-    )
-  }, [visible1])
+    );
+  }, [visible1]);
 
   const footer2 = React.useMemo(() => {
     return (
@@ -145,8 +145,8 @@ export const WithFooter: Story = () => {
           Понятно
         </Button>
       </React.Fragment>
-    )
-  }, [visible2])
+    );
+  }, [visible2]);
 
   return (
     <React.Fragment>
@@ -173,22 +173,22 @@ export const WithFooter: Story = () => {
         </div>
       </Space>
     </React.Fragment>
-  )
-}
+  );
+};
 
 WithFooter.parameters = {
   docs: {
     storyDescription: 'The `footer` property works with any `React Nodes`',
   },
-}
+};
 
 export const Fullscreen: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
   const icon = (
     <Icon color="green" size={24}>
       <Warning />
     </Icon>
-  )
+  );
   const footer = React.useMemo(() => {
     return (
       <React.Fragment>
@@ -199,8 +199,8 @@ export const Fullscreen: Story = () => {
           Понятно
         </Button>
       </React.Fragment>
-    )
-  }, [visible])
+    );
+  }, [visible]);
 
   return (
     <React.Fragment>
@@ -211,11 +211,11 @@ export const Fullscreen: Story = () => {
         <Dialog.Footer>{footer}</Dialog.Footer>
       </Dialog>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const WithCustomization: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   const title = (
     <Space size={2} direction="vertical">
@@ -226,7 +226,7 @@ export const WithCustomization: Story = () => {
         Vestibulum tristique nulla aliquam consectetur justo, aliquam. Porttitor in turpis volutpat diama
       </Heading>
     </Space>
-  )
+  );
 
   return (
     <React.Fragment>
@@ -236,11 +236,11 @@ export const WithCustomization: Story = () => {
         <Dialog.Content className="h-color-R100">{content}</Dialog.Content>
       </Dialog>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const WithLongTitleAndContent: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   return (
     <React.Fragment>
@@ -263,5 +263,5 @@ export const WithLongTitleAndContent: Story = () => {
         </div>
       </Space>
     </React.Fragment>
-  )
-}
+  );
+};

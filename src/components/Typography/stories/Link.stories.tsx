@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Space } from '../../Space'
-import { Button } from '../../Button'
-import { Link, Text } from '../index'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Space } from '../../Space';
+import { Button } from '../../Button';
+import { Link, Text } from '../index';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
@@ -13,7 +13,7 @@ import { Typography } from '${reactDSImportPath}'
 import { LinkProps } from '${reactDSImportPath}/lib/Typography'
 
 const { Link } = Typography
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Typography/Link',
@@ -26,18 +26,18 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <Text>
     In order to learn more about this feature, visit <Link href="#">the developer center</Link>.
   </Text>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const Colors: Story = () => (
   <Space direction="vertical" size={20}>
@@ -63,7 +63,7 @@ export const Colors: Story = () => (
       .
     </Text>
   </Space>
-)
+);
 
 export const Strong: Story = () => (
   <Space direction="vertical" size={20}>
@@ -75,7 +75,7 @@ export const Strong: Story = () => (
       .
     </Text>
   </Space>
-)
+);
 
 export const LinkAsButton: Story = () => (
   <Link href="https://sravni.ru" target="_blank">
@@ -83,4 +83,4 @@ export const LinkAsButton: Story = () => (
       I am link
     </Button>
   </Link>
-)
+);

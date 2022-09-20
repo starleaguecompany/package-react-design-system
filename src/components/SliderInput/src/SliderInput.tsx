@@ -1,11 +1,11 @@
-import * as React from 'react'
-import { useStyles, useFormControlContext, useDebounceValue } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles, useFormControlContext, useDebounceValue } from '@starleaguecompany/package-react-utils';
 
-import { Slider } from '../../Slider'
-import { NumberInput } from '../../NumberInput'
+import { Slider } from '../../Slider';
+import { NumberInput } from '../../NumberInput';
 
-import { SliderInputProps } from '../types/SliderInput.types'
-import styles from '../styles/SliderInput.module.less'
+import { SliderInputProps } from '../types/SliderInput.types';
+import styles from '../styles/SliderInput.module.less';
 
 /**
  * @description Enter a number within certain range with the mouse or keyboard
@@ -37,35 +37,35 @@ const SliderInput = React.forwardRef<HTMLInputElement, SliderInputProps>((props,
     className,
     onChange,
     ...restProps
-  } = props
+  } = props;
 
-  const cx = useStyles(styles)
-  const formControlContext = useFormControlContext()
+  const cx = useStyles(styles);
+  const formControlContext = useFormControlContext();
 
-  const classNames = cx(className, 'container')
+  const classNames = cx(className, 'container');
 
-  const [innerValue, setInnerValue] = React.useState<number | undefined | ''>(value || defaultValue)
-  const isExternalChangingValue = React.useRef(false)
-  const debouncedInnerValue = useDebounceValue<number>(innerValue || min, 300)
+  const [innerValue, setInnerValue] = React.useState<number | undefined | ''>(value || defaultValue);
+  const isExternalChangingValue = React.useRef(false);
+  const debouncedInnerValue = useDebounceValue<number>(innerValue || min, 300);
 
   const handleChangeInput = (value: number | undefined) => {
-    isExternalChangingValue.current = false
-    setInnerValue(value)
-  }
+    isExternalChangingValue.current = false;
+    setInnerValue(value);
+  };
 
   const handleChangeSlider = (value: number) => {
-    isExternalChangingValue.current = false
-    !readOnly && setInnerValue(value)
-  }
+    isExternalChangingValue.current = false;
+    !readOnly && setInnerValue(value);
+  };
 
   React.useEffect(() => {
-    setInnerValue(value || defaultValue)
-    isExternalChangingValue.current = true
-  }, [value])
+    setInnerValue(value || defaultValue);
+    isExternalChangingValue.current = true;
+  }, [value]);
 
   React.useEffect(() => {
-    !isExternalChangingValue.current && onChange?.(innerValue === '' ? undefined : innerValue)
-  }, [debouncedInnerValue])
+    !isExternalChangingValue.current && onChange?.(innerValue === '' ? undefined : innerValue);
+  }, [debouncedInnerValue]);
 
   return (
     <div data-qa="SliderInput" className={classNames}>
@@ -93,13 +93,13 @@ const SliderInput = React.forwardRef<HTMLInputElement, SliderInputProps>((props,
         onChange={handleChangeSlider}
       />
     </div>
-  )
-})
+  );
+});
 
 SliderInput.defaultProps = {
   min: 0,
   max: 100,
   step: 1,
-}
+};
 
-export default SliderInput
+export default SliderInput;

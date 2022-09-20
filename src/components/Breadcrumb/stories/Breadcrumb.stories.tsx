@@ -1,18 +1,18 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Menu } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Menu } from '@starleaguecompany/react-icons';
 
-import { Icon } from '../../Icon'
+import { Icon } from '../../Icon';
 
-import { Breadcrumb } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Breadcrumb } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Breadcrumb } from '${reactDSImportPath}'
 // Import types
 import { BreadcrumbProps } from '${reactDSImportPath}/lib/Breadcrumb'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Breadcrumb',
@@ -29,7 +29,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -39,12 +39,12 @@ export const Basic: Story = () => (
       <Breadcrumb.Item href="/rko">РКО</Breadcrumb.Item>
     </Breadcrumb>
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const WithIcon: Story = () => (
   <React.Fragment>
@@ -60,9 +60,9 @@ export const WithIcon: Story = () => (
       </Breadcrumb.Item>
     </Breadcrumb>
   </React.Fragment>
-)
+);
 WithIcon.parameters = {
   docs: {
     storyDescription: 'Breadcrumb components can contain an Icon',
   },
-}
+};

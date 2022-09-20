@@ -1,17 +1,17 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import { Avatar, AvatarGroup } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Avatar, AvatarGroup } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Avatar } from '${reactDSImportPath}'
 // Import types
 import { AvatarProps } from '${reactDSImportPath}/lib/Avatar'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Avatar',
@@ -25,25 +25,25 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <Space size={12}>
     <Avatar size={60}>U</Avatar>
     <Avatar size={60} src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" />
   </Space>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
-export const WithText: Story = () => <Avatar size={52}>U</Avatar>
+export const WithText: Story = () => <Avatar size={52}>U</Avatar>;
 
 export const WithImage: Story = () => (
   <Avatar size={52} src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-)
+);
 
 export const Sizes: Story = () => (
   <React.Fragment>
@@ -62,7 +62,7 @@ export const Sizes: Story = () => (
       </Space>
     </Space>
   </React.Fragment>
-)
+);
 
 export const Group: Story = () => (
   <AvatarGroup size={60}>
@@ -72,4 +72,4 @@ export const Group: Story = () => (
     <Avatar src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" />
     <Avatar src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" />
   </AvatarGroup>
-)
+);

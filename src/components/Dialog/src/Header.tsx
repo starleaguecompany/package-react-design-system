@@ -1,12 +1,12 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import DialogContext from './DialogContext'
+import DialogContext from './DialogContext';
 
-import { HeaderProps } from '../types/Dialog.types'
-import styles from '../styles/Dialog.module.less'
+import { HeaderProps } from '../types/Dialog.types';
+import styles from '../styles/Dialog.module.less';
 
 /**
  * @description The Dialog component is used to show content on top of an overlay that requires user interaction
@@ -18,13 +18,13 @@ import styles from '../styles/Dialog.module.less'
  * ```
  */
 const Header = React.forwardRef<HTMLDivElement, HeaderProps>((props, ref) => {
-  const { title, subtitle, icon, className, children, ...restProps } = props
+  const { title, subtitle, icon, className, children, ...restProps } = props;
 
-  const cx = useStyles(styles)
-  const { fullscreen } = React.useContext(DialogContext)
+  const cx = useStyles(styles);
+  const { fullscreen } = React.useContext(DialogContext);
   const classNames = cx(className, 'header', {
     fullscreen,
-  })
+  });
 
   return (
     <React.Fragment>
@@ -39,9 +39,9 @@ const Header = React.forwardRef<HTMLDivElement, HeaderProps>((props, ref) => {
       </Space>
       {children}
     </React.Fragment>
-  )
-})
+  );
+});
 
-Header.defaultProps = {}
+Header.defaultProps = {};
 
-export default Header
+export default Header;

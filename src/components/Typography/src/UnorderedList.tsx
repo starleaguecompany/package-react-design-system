@@ -1,8 +1,8 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { UnorderedListProps } from '../types/UnorderedList.types'
-import styles from '../styles/List.module.less'
+import { UnorderedListProps } from '../types/UnorderedList.types';
+import styles from '../styles/List.module.less';
 
 /**
  * @description Unordered list element.
@@ -14,16 +14,16 @@ import styles from '../styles/List.module.less'
  * ```
  */
 const UnorderedList = React.forwardRef<HTMLUListElement, UnorderedListProps>((props, ref) => {
-  const { className, children, ...restProps } = props
-  const cx = useStyles(styles)
+  const { className, children, ...restProps } = props;
+  const cx = useStyles(styles);
 
-  const classNames = cx(className, 'unordered')
+  const classNames = cx(className, 'unordered');
 
   return (
     <ul ref={ref} className={classNames} {...restProps}>
       {children}
     </ul>
-  )
-})
+  );
+});
 
-export { UnorderedList }
+export { UnorderedList };

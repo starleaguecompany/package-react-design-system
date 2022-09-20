@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Carousel } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Carousel } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Carousel } from '${reactDSImportPath}'
 // Import types
 import { CarouselProps } from '${reactDSImportPath}/lib/Carousel'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Carousel',
@@ -22,9 +22,9 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
-const title = 'Title'
+const title = 'Title';
 
 const images = [
   {
@@ -47,7 +47,7 @@ const images = [
     title: 'Nature Image5',
     url: 'https://images.unsplash.com/photo-1523288863878-c79329df9b88?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1386&q=80',
   },
-]
+];
 
 export const Basic: Story = () => {
   const slideStyle: React.CSSProperties = {
@@ -57,7 +57,7 @@ export const Basic: Story = () => {
     textAlign: 'center',
     backgroundColor: 'var(--color-B100)',
     borderRadius: '20px',
-  }
+  };
 
   return (
     <div>
@@ -69,13 +69,13 @@ export const Basic: Story = () => {
         ))}
       </Carousel>
     </div>
-  )
-}
+  );
+};
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const WithGradient: Story = () => {
   const slideStyle: React.CSSProperties = {
@@ -85,7 +85,7 @@ export const WithGradient: Story = () => {
     textAlign: 'center',
     backgroundColor: 'var(--color-D06)',
     borderRadius: '20px',
-  }
+  };
 
   return (
     <div>
@@ -97,8 +97,8 @@ export const WithGradient: Story = () => {
         ))}
       </Carousel>
     </div>
-  )
-}
+  );
+};
 
 export const WithImages: Story = () => {
   const slideStyle: React.CSSProperties = {
@@ -108,7 +108,7 @@ export const WithImages: Story = () => {
     textAlign: 'center',
     backgroundColor: 'var(--color-B100)',
     borderRadius: '20px',
-  }
+  };
 
   return (
     <div>
@@ -118,5 +118,5 @@ export const WithImages: Story = () => {
         ))}
       </Carousel>
     </div>
-  )
-}
+  );
+};

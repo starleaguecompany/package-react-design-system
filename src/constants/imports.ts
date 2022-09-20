@@ -1,1 +1,1 @@
-export const reactDSImportPath = '@starleaguecompany/react-design-system'
+export const reactDSImportPath = '@starleaguecompany/react-design-system';

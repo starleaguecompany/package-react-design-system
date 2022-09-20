@@ -1,16 +1,16 @@
-import * as React from 'react'
+import * as React from 'react';
 
-import { FormControlProps } from './types/FormControl.types'
-import FormControlRoot from './src/FormControl'
-import HelperText from './src/HelperText'
+import { FormControlProps } from './types/FormControl.types';
+import FormControlRoot from './src/FormControl';
+import HelperText from './src/HelperText';
 
 interface CompoundedComponent
   extends React.ForwardRefExoticComponent<FormControlProps & React.RefAttributes<HTMLElement>> {
-  HelperText: typeof HelperText
+  HelperText: typeof HelperText;
 }
 
-const FormControl = FormControlRoot as CompoundedComponent
+const FormControl = FormControlRoot as CompoundedComponent;
 
-FormControl.HelperText = HelperText
+FormControl.HelperText = HelperText;
 
-export { FormControl, FormControlProps }
+export { FormControl, FormControlProps };

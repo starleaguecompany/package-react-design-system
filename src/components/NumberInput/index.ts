@@ -1,4 +1,4 @@
-import NumberInput from './src/NumberInput'
-import { NumberInputProps } from './types/NumberInput.types'
+import NumberInput from './src/NumberInput';
+import { NumberInputProps } from './types/NumberInput.types';
 
-export { NumberInput, NumberInputProps }
+export { NumberInput, NumberInputProps };

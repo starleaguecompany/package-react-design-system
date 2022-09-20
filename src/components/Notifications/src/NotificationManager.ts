@@ -1,22 +1,22 @@
-import { EventEmitter } from 'events'
-import { getUuid } from '@starleaguecompany/package-react-utils'
+import { EventEmitter } from 'events';
+import { getUuid } from '@starleaguecompany/package-react-utils';
 
-import { NotificationProps, Type, Callback } from '../types/Notifications.types'
+import { NotificationProps, Type, Callback } from '../types/Notifications.types';
 
 const STATUSES: Record<string, Type> = {
   INFO: 'info',
   SUCCESS: 'success',
   WARNING: 'warning',
   ERROR: 'error',
-}
+};
 
-const TIMEOUT = 15000
+const TIMEOUT = 15000;
 
 class NotificationManager extends EventEmitter {
-  public notifications: NotificationProps[] = []
+  public notifications: NotificationProps[] = [];
 
   constructor() {
-    super()
+    super();
   }
 
   create({ type = 'info', title, subtitle, message, timeout }: NotificationProps) {
@@ -26,14 +26,14 @@ class NotificationManager extends EventEmitter {
       title,
       subtitle,
       message,
-    }
+    };
 
-    this.notifications.unshift(opts)
-    this.emitChange()
+    this.notifications.unshift(opts);
+    this.emitChange();
 
     setTimeout(() => {
-      this.remove(opts.id)
-    }, timeout)
+      this.remove(opts.id);
+    }, timeout);
   }
 
   // info(title: string, subtitle: string, message: string) {
@@ -79,25 +79,25 @@ class NotificationManager extends EventEmitter {
       subtitle,
       message,
       timeout,
-    })
+    });
   }
 
   remove(id: NotificationProps['id']) {
-    this.notifications = this.notifications.filter(n => id !== n.id)
-    this.emitChange()
+    this.notifications = this.notifications.filter(n => id !== n.id);
+    this.emitChange();
   }
 
   emitChange() {
-    this.emit('change', [...this.notifications])
+    this.emit('change', [...this.notifications]);
   }
 
   addChangeListener(callback: Callback) {
-    this.addListener('change', callback)
+    this.addListener('change', callback);
   }
 
   removeChangeListener(callback: Callback) {
-    this.removeListener('change', callback)
+    this.removeListener('change', callback);
   }
 }
 
-export default new NotificationManager()
+export default new NotificationManager();

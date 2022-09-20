@@ -1,4 +1,4 @@
-import Card from './src/Card'
-import { CardProps } from './types/Card.types'
+import Card from './src/Card';
+import { CardProps } from './types/Card.types';
 
-export { Card, CardProps }
+export { Card, CardProps };

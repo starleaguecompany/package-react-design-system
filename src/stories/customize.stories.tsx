@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Source } from '@storybook/addon-docs'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Source } from '@storybook/addon-docs';
 
-import { Typography } from '..'
+import { Typography } from '..';
 
-const { Heading } = Typography
+const { Heading } = Typography;
 
 export default {
   title: 'Foundations/Customize Theme',
@@ -18,7 +18,7 @@ export default {
     },
     viewMode: 'docs',
   },
-} as Meta
+} as Meta;
 
 export const Customize: Story = () => (
   <React.Fragment>
@@ -72,5 +72,5 @@ export const Customize: Story = () => (
       `}
     />
   </React.Fragment>
-)
-Customize.storyName = 'Customize Theme'
+);
+Customize.storyName = 'Customize Theme';

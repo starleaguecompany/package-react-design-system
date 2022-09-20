@@ -1,5 +1,5 @@
-import * as React from 'react'
-import NumberFormat, { NumberFormatValues, SourceInfo } from 'react-number-format'
+import * as React from 'react';
+import NumberFormat, { NumberFormatValues, SourceInfo } from 'react-number-format';
 import {
   useStyles,
   useFormControlContext,
@@ -7,42 +7,42 @@ import {
   isNumber,
   isUndefined,
   error,
-} from '@starleaguecompany/package-react-utils'
+} from '@starleaguecompany/package-react-utils';
 
-import { TextInput } from '../../TextInput'
+import { TextInput } from '../../TextInput';
 
-import { NumberInputProps } from '../types/NumberInput.types'
-import styles from '../styles/NumberInput.module.less'
+import { NumberInputProps } from '../types/NumberInput.types';
+import styles from '../styles/NumberInput.module.less';
 
 const rangedValue = (value: number, max: number | undefined, min: number | undefined): number => {
-  let resultRangedValue
+  let resultRangedValue;
   if (max === undefined && min === undefined) {
-    resultRangedValue = Number(value)
+    resultRangedValue = Number(value);
   }
   if (max === undefined && min !== undefined) {
-    resultRangedValue = Math.max(value, min)
+    resultRangedValue = Math.max(value, min);
   }
   if (max !== undefined && min === undefined) {
-    resultRangedValue = Math.min(value, max)
+    resultRangedValue = Math.min(value, max);
   }
   if (max !== undefined && min !== undefined) {
-    resultRangedValue = Math.min(max, Math.max(value, min))
+    resultRangedValue = Math.min(max, Math.max(value, min));
   }
 
-  return resultRangedValue as number
-}
+  return resultRangedValue as number;
+};
 
 const roundToNearestStep = (value: number, step: number) => {
   if (step < 1) {
-    const decimalPart = value - Math.floor(value)
-    const integerStep = 1 / step
-    const roundedDecimalPart = Math.round(decimalPart * integerStep) / integerStep
+    const decimalPart = value - Math.floor(value);
+    const integerStep = 1 / step;
+    const roundedDecimalPart = Math.round(decimalPart * integerStep) / integerStep;
 
-    return Math.floor(value) + roundedDecimalPart
+    return Math.floor(value) + roundedDecimalPart;
   } else {
-    return Math.round(value / step) * step
+    return Math.round(value / step) * step;
   }
-}
+};
 
 /**
  * @description Enter a number within certain range with the mouse or keyboard
@@ -79,79 +79,79 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>((props,
     defaultValue,
     className,
     ...restProps
-  } = props
+  } = props;
 
-  const formControlContext = useFormControlContext()
+  const formControlContext = useFormControlContext();
 
-  const cx = useStyles(styles)
-  const classNames = cx(className, 'container')
-  const condition = decimalSeparator === thousandSeparator
+  const cx = useStyles(styles);
+  const classNames = cx(className, 'container');
+  const condition = decimalSeparator === thousandSeparator;
 
   // Ensure the decimalSeparator is not equal the thousandSeparator
   if (condition) {
     error({
       condition,
       message: 'Ensure the decimalSeparator is not equal the thousandSeparator',
-    })()
+    })();
   }
 
-  const empty = ''
+  const empty = '';
   const prepareValue = (value: number | undefined | typeof empty): number | undefined => {
     if (value === undefined || value === empty) {
-      return undefined
+      return undefined;
     }
 
-    return step ? roundToNearestStep(rangedValue(value, max, min), step) : rangedValue(value, max, min)
-  }
+    return step ? roundToNearestStep(rangedValue(value, max, min), step) : rangedValue(value, max, min);
+  };
 
-  const [innerValue, setInnerValue] = React.useState<number | undefined | typeof empty>()
-  const isFirstRender = React.useRef(true)
+  const [innerValue, setInnerValue] = React.useState<number | undefined | typeof empty>();
+  const isFirstRender = React.useRef(true);
 
   const handleValueChange = (values: NumberFormatValues, sourceInfo: SourceInfo) => {
     if (!sourceInfo.event || values.floatValue === innerValue) {
-      return
+      return;
     }
 
-    setInnerValue(values.floatValue)
-    safeInvoke(onChange, values.floatValue)
-  }
+    setInnerValue(values.floatValue);
+    safeInvoke(onChange, values.floatValue);
+  };
 
   const setPreparedValue = () => {
     setInnerValue(value => {
-      const preparedValue = prepareValue(value)
+      const preparedValue = prepareValue(value);
 
       if (value !== preparedValue && value !== empty) {
-        safeInvoke(onChange, preparedValue)
+        safeInvoke(onChange, preparedValue);
       }
 
-      return preparedValue
-    })
-  }
+      return preparedValue;
+    });
+  };
 
   const handleBlur = (event: React.FocusEvent<HTMLInputElement>) => {
-    setPreparedValue()
-    safeInvoke(onBlur, event)
-  }
+    setPreparedValue();
+    safeInvoke(onBlur, event);
+  };
 
   const handleKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Enter') {
-      setPreparedValue()
+      setPreparedValue();
     }
-    safeInvoke(onKeyPress, event)
-  }
+    safeInvoke(onKeyPress, event);
+  };
 
   React.useEffect(() => {
     if (!isFirstRender.current) {
-      isNumber(value) && setInnerValue(value)
+      isNumber(value) && setInnerValue(value);
 
       if (isUndefined(value) || value === '') {
-        setInnerValue('')
+        setInnerValue('');
       }
     } else {
-      setInnerValue(prepareValue(value || defaultValue))
-      isFirstRender.current = false
+      setInnerValue(prepareValue(value || defaultValue));
+      isFirstRender.current = false;
     }
-  }, [value])
+  }, [value]);
 
   return (
     <div data-qa="NumberInput" className={classNames}>
@@ -175,12 +175,12 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>((props,
         customInput={TextInput}
       />
     </div>
-  )
-})
+  );
+});
 
 NumberInput.defaultProps = {
   decimalSeparator: ',',
   fixedDecimalScale: true,
-}
+};
 
-export default NumberInput
+export default NumberInput;

@@ -1,64 +1,67 @@
-import * as React from 'react'
-import { Omit } from '@starleaguecompany/package-react-utils'
-import { DateGenericProps, DateRange, DateValue, Mode } from '../../../types/Date.types'
+import * as React from 'react';
+import { Omit } from '@starleaguecompany/package-react-utils';
+import { DateGenericProps, DateRange, DateValue, Mode } from '../../../types/Date.types';
 
 export interface CalendarProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'>, DateGenericProps {
   /** Mode */
-  mode?: Mode
+  mode?: Mode;
   /** Selected dates */
-  selection?: DateRange
+  selection?: DateRange;
+  activeMonth: Date;
 }
 
 export interface HeaderProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
-  month: Date
-  onChange?: (direction: string | undefined) => void
+  month: Date;
+  onChange?: (direction: string | undefined) => void;
 }
 
 export interface MonthProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
-  month: Date
-  selected?: DateValue
+  month: Date;
+  selected?: DateValue;
   /** End date */
-  maxDate?: Date | undefined
+  maxDate?: Date | undefined;
   /** Start date */
-  minDate?: Date | undefined
+  minDate?: Date | undefined;
   /** Range limit */
-  rangeLimit?: number
+  rangeLimit?: number;
   /** Disabled interval */
-  disabledIntervals?: DateRange[]
-  selectionStart?: Date | undefined
-  selectionEnd?: Date | undefined
-  selectionInProgress?: boolean
+  disabledIntervals?: DateRange[];
+  selectionStart?: Date | undefined;
+  selectionEnd?: Date | undefined;
+  selectionInProgress?: boolean;
   /** Mode */
-  mode?: Mode
-  onChange?: (range: DateRange) => void
+  mode?: Mode;
+  activeMonth?: Date;
+  onChange?: (range: DateRange) => void;
 }
 
 export interface WeekProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
-  date: Date
-  month: Date
-  selected?: DateValue
+  date: Date;
+  month: Date;
+  selected?: DateValue;
   /** End date */
-  maxDate?: Date | undefined
+  maxDate?: Date | undefined;
   /** Start date */
-  minDate?: Date | undefined
+  minDate?: Date | undefined;
   /** Disabled interval */
-  disabledIntervals?: DateRange[]
-  selectionStart?: Date | undefined
-  selectionEnd?: Date | undefined
-  highlightedStart?: Date | undefined
-  highlightedEnd?: Date | undefined
+  disabledIntervals?: DateRange[];
+  selectionStart?: Date | undefined;
+  selectionEnd?: Date | undefined;
+  highlightedStart?: Date | undefined;
+  highlightedEnd?: Date | undefined;
   /** Mode */
-  mode?: Mode
-  onChange?: (date: Date) => void
-  onMouseEnter?: (event: React.SyntheticEvent<HTMLSpanElement>) => void
+  mode?: Mode;
+  onChange?: (date: Date) => void;
+  onMouseEnter?: (event: React.SyntheticEvent<HTMLSpanElement>) => void;
 }
 
 export interface DayProps extends Omit<React.HTMLAttributes<HTMLSpanElement>, 'onChange'> {
-  date: Date
-  weekend?: boolean
-  active?: boolean
-  disabled?: boolean
-  highlighted?: boolean
-  today?: boolean
-  onChange?: (date: Date) => void
+  date: Date;
+  weekend?: boolean;
+  active?: boolean;
+  disabled?: boolean;
+  highlighted?: boolean;
+  today?: boolean;
+  sameMonth?: boolean;
+  onChange?: (date: Date) => void;
 }

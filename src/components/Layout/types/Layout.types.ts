@@ -1,3 +1,3 @@
-import * as React from 'react'
+import * as React from 'react';
 
-export type LayoutProps = React.HTMLAttributes<HTMLDivElement>
+export type LayoutProps = React.HTMLAttributes<HTMLDivElement>;

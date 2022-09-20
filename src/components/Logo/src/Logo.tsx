@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import styles from '../styles/Logo.module.less'
+import styles from '../styles/Logo.module.less';
 
 /**
  * @description Logo component.
@@ -15,9 +15,9 @@ import styles from '../styles/Logo.module.less'
  * ```
  */
 const Logo: React.FC<React.HTMLAttributes<SVGSVGElement>> = props => {
-  const { className, id, ...restProps } = props
+  const { className, id, ...restProps } = props;
 
-  const cx = useStyles(styles)
+  const cx = useStyles(styles);
 
   return (
     <Space size={8} data-qa="Logo" id={id} className={cx(className, 'container')}>
@@ -35,7 +35,7 @@ const Logo: React.FC<React.HTMLAttributes<SVGSVGElement>> = props => {
         </svg>
       </div>
     </Space>
-  )
-}
+  );
+};
 
-export default Logo
+export default Logo;

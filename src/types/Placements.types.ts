@@ -1,4 +1,4 @@
-import { tuple } from '@starleaguecompany/package-react-utils'
+import { tuple } from '@starleaguecompany/package-react-utils';
 
 export const Placements = tuple(
   'top',
@@ -10,6 +10,6 @@ export const Placements = tuple(
   'bottom-start',
   'bottom-end',
   'auto-start'
-)
+);
 
-export type Placement = typeof Placements[number]
+export type Placement = typeof Placements[number];

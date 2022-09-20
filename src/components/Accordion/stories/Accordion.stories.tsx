@@ -1,21 +1,21 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { useBoolean } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { useBoolean } from '@starleaguecompany/package-react-utils';
 
-import { Text } from '../../Typography'
+import { Text } from '../../Typography';
 
-import { Accordion } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
-import { Button } from '../../Button'
-import { Icon } from '../../Icon'
-import { Warning } from '@starleaguecompany/react-icons'
+import { Accordion } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
+import { Button } from '../../Button';
+import { Icon } from '../../Icon';
+import { Warning } from '@starleaguecompany/react-icons';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Accordion } from '${reactDSImportPath}'
 // Import types
 import { AccordionProps } from '${reactDSImportPath}/lib/Accordion'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Accordion',
@@ -28,7 +28,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 const content = (
   <React.Fragment>
@@ -45,7 +45,7 @@ const content = (
       duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud elit officia tempor esse quis.
     </Text>
   </React.Fragment>
-)
+);
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -56,13 +56,13 @@ export const Basic: Story = () => (
       <Accordion.Item title="Паспорт РФ">{content}</Accordion.Item>
     </Accordion>
   </React.Fragment>
-)
+);
 
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const WithDescription: Story = () => (
   <React.Fragment>
@@ -76,14 +76,14 @@ export const WithDescription: Story = () => (
       <Accordion.Item title="Паспорт РФ">{content}</Accordion.Item>
     </Accordion>
   </React.Fragment>
-)
+);
 
 export const WithIcon: Story = () => {
   const icon = (
     <Icon color="red" size={24}>
       <Warning />
     </Icon>
-  )
+  );
 
   return (
     <React.Fragment>
@@ -100,8 +100,8 @@ export const WithIcon: Story = () => {
         <Accordion.Item icon={icon}>{content}</Accordion.Item>
       </Accordion>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const WithDivider: Story = () => (
   <React.Fragment>
@@ -115,7 +115,7 @@ export const WithDivider: Story = () => (
       <Accordion.Item title="Паспорт РФ">{content}</Accordion.Item>
     </Accordion>
   </React.Fragment>
-)
+);
 
 export const WithBackground: Story = () => (
   <React.Fragment>
@@ -129,14 +129,14 @@ export const WithBackground: Story = () => (
       <Accordion.Item title="Паспорт РФ">{content}</Accordion.Item>
     </Accordion>
   </React.Fragment>
-)
+);
 
 export const WithOptionalItem: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   const handleVisibilityChange = () => {
-    setVisible.toggle()
-  }
+    setVisible.toggle();
+  };
 
   return (
     <React.Fragment>
@@ -147,8 +147,8 @@ export const WithOptionalItem: Story = () => {
         {visible && <Accordion.Item title="Паспорт РФ">{content}</Accordion.Item>}
       </Accordion>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export const WithoutScrollIntoView: Story = () => (
   <React.Fragment>
@@ -158,7 +158,7 @@ export const WithoutScrollIntoView: Story = () => (
       <Accordion.Item title="Паспорт РФ">{content}</Accordion.Item>
     </Accordion>
   </React.Fragment>
-)
+);
 
 export const WithEmptyChildren: Story = () => (
   <React.Fragment>
@@ -168,4 +168,4 @@ export const WithEmptyChildren: Story = () => (
       <Accordion.Item title="Паспорт РФ">{null}</Accordion.Item>
     </Accordion>
   </React.Fragment>
-)
+);

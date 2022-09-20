@@ -1,32 +1,32 @@
-import * as React from 'react'
-import { Omit } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { Omit } from '@starleaguecompany/package-react-utils';
 
 export interface UploaderProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'type'> {
   /** The uploader description */
-  description?: string
+  description?: string;
   /** The drag and drop zone description */
-  dragZoneDescription?: string
+  dragZoneDescription?: string;
   /** The uploader button caption */
-  buttonCaption?: string
+  buttonCaption?: string;
   /** Specify a function that will be called when a drag event fired */
-  onDragOver?: (event: React.DragEvent) => void
+  onDragOver?: (event: React.DragEvent) => void;
   /** Specify a function that will be called when a cursor in drag zone */
-  onDragEnter?: (event: React.DragEvent) => void
+  onDragEnter?: (event: React.DragEvent) => void;
   /** Specify a function that will be called when a cursor left the drag zone */
-  onDragLeave?: (event: React.DragEvent) => void
+  onDragLeave?: (event: React.DragEvent) => void;
   /** Specify a function that will be called when a user drop a file */
-  onDrop?: (event: React.DragEvent) => void
+  onDrop?: (event: React.DragEvent) => void;
   /** Specify a function that will be called when file uploads */
-  onFilesUpload?: (files: File[]) => void
+  onFilesUpload?: (files: File[]) => void;
 }
 
 export interface UploaderItemProps extends React.HTMLAttributes<HTMLDivElement> {
   /** The File to be displayed */
-  file: File
+  file: File;
   /** An error message */
-  errorMessage?: string
+  errorMessage?: string;
   /** The percent of file uploading progress */
-  progressPercent?: number
+  progressPercent?: number;
   /** Specify a function that will be called when file is removed */
-  onRemove?: (file: File) => void
+  onRemove?: (file: File) => void;
 }

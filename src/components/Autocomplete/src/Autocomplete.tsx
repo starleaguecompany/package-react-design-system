@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 import {
   useStyles,
   useStateCallback,
@@ -12,23 +12,23 @@ import {
   getPrevIndex,
   isDefined,
   useMergedRef,
-} from '@starleaguecompany/package-react-utils'
-import { ArrowDown, Cross } from '@starleaguecompany/react-icons'
+} from '@starleaguecompany/package-react-utils';
+import { ArrowDown, Cross } from '@starleaguecompany/react-icons';
 
-import { Z_INDEXES } from '../../../constants/zIndexes'
+import { Z_INDEXES } from '../../../constants/zIndexes';
 
-import { Portal } from '../../Portal'
-import { Text } from '../../Typography'
-import { Textarea } from '../../Textarea'
-import { Menu } from '../../Menu'
-import { Fade } from '../../Transition'
+import { Portal } from '../../Portal';
+import { Text } from '../../Typography';
+import { Textarea } from '../../Textarea';
+import { Menu } from '../../Menu';
+import { Fade } from '../../Transition';
 
-import { SelectOption } from '../../../types/Select.types'
-import { AutocompleteProps, AutocompleteValue } from '../types/Autocomplete.types'
-import styles from '../styles/Autocomplete.module.less'
+import { SelectOption } from '../../../types/Select.types';
+import { AutocompleteProps, AutocompleteValue } from '../types/Autocomplete.types';
+import styles from '../styles/Autocomplete.module.less';
 
-export const defaultNotFoundText = 'К сожалению, по вашим параметрам ничего не найдено, попробуйте изменить их'
-const MIN_ROWS = 1
+export const defaultNotFoundText = 'К сожалению, по вашим параметрам ничего не найдено, попробуйте изменить их';
+const MIN_ROWS = 1;
 
 /**
  * @description The Autocomplete component allow user to type and select from a list of options
@@ -60,150 +60,150 @@ const Autocomplete = React.forwardRef<HTMLTextAreaElement, AutocompleteProps>((p
     onBlur,
     scrollIntoView,
     ...restProps
-  } = props
+  } = props;
 
-  const cx = useStyles(styles)
-  const containerRef = React.useRef<HTMLDivElement>(null)
-  const inputRef = React.useRef<HTMLTextAreaElement>(null)
-  const reference = React.useRef<Element | null>(null)
-  const popper = React.useRef<HTMLElement | null>(null)
-  const focusedItemRef = React.useRef<HTMLDivElement | null>(null)
-  const [haveUserInput, setHaveUserInput] = useBoolean(false)
-  const formControlContext = useFormControlContext()
-  const [visible, setVisible] = useBoolean(false)
-  const [fixWidth, setFixWidth] = useBoolean(fixedWidth)
-  const [innerValue, setInnerValue] = useStateCallback<AutocompleteValue>(isDefined(value) ? value : defaultValue)
-  const [inputValue, setInputValue] = React.useState<string | undefined>('')
-  const [innerOptions, setInnerOptions] = React.useState<SelectOption[]>(options || [])
-  const [focusedIndex, setFocusedIndex] = React.useState(-1)
+  const cx = useStyles(styles);
+  const containerRef = React.useRef<HTMLDivElement>(null);
+  const inputRef = React.useRef<HTMLTextAreaElement>(null);
+  const reference = React.useRef<Element | null>(null);
+  const popper = React.useRef<HTMLElement | null>(null);
+  const focusedItemRef = React.useRef<HTMLDivElement | null>(null);
+  const [haveUserInput, setHaveUserInput] = useBoolean(false);
+  const formControlContext = useFormControlContext();
+  const [visible, setVisible] = useBoolean(false);
+  const [fixWidth, setFixWidth] = useBoolean(fixedWidth);
+  const [innerValue, setInnerValue] = useStateCallback<AutocompleteValue>(isDefined(value) ? value : defaultValue);
+  const [inputValue, setInputValue] = React.useState<string | undefined>('');
+  const [innerOptions, setInnerOptions] = React.useState<SelectOption[]>(options || []);
+  const [focusedIndex, setFocusedIndex] = React.useState(-1);
   const { referenceRef, popperRef, getReferenceProps, getPopperProps } = usePositioner({
     placement: placement ? placement : 'bottom-start',
     matchWidth: fixWidth,
     offset: [0, 8],
-  })
+  });
 
-  const classNames = cx(className, 'container')
+  const classNames = cx(className, 'container');
 
   const optionsMap = React.useMemo<Record<SelectOption['value'], SelectOption>>(() => {
     if (!options) {
-      return {}
+      return {};
     }
 
     return options.reduce<Record<SelectOption['value'], SelectOption>>((acc, o) => {
-      acc[o.value] = o
+      acc[o.value] = o;
 
-      return acc
-    }, {})
-  }, [options])
+      return acc;
+    }, {});
+  }, [options]);
 
   const activeOptions = React.useMemo<SelectOption[]>(() => {
     if (!innerOptions) {
-      return []
+      return [];
     }
 
-    return innerOptions.filter(option => !option.disabled)
-  }, [innerOptions])
+    return innerOptions.filter(option => !option.disabled);
+  }, [innerOptions]);
 
   const getCurrentIndex = (value: any) => {
-    if (!Array.isArray(options) || !value) return -1
+    if (!Array.isArray(options) || !value) return -1;
 
-    return activeOptions.findIndex(option => option.value === value)
-  }
+    return activeOptions.findIndex(option => option.value === value);
+  };
 
   const getOptionByValue = React.useCallback(
     (value: string) => {
-      return optionsMap[value] || {}
+      return optionsMap[value] || {};
     },
     [optionsMap]
-  )
+  );
 
   const displayValue = React.useMemo(() => {
     if (visible) {
-      return inputValue
+      return inputValue;
     }
 
-    const { label } = getOptionByValue(innerValue as string)
+    const { label } = getOptionByValue(innerValue as string);
 
-    return label
-  }, [visible, inputValue, innerValue, optionsMap])
+    return label;
+  }, [visible, inputValue, innerValue, optionsMap]);
 
   const isActive = React.useCallback(
     (val: string | number) => {
       if (innerValue === undefined) {
-        return false
+        return false;
       }
 
-      return innerValue === val
+      return innerValue === val;
     },
     [innerValue]
-  )
+  );
 
   const getFocusedValue = React.useCallback(() => {
-    const item = activeOptions[focusedIndex]
+    const item = activeOptions[focusedIndex];
 
     if (item) {
-      return item.value
+      return item.value;
     }
 
-    return null
-  }, [focusedIndex])
+    return null;
+  }, [focusedIndex]);
 
   const setValue = (value: string | number | undefined): void => {
     setInnerValue(value, val => {
-      let option
+      let option;
       if (val !== undefined) {
-        option = getOptionByValue(val as string)
+        option = getOptionByValue(val as string);
       }
 
-      setInputValue(option ? option.label : (val as string))
-      safeInvoke(onChange, val as AutocompleteValue)
-    })
-  }
+      setInputValue(option ? option.label : (val as string));
+      safeInvoke(onChange, val as AutocompleteValue);
+    });
+  };
 
   const blurInput = React.useCallback(
     (event: any) => {
-      setVisible.off()
-      inputRef.current?.blur()
-      setHaveUserInput.off()
-      safeInvoke(onBlur, event)
+      setVisible.off();
+      inputRef.current?.blur();
+      setHaveUserInput.off();
+      safeInvoke(onBlur, event);
     },
     [onBlur]
-  )
+  );
 
   const handleSelect = (value: string | number) => (event: React.MouseEvent) => {
-    setValue(value)
-    blurInput(event)
-  }
+    setValue(value);
+    blurInput(event);
+  };
 
   const handleChangeInput = (event: React.FormEvent<HTMLTextAreaElement>) => {
-    const value = event.currentTarget.value
+    const value = event.currentTarget.value;
 
-    setFocusedIndex(getCurrentIndex(innerValue))
-    setInputValue(value)
-    setVisible.on()
+    setFocusedIndex(getCurrentIndex(innerValue));
+    setInputValue(value);
+    setVisible.on();
 
     if (onSearch === undefined) {
       setInnerOptions(
         options.filter(o => {
-          return o.label.toLowerCase().startsWith(value.toLowerCase())
+          return o.label.toLowerCase().startsWith(value.toLowerCase());
         })
-      )
+      );
     }
 
-    setHaveUserInput.on()
-    safeInvoke(onSearch, value)
-  }
+    setHaveUserInput.on();
+    safeInvoke(onSearch, value);
+  };
 
   const handleMouseMove = () => {
-    setFocusedIndex(getCurrentIndex(innerValue))
-  }
+    setFocusedIndex(getCurrentIndex(innerValue));
+  };
 
   const menu = React.useMemo(() => {
-    if (!haveUserInput && !innerOptions.length) return null
-    if (!fixedWidth) setFixWidth.off()
+    if (!haveUserInput && !innerOptions.length) return null;
+    if (!fixedWidth) setFixWidth.off();
 
     if (!innerOptions || innerOptions.length === 0) {
-      setFixWidth.on()
+      setFixWidth.on();
 
       return (
         <Menu>
@@ -215,7 +215,7 @@ const Autocomplete = React.forwardRef<HTMLTextAreaElement, AutocompleteProps>((p
             </Menu.Item>
           )}
         </Menu>
-      )
+      );
     }
 
     return (
@@ -235,57 +235,57 @@ const Autocomplete = React.forwardRef<HTMLTextAreaElement, AutocompleteProps>((p
           </Menu.Item>
         ))}
       </Menu>
-    )
-  }, [innerOptions, innerValue, focusedIndex, visible])
+    );
+  }, [innerOptions, innerValue, focusedIndex, visible]);
 
   const handleFocusInput = React.useCallback(
     (event: React.MouseEvent<HTMLTextAreaElement> & React.FocusEvent<HTMLTextAreaElement>) => {
       if (!readOnly && !visible) {
-        setVisible.on()
-        safeInvoke(onFocus, event)
+        setVisible.on();
+        safeInvoke(onFocus, event);
       }
     },
     [readOnly, visible]
-  )
+  );
 
   const handleBlurInput = React.useCallback(
     (event: Event) => {
       setInnerValue(innerValue => {
-        const { label } = getOptionByValue(innerValue as string)
+        const { label } = getOptionByValue(innerValue as string);
 
-        setInputValue(label)
+        setInputValue(label);
 
-        return innerValue
-      })
+        return innerValue;
+      });
 
-      setInnerOptions(options)
-      blurInput(event)
+      setInnerOptions(options);
+      blurInput(event);
     },
     [getOptionByValue, onBlur]
-  )
+  );
 
   const handleClickClear = React.useCallback(() => {
-    setFocusedIndex(-1)
-    setValue(undefined)
-    setInnerOptions(options)
-  }, [options])
+    setFocusedIndex(-1);
+    setValue(undefined);
+    setInnerOptions(options);
+  }, [options]);
 
   const handleArrowClick = (event: React.MouseEvent) => {
     if (visible) {
-      event.stopPropagation()
-      blurInput(event)
-      setInnerOptions(options)
-      setInputValue(undefined)
+      event.stopPropagation();
+      blurInput(event);
+      setInnerOptions(options);
+      setInputValue(undefined);
     }
-  }
+  };
 
   const iconElement = React.useMemo(() => {
     if (visible && innerValue !== undefined) {
-      return <Cross className={cx('icon')} onClick={handleClickClear} />
+      return <Cross className={cx('icon')} onClick={handleClickClear} />;
     }
 
     if (icon || icon === null) {
-      return icon
+      return icon;
     }
 
     return (
@@ -295,119 +295,119 @@ const Autocomplete = React.forwardRef<HTMLTextAreaElement, AutocompleteProps>((p
         })}
         onClick={handleArrowClick}
       />
-    )
-  }, [visible, innerValue, icon])
+    );
+  }, [visible, innerValue, icon]);
 
   const classNamesTextarea = cx('textarea', {
     'with-icon': iconElement && !resizable,
-  })
+  });
 
   useKeyPress(
     {
       enabled: visible,
       keyMap: {
         ArrowDown: event => {
-          event.preventDefault()
-          const nextIndex = getNextIndex(focusedIndex, activeOptions.length)
-          setFocusedIndex(nextIndex)
+          event.preventDefault();
+          const nextIndex = getNextIndex(focusedIndex, activeOptions.length);
+          setFocusedIndex(nextIndex);
         },
         ArrowUp: event => {
-          event.preventDefault()
-          const prevIndex = getPrevIndex(focusedIndex, activeOptions.length)
-          setFocusedIndex(prevIndex)
+          event.preventDefault();
+          const prevIndex = getPrevIndex(focusedIndex, activeOptions.length);
+          setFocusedIndex(prevIndex);
         },
         Enter: event => {
-          event.preventDefault()
-          const value = getFocusedValue()
+          event.preventDefault();
+          const value = getFocusedValue();
 
           if (value !== undefined && value !== null) {
-            setValue(value)
-            blurInput(event)
+            setValue(value);
+            blurInput(event);
           }
         },
         Escape: event => {
-          event.preventDefault()
-          setInnerOptions(options)
-          blurInput(event)
+          event.preventDefault();
+          setInnerOptions(options);
+          blurInput(event);
         },
         Tab: event => {
-          setInnerOptions(options)
-          blurInput(event)
+          setInnerOptions(options);
+          blurInput(event);
         },
       },
     },
     [focusedIndex, activeOptions]
-  )
+  );
 
   React.useEffect(() => {
     if (defaultValue || value) {
-      const { label } = getOptionByValue((defaultValue as string) || (value as string))
+      const { label } = getOptionByValue((defaultValue as string) || (value as string));
 
-      setInputValue(label)
+      setInputValue(label);
     }
 
     if (value !== undefined) {
-      setInnerValue(value)
+      setInnerValue(value);
     }
-  }, [value])
+  }, [value]);
 
   React.useEffect(() => {
-    setInnerOptions(options || [])
-  }, [options])
+    setInnerOptions(options || []);
+  }, [options]);
 
   React.useEffect(() => {
-    visible && setFocusedIndex(getCurrentIndex(innerValue))
-  }, [visible])
+    visible && setFocusedIndex(getCurrentIndex(innerValue));
+  }, [visible]);
 
   React.useEffect(() => {
-    autoFocus && inputRef.current && inputRef.current.focus()
-  }, [autoFocus, inputRef])
+    autoFocus && inputRef.current && inputRef.current.focus();
+  }, [autoFocus, inputRef]);
 
   React.useEffect(() => {
     scrollIntoView &&
       focusedItemRef.current &&
-      focusedItemRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
-  }, [focusedIndex, visible, scrollIntoView])
+      focusedItemRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }, [focusedIndex, visible, scrollIntoView]);
 
   React.useEffect(() => {
     // @ts-ignore
-    let timer = null
+    let timer = null;
     const listener = (event: Event) => {
       if (!visible) {
-        return
+        return;
       }
 
       // @ts-ignore
       if (reference.current && reference.current.contains(event.target)) {
-        return
+        return;
       }
 
       // @ts-ignore
       if (containerRef.current && containerRef.current.contains(event.target)) {
-        return
+        return;
       }
 
       // @ts-ignore
       if (popper.current && popper.current.contains(event.target)) {
         timer = setTimeout(() => {
-          handleBlurInput(event)
-        }, 200)
-        return
+          handleBlurInput(event);
+        }, 200);
+        return;
       }
 
-      handleBlurInput(event)
-    }
+      handleBlurInput(event);
+    };
 
-    document.addEventListener('mousedown', listener)
+    document.addEventListener('mousedown', listener);
     // document.addEventListener('touchstart', listener)
 
     return () => {
       // @ts-ignore
-      timer && clearTimeout(timer)
-      document.removeEventListener('mousedown', listener)
+      timer && clearTimeout(timer);
+      document.removeEventListener('mousedown', listener);
       // document.removeEventListener('touchstart', listener)
-    }
-  }, [reference, popper, visible, handleBlurInput])
+    };
+  }, [reference, popper, visible, handleBlurInput]);
 
   const view = React.useMemo(() => {
     return (
@@ -424,8 +424,8 @@ const Autocomplete = React.forwardRef<HTMLTextAreaElement, AutocompleteProps>((p
           </Fade>
         ) : null}
       </Portal>
-    )
-  }, [visible, menu])
+    );
+  }, [visible, menu]);
 
   return (
     <div ref={containerRef} data-qa="Autocomplete" className={classNames}>
@@ -449,14 +449,14 @@ const Autocomplete = React.forwardRef<HTMLTextAreaElement, AutocompleteProps>((p
       </div>
       {view}
     </div>
-  )
-})
+  );
+});
 
 Autocomplete.defaultProps = {
   fixedWidth: false,
   placement: 'bottom-start',
   scrollIntoView: true,
   resizable: false,
-}
+};
 
-export default Autocomplete
+export default Autocomplete;

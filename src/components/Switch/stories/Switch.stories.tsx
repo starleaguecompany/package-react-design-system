@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Switch } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Switch } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Switch } from '${reactDSImportPath}'
 // Import types
 import { SwitchProps } from '${reactDSImportPath}/lib/Switch'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Switch',
@@ -23,14 +23,14 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => {
-  const [checked, setChecked] = React.useState(false)
+  const [checked, setChecked] = React.useState(false);
 
   const handleChange = (event: React.FormEvent<HTMLInputElement>) => {
-    setChecked(event.currentTarget.checked)
-  }
+    setChecked(event.currentTarget.checked);
+  };
 
   return (
     <React.Fragment>
@@ -38,20 +38,20 @@ export const Basic: Story = () => {
         Switch default
       </Switch>
     </React.Fragment>
-  )
-}
+  );
+};
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 const variants = [
   { label: 'Switch default' },
   { label: 'Switch disabled', disabled: true },
   { label: 'Switch checked', checked: true },
   { label: 'Switch checked and disabled', disabled: true, checked: true },
-]
+];
 
 export const Variants: Story = () => (
   <React.Fragment>
@@ -61,4 +61,4 @@ export const Variants: Story = () => (
       </div>
     ))}
   </React.Fragment>
-)
+);

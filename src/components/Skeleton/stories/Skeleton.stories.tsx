@@ -1,17 +1,17 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import { Skeleton } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Skeleton } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Skeleton } from '${reactDSImportPath}'
 // Import types
 import { SkeletonProps } from '${reactDSImportPath}/lib/Skeleton'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Skeleton',
@@ -32,7 +32,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <Skeleton>
@@ -46,12 +46,12 @@ export const Basic: Story = () => (
       <Skeleton.Button />
     </Space>
   </Skeleton>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const WithBlockButton: Story = () => (
   <Skeleton>
@@ -65,9 +65,9 @@ export const WithBlockButton: Story = () => (
       </Space>
     </Space>
   </Skeleton>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};

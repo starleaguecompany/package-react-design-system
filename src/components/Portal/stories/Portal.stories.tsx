@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Portal } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Portal } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Portal } from '${reactDSImportPath}'
 // Import types
 import { PortalProps } from '${reactDSImportPath}/lib/Portal'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Portal',
@@ -23,15 +23,15 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <React.Fragment>
     <Portal>Portal content</Portal>
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};

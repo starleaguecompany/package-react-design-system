@@ -1,13 +1,13 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Layout } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Layout } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Layout } from '${reactDSImportPath}'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Layout',
@@ -20,7 +20,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -30,9 +30,9 @@ export const Basic: Story = () => (
       </div>
     </Layout>
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};

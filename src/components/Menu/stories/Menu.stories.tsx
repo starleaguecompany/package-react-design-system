@@ -1,21 +1,21 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Menu as IconMenu } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Menu as IconMenu } from '@starleaguecompany/react-icons';
 
-import { Checkbox } from '../../Checkbox'
-import { Avatar } from '../../Avatar'
-import { Icon } from '../../Icon'
-import { Link } from '../../Typography'
+import { Checkbox } from '../../Checkbox';
+import { Avatar } from '../../Avatar';
+import { Icon } from '../../Icon';
+import { Link } from '../../Typography';
 
-import { Menu } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Menu } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Menu } from '${reactDSImportPath}'
 // Import types
 import { MenuProps } from '${reactDSImportPath}/lib/Menu'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Menu',
@@ -32,7 +32,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <Menu>
@@ -42,12 +42,12 @@ export const Basic: Story = () => (
     <Menu.Item>4 года</Menu.Item>
     <Menu.Item>5 лет</Menu.Item>
   </Menu>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const Disabled: Story = () => (
   <Menu>
@@ -57,7 +57,7 @@ export const Disabled: Story = () => (
     </Menu.Item>
     <Menu.Item hint="г Санкт Петербург">ул. Анапская</Menu.Item>
   </Menu>
-)
+);
 
 export const WithHint: Story = () => (
   <Menu>
@@ -67,14 +67,14 @@ export const WithHint: Story = () => (
     </Menu.Item>
     <Menu.Item hint="г Санкт Петербург">ул. Анапская</Menu.Item>
   </Menu>
-)
+);
 
 export const WithDescription: Story = () => {
   const descriptionAsNode = (
     <div>
       Description <Link href="#">link</Link>
     </div>
-  )
+  );
 
   return (
     <Menu>
@@ -85,8 +85,8 @@ export const WithDescription: Story = () => {
       <Menu.Item description="Subtitle">Росбанк</Menu.Item>
       <Menu.Item description={descriptionAsNode}>Связьбанк</Menu.Item>
     </Menu>
-  )
-}
+  );
+};
 
 export const WithIcon: Story = () => (
   <Menu>
@@ -123,7 +123,7 @@ export const WithIcon: Story = () => (
       Росбанк
     </Menu.Item>
   </Menu>
-)
+);
 
 export const WithAvatar: Story = () => (
   <Menu>
@@ -148,7 +148,7 @@ export const WithAvatar: Story = () => (
       3 года
     </Menu.Item>
   </Menu>
-)
+);
 
 export const WithControl: Story = () => (
   <Menu>
@@ -176,7 +176,7 @@ export const WithControl: Story = () => (
       Title
     </Menu.Item>
   </Menu>
-)
+);
 
 export const WithGroup: Story = () => (
   <Menu>
@@ -195,4 +195,4 @@ export const WithGroup: Story = () => (
       <Menu.Item>7 лет</Menu.Item>
     </Menu.ItemGroup>
   </Menu>
-)
+);

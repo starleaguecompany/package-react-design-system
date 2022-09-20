@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Uploader } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Uploader } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Uploader } from '${reactDSImportPath}'
 // Import types
 import { UploaderProps } from '${reactDSImportPath}/lib/Uploader'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Uploader',
@@ -25,14 +25,14 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => {
-  const [files, setFiles] = React.useState<File[]>([])
+  const [files, setFiles] = React.useState<File[]>([]);
 
   const handleFilesUpload = React.useCallback((files: File[]) => {
-    setFiles(files)
-  }, [])
+    setFiles(files);
+  }, []);
 
   return (
     <React.Fragment>
@@ -52,10 +52,10 @@ export const Basic: Story = () => {
         ))}
       </Uploader>
     </React.Fragment>
-  )
-}
+  );
+};
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};

@@ -1,19 +1,19 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Menu } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Menu } from '@starleaguecompany/react-icons';
 
-import { Button } from '../../Button'
-import { Icon } from '../../Icon'
+import { Button } from '../../Button';
+import { Icon } from '../../Icon';
 
-import { Space } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Space } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Space } from '${reactDSImportPath}'
 // Import types
 import { SpaceProps } from '${reactDSImportPath}/lib/Space'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Space',
@@ -26,7 +26,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <Space size={20} align="center">
@@ -34,12 +34,12 @@ export const Basic: Story = () => (
     <Button>Button</Button>
     <Icon icon={<Menu />} />
   </Space>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const Direction: Story = () => (
   <Space direction="vertical" align="start" size={20}>
@@ -47,7 +47,7 @@ export const Direction: Story = () => (
     <Button>Button</Button>
     <Button>Button</Button>
   </Space>
-)
+);
 
 export const Size: Story = () => (
   <Space size={36}>
@@ -55,7 +55,7 @@ export const Size: Story = () => (
     <Button>Button</Button>
     <Button>Button</Button>
   </Space>
-)
+);
 
 export const Align: Story = () => (
   <Space direction="vertical" align="end" size={20}>
@@ -63,7 +63,7 @@ export const Align: Story = () => (
     <Button>Button</Button>
     <Button>Button</Button>
   </Space>
-)
+);
 
 export const Justify: Story = () => (
   <Space size={20} justify="space-around">
@@ -71,7 +71,7 @@ export const Justify: Story = () => (
     <Button>Button</Button>
     <Button>Button</Button>
   </Space>
-)
+);
 
 export const Inline: Story = () => (
   <Space size={20} inline>
@@ -79,7 +79,7 @@ export const Inline: Story = () => (
     <Button>Button</Button>
     <Button>Button</Button>
   </Space>
-)
+);
 
 export const WithDifferentSpaceSizes: Story = () => (
   <Space size={[8, 16]} inline wrap>
@@ -87,10 +87,10 @@ export const WithDifferentSpaceSizes: Story = () => (
       <Button key={index}>Button {index}</Button>
     ))}
   </Space>
-)
+);
 
 WithDifferentSpaceSizes.parameters = {
   docs: {
     storyDescription: 'You can set different sizes for horizontal and vertical space instead of the same sizes',
   },
-}
+};

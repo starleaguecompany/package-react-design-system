@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { FONT_SIZES } from '../../../constants/sizes'
+import { FONT_SIZES } from '../../../constants/sizes';
 
-import { TextProps } from '../types/Text.types'
-import styles from '../styles/Text.module.less'
+import { TextProps } from '../types/Text.types';
+import styles from '../styles/Text.module.less';
 
 /**
  * @description The Text component is used for single line or multiline text. The component renders a div element by default
@@ -29,8 +29,8 @@ const Text = React.forwardRef<HTMLDivElement, TextProps>((props, ref) => {
     className,
     children,
     ...restProps
-  } = props
-  const cx = useStyles(styles)
+  } = props;
+  const cx = useStyles(styles);
 
   const classNames = cx(className, {
     [`size-${size}`]: true,
@@ -41,7 +41,7 @@ const Text = React.forwardRef<HTMLDivElement, TextProps>((props, ref) => {
     truncate,
     nowrap,
     lineThrough,
-  })
+  });
 
   return React.createElement(
     as as React.ElementType,
@@ -51,12 +51,12 @@ const Text = React.forwardRef<HTMLDivElement, TextProps>((props, ref) => {
       ...restProps,
     },
     children
-  )
-})
+  );
+});
 
 Text.defaultProps = {
   size: FONT_SIZES.S14,
   as: 'div',
-}
+};
 
-export { Text }
+export { Text };

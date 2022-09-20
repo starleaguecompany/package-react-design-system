@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Divider } from '../../Divider'
-import { Text } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Divider } from '../../Divider';
+import { Text } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
@@ -12,7 +12,7 @@ import { Typography } from '${reactDSImportPath}'
 import { TextProps } from '${reactDSImportPath}/lib/Typography'
 
 const { Text } = Typography
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Typography/Text',
@@ -26,7 +26,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -74,5 +74,5 @@ export const Basic: Story = () => (
       brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
     </Text>
   </React.Fragment>
-)
-Basic.storyName = 'Text'
+);
+Basic.storyName = 'Text';

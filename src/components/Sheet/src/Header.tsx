@@ -1,10 +1,10 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import { HeaderProps } from '../types/Sheet.types'
-import styles from '../styles/Sheet.module.less'
+import { HeaderProps } from '../types/Sheet.types';
+import styles from '../styles/Sheet.module.less';
 
 /**
  * @description Sheet Header component.
@@ -16,9 +16,9 @@ import styles from '../styles/Sheet.module.less'
  * ```
  */
 const Header = React.forwardRef<HTMLDivElement, HeaderProps>((props, ref) => {
-  const { title, subtitle, className, children, ...restProps } = props
+  const { title, subtitle, className, children, ...restProps } = props;
 
-  const cx = useStyles(styles)
+  const cx = useStyles(styles);
 
   return (
     <div ref={ref} className={cx(className, 'header')} {...restProps}>
@@ -30,9 +30,9 @@ const Header = React.forwardRef<HTMLDivElement, HeaderProps>((props, ref) => {
       ) : null}
       {children}
     </div>
-  )
-})
+  );
+});
 
-Header.defaultProps = {}
+Header.defaultProps = {};
 
-export default Header
+export default Header;

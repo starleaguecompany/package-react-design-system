@@ -11,4 +11,4 @@ export const SPACE_SIZES = {
   S32: 32,
   S36: 36,
   S40: 40,
-} as const
+} as const;

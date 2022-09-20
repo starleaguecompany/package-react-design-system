@@ -1,12 +1,12 @@
-import * as React from 'react'
-import { motion, PanInfo } from 'framer-motion'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { motion, PanInfo } from 'framer-motion';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { Alert } from '../../Alert'
-import { EASINGS } from '../../Transition'
+import { Alert } from '../../Alert';
+import { EASINGS } from '../../Transition';
 
-import { NotificationProps } from '../types/Notifications.types'
-import styles from '../styles/Notifications.module.less'
+import { NotificationProps } from '../types/Notifications.types';
+import styles from '../styles/Notifications.module.less';
 
 /**
  * @description Notification component.
@@ -19,9 +19,9 @@ import styles from '../styles/Notifications.module.less'
  */
 const Notification: React.FC<NotificationProps & { onClose: (id: NotificationProps['id']) => void }> = React.memo(
   props => {
-    const { id, title, subtitle, message, onClose } = props
+    const { id, title, subtitle, message, onClose } = props;
 
-    const cx = useStyles(styles)
+    const cx = useStyles(styles);
     const alertMotionProps = React.useMemo(
       () => ({
         variants: {
@@ -64,22 +64,22 @@ const Notification: React.FC<NotificationProps & { onClose: (id: NotificationPro
         dragConstraints: { left: 0, right: 400 },
       }),
       []
-    )
+    );
 
     const handleClickClose = React.useCallback(() => {
-      onClose(id)
-    }, [id])
+      onClose(id);
+    }, [id]);
 
     const handleDragEnd = React.useCallback(
       (_: Event, { offset, velocity }: PanInfo) => {
         if (Math.abs(offset.x) * velocity.x > 0) {
-          onClose(id)
+          onClose(id);
         }
       },
       [id]
-    )
+    );
 
-    const MotionComponent = motion(Alert)
+    const MotionComponent = motion(Alert);
 
     return (
       <MotionComponent
@@ -94,8 +94,8 @@ const Notification: React.FC<NotificationProps & { onClose: (id: NotificationPro
       >
         {message}
       </MotionComponent>
-    )
+    );
   }
-)
+);
 
-export default Notification
+export default Notification;

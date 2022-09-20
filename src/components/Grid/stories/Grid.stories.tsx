@@ -1,16 +1,16 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Row, Col } from '..'
-import { ColProps } from '../types/Col.types'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Row, Col } from '..';
+import { ColProps } from '../types/Col.types';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Grid } from '${reactDSImportPath}'
 // Import types
 import { GridProps } from '${reactDSImportPath}/lib/Grid'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Grid',
@@ -26,19 +26,19 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
-const rows = new Array(12).fill('col')
+const rows = new Array(12).fill('col');
 
 const ColContent = (props: { span: number }) => {
-  const { span } = props
+  const { span } = props;
 
   return (
     <div style={{ background: 'var(--color-D06)', textAlign: 'center', height: '60px', lineHeight: '60px' }}>
       col-{span}
     </div>
-  )
-}
+  );
+};
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -48,7 +48,7 @@ export const Basic: Story = () => (
           <Col key={col} span={1}>
             <ColContent span={1} />
           </Col>
-        )
+        );
       })}
     </Row>
 
@@ -79,15 +79,15 @@ export const Basic: Story = () => (
       </Col>
     </Row>
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const WithBreakPoints: Story = () => {
-  const breakpoints = React.useMemo<ColProps['breakpoints']>(() => ({ mobile: { span: 12 }, tablet: { span: 6 } }), [])
+  const breakpoints = React.useMemo<ColProps['breakpoints']>(() => ({ mobile: { span: 12 }, tablet: { span: 6 } }), []);
 
   return (
     <React.Fragment>
@@ -103,5 +103,5 @@ export const WithBreakPoints: Story = () => {
         </Col>
       </Row>
     </React.Fragment>
-  )
-}
+  );
+};

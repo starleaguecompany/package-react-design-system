@@ -1,4 +1,4 @@
-import SliderInput from './src/SliderInput'
-import { SliderInputProps } from './types/SliderInput.types'
+import SliderInput from './src/SliderInput';
+import { SliderInputProps } from './types/SliderInput.types';
 
-export { SliderInput, SliderInputProps }
+export { SliderInput, SliderInputProps };

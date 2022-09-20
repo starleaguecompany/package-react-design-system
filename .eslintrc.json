@@ -33,17 +33,17 @@
   "rules": {
     "space-before-function-paren": "off",
     "react/display-name": "off",
-    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
     "react/prop-types": "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "react-hooks/exhaustive-deps": "warn"
-  },
-  "overrides": [
-    {
-      "files": ["*.test.tsx"],
-      "env": {
-        "jest": true
-      }
-    }
-  ]
+  }
 }

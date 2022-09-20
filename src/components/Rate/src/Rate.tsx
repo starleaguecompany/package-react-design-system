@@ -1,20 +1,20 @@
-import * as React from 'react'
-import { useStyles, useId, noop, safeInvoke } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles, useId, noop, safeInvoke } from '@starleaguecompany/package-react-utils';
 
-import Star from './Star'
+import Star from './Star';
 
-import { RateProps } from '../types/Rate.types'
-import styles from '../styles/Rate.module.less'
+import { RateProps } from '../types/Rate.types';
+import styles from '../styles/Rate.module.less';
 
 const roundToFraction = (index: number) => {
-  return Math.ceil(index * 2) / 2
-}
+  return Math.ceil(index * 2) / 2;
+};
 
 const fractionalIndex = (event: React.MouseEvent<HTMLDivElement>) => {
-  const x = event.clientX - event.currentTarget.getBoundingClientRect().left
+  const x = event.clientX - event.currentTarget.getBoundingClientRect().left;
 
-  return roundToFraction(x / event.currentTarget.offsetWidth)
-}
+  return roundToFraction(x / event.currentTarget.offsetWidth);
+};
 
 /**
  * @description A quick rating operation on something
@@ -26,43 +26,43 @@ const fractionalIndex = (event: React.MouseEvent<HTMLDivElement>) => {
  * ```
  */
 const Rate = React.forwardRef<HTMLDivElement, RateProps>((props, ref) => {
-  const { allowHalf, count, defaultValue, value, disabled, onChange, className, ...restProps } = props
+  const { allowHalf, count, defaultValue, value, disabled, onChange, className, ...restProps } = props;
 
-  const cx = useStyles(styles)
-  const id = useId('rate')
+  const cx = useStyles(styles);
+  const id = useId('rate');
   const classNames = cx(className, 'container', {
     ['disabled']: disabled,
-  })
+  });
 
-  const [innerValue, setInnerValue] = React.useState<number>(defaultValue || value || 0)
-  const [hoverIndex, setHoverIndex] = React.useState(null)
+  const [innerValue, setInnerValue] = React.useState<number>(defaultValue || value || 0);
+  const [hoverIndex, setHoverIndex] = React.useState(null);
 
   const handleHover = React.useCallback(
     (event, index) => {
-      const value = allowHalf ? index + fractionalIndex(event) : index + 1
+      const value = allowHalf ? index + fractionalIndex(event) : index + 1;
 
-      setHoverIndex(value)
+      setHoverIndex(value);
     },
     [hoverIndex]
-  )
+  );
 
   const handleMouseLeave = React.useCallback(() => {
-    setHoverIndex(null)
-  }, [hoverIndex])
+    setHoverIndex(null);
+  }, [hoverIndex]);
 
   const handleClickRate = React.useCallback(
     (event, index) => {
-      const value = allowHalf ? index + fractionalIndex(event) : index + 1
+      const value = allowHalf ? index + fractionalIndex(event) : index + 1;
 
-      setInnerValue(value)
-      safeInvoke(onChange, value)
+      setInnerValue(value);
+      safeInvoke(onChange, value);
     },
     [innerValue]
-  )
+  );
 
   React.useEffect(() => {
-    value && setInnerValue(value)
-  }, [value])
+    value && setInnerValue(value);
+  }, [value]);
 
   const stars = React.useMemo(() => {
     return Array.from(new Array(count)).map((_, index) => (
@@ -75,8 +75,8 @@ const Rate = React.forwardRef<HTMLDivElement, RateProps>((props, ref) => {
         onHover={handleHover}
         onClick={handleClickRate}
       />
-    ))
-  }, [hoverIndex, innerValue, count, disabled, allowHalf])
+    ));
+  }, [hoverIndex, innerValue, count, disabled, allowHalf]);
 
   return (
     <div
@@ -88,12 +88,12 @@ const Rate = React.forwardRef<HTMLDivElement, RateProps>((props, ref) => {
     >
       {stars}
     </div>
-  )
-})
+  );
+});
 
 Rate.defaultProps = {
   allowHalf: false,
   count: 5,
-}
+};
 
-export default Rate
+export default Rate;

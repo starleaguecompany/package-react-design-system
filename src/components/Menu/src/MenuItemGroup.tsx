@@ -1,12 +1,12 @@
-import * as React from 'react'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { SPACE_SIZES } from '../../../constants/spaces'
+import { SPACE_SIZES } from '../../../constants/spaces';
 
-import { Space } from '../../Space'
+import { Space } from '../../Space';
 
-import { MenuItemGroupProps } from '../types/MenuItemGroup.types'
-import styles from '../styles/Menu.module.less'
+import { MenuItemGroupProps } from '../types/MenuItemGroup.types';
+import styles from '../styles/Menu.module.less';
 
 /**
  * @description Menu Item Group component.
@@ -20,10 +20,10 @@ import styles from '../styles/Menu.module.less'
  * ```
  */
 const MenuItemGroup = React.forwardRef<HTMLDivElement, MenuItemGroupProps>((props, ref) => {
-  const { label, className, children, ...restProps } = props
-  const cx = useStyles(styles)
+  const { label, className, children, ...restProps } = props;
+  const cx = useStyles(styles);
 
-  const classNames = cx(className, 'itemGroup')
+  const classNames = cx(className, 'itemGroup');
 
   return (
     <Space ref={ref} direction="vertical" className={classNames} {...restProps}>
@@ -32,9 +32,9 @@ const MenuItemGroup = React.forwardRef<HTMLDivElement, MenuItemGroupProps>((prop
       </Space>
       {children}
     </Space>
-  )
-})
+  );
+});
 
-MenuItemGroup.defaultProps = {}
+MenuItemGroup.defaultProps = {};
 
-export default MenuItemGroup
+export default MenuItemGroup;

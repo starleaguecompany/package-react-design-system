@@ -1,25 +1,25 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Menu } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Menu } from '@starleaguecompany/react-icons';
 
-import { COLORS } from '../../../constants/colors'
-import { CONTAINER_SIZES } from '../../../constants/sizes'
+import { COLORS } from '../../../constants/colors';
+import { CONTAINER_SIZES } from '../../../constants/sizes';
 
-import { Text } from '../../Typography'
-import * as Grid from '../../Grid'
-import { Icon } from '../../Icon'
-import { Badge } from '../../Badge'
+import { Text } from '../../Typography';
+import * as Grid from '../../Grid';
+import { Icon } from '../../Icon';
+import { Badge } from '../../Badge';
 
-import { Button } from '..'
-import { ButtonVariant } from '../types/Button.types'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Button } from '..';
+import { ButtonVariant } from '../types/Button.types';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Button } from '${reactDSImportPath}'
 // Import types
 import { ButtonProps } from '${reactDSImportPath}/lib/Button'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Button',
@@ -32,11 +32,11 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
-const variants: ButtonVariant[] = ['outlined', 'primary', 'secondary', 'text']
-const colors = Object.values(COLORS)
-const sizes = Object.values(CONTAINER_SIZES)
+const variants: ButtonVariant[] = ['outlined', 'primary', 'secondary', 'text'];
+const colors = Object.values(COLORS);
+const sizes = Object.values(CONTAINER_SIZES);
 
 export const Basic: Story = () => (
   <Grid.Row gutter={20}>
@@ -46,12 +46,12 @@ export const Basic: Story = () => (
       </Button>
     </Grid.Col>
   </Grid.Row>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const Variants: Story = () => (
   <React.Fragment>
@@ -63,12 +63,12 @@ export const Variants: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Variants.parameters = {
   docs: {
     storyDescription: 'The Button component has a `variant` property',
   },
-}
+};
 
 export const Colors: Story = () => (
   <React.Fragment>
@@ -80,12 +80,12 @@ export const Colors: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Colors.parameters = {
   docs: {
     storyDescription: 'The Button can also have a `color` property',
   },
-}
+};
 
 export const MixingVariantAndColor: Story = () => (
   <React.Fragment>
@@ -104,12 +104,12 @@ export const MixingVariantAndColor: Story = () => (
       </React.Fragment>
     ))}
   </React.Fragment>
-)
+);
 MixingVariantAndColor.parameters = {
   docs: {
     storyDescription: 'The `color` property works with any `variant`',
   },
-}
+};
 
 export const Disabled: Story = () => (
   <React.Fragment>
@@ -128,13 +128,13 @@ export const Disabled: Story = () => (
       </React.Fragment>
     ))}
   </React.Fragment>
-)
+);
 Disabled.parameters = {
   docs: {
     storyDescription:
       'Buttons support disabled states to indicate that a user can not take an action on a particular CTA. It intentionally prevents `pointer-events` from happening on the element',
   },
-}
+};
 
 export const Sizes: Story = () => (
   <React.Fragment>
@@ -148,12 +148,12 @@ export const Sizes: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Sizes.parameters = {
   docs: {
     storyDescription: 'Buttons support size property',
   },
-}
+};
 
 export const Block: Story = () => (
   <React.Fragment>
@@ -161,12 +161,12 @@ export const Block: Story = () => (
       Отправить заявку
     </Button>
   </React.Fragment>
-)
+);
 Block.parameters = {
   docs: {
     storyDescription: '`block` property will make the button fit to its parent width',
   },
-}
+};
 
 export const Loading: Story = () => (
   <React.Fragment>
@@ -174,13 +174,13 @@ export const Loading: Story = () => (
       Отправить заявку
     </Button>
   </React.Fragment>
-)
+);
 Loading.parameters = {
   docs: {
     storyDescription:
       'Buttons also support an `loading` property, which shows a loading indicator, while disabling the button, as well',
   },
-}
+};
 
 export const WithIcon: Story = () => (
   <React.Fragment>
@@ -210,12 +210,12 @@ export const WithIcon: Story = () => (
       </Grid.Col>
     </Grid.Row>
   </React.Fragment>
-)
+);
 WithIcon.parameters = {
   docs: {
     storyDescription: 'Button components can contain an Icon',
   },
-}
+};
 
 export const WithBadge: Story = () => (
   <React.Fragment>
@@ -234,9 +234,9 @@ export const WithBadge: Story = () => (
       </Grid.Col>
     </Grid.Row>
   </React.Fragment>
-)
+);
 WithBadge.parameters = {
   docs: {
     storyDescription: 'Button components can contain an Badge',
   },
-}
+};

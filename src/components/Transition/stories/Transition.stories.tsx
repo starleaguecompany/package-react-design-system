@@ -1,19 +1,19 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { useBoolean } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { useBoolean } from '@starleaguecompany/package-react-utils';
 
-import { Text } from '../../Typography'
-import { Button } from '../../Button'
+import { Text } from '../../Typography';
+import { Button } from '../../Button';
 
-import { Fade, ScaleFade, SlideFade, Collapse } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Fade, ScaleFade, SlideFade, Collapse } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Transition } from '${reactDSImportPath}/lib/Transition'
 
 const { Fade } = Transition
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Transition',
@@ -32,7 +32,7 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 const content = (
   <div style={{ maxWidth: 600 }}>
@@ -49,10 +49,10 @@ const content = (
       esse laborum eiusmod pariatur proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
     </Text>
   </div>
-)
+);
 
 export const FadeTransition: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   return (
     <React.Fragment>
@@ -61,16 +61,16 @@ export const FadeTransition: Story = () => {
         {content}
       </Fade>
     </React.Fragment>
-  )
-}
+  );
+};
 FadeTransition.parameters = {
   docs: {
     storyDescription: 'Fade transition',
   },
-}
+};
 
 export const ScaleFadeTransition: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   return (
     <React.Fragment>
@@ -79,16 +79,16 @@ export const ScaleFadeTransition: Story = () => {
         {content}
       </ScaleFade>
     </React.Fragment>
-  )
-}
+  );
+};
 ScaleFadeTransition.parameters = {
   docs: {
     storyDescription: 'Scale Fade transition',
   },
-}
+};
 
 export const SlideFadeTransition: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   return (
     <React.Fragment>
@@ -97,16 +97,16 @@ export const SlideFadeTransition: Story = () => {
         {content}
       </SlideFade>
     </React.Fragment>
-  )
-}
+  );
+};
 SlideFadeTransition.parameters = {
   docs: {
     storyDescription: 'Slide Fade transition',
   },
-}
+};
 
 export const CollapseTransition: Story = () => {
-  const [visible, setVisible] = useBoolean(false)
+  const [visible, setVisible] = useBoolean(false);
 
   return (
     <React.Fragment>
@@ -115,10 +115,10 @@ export const CollapseTransition: Story = () => {
         {content}
       </Collapse>
     </React.Fragment>
-  )
-}
+  );
+};
 CollapseTransition.parameters = {
   docs: {
     storyDescription: 'Collapse transition',
   },
-}
+};

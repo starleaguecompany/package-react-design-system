@@ -1,23 +1,23 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Text } from '../../Typography'
-import { Space } from '../../Space'
-import { TextInput } from '../../TextInput'
-import { MaskInput } from '../../MaskInput'
-import { Select } from '../../Select'
-import { SliderInput } from '../../SliderInput'
-import { Autocomplete } from '../../Autocomplete'
+import { Text } from '../../Typography';
+import { Space } from '../../Space';
+import { TextInput } from '../../TextInput';
+import { MaskInput } from '../../MaskInput';
+import { Select } from '../../Select';
+import { SliderInput } from '../../SliderInput';
+import { Autocomplete } from '../../Autocomplete';
 
-import { FormControl } from '..'
-import { reactDSImportPath } from '../../../constants/imports'
+import { FormControl } from '..';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { FormControl } from '${reactDSImportPath}'
 // Import types
 import { FormControlProps } from '${reactDSImportPath}/lib/FormControl'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/FormControl',
@@ -30,14 +30,14 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
 const options = [
   { label: 'Item 1', value: 0 },
   { label: 'Item 2', value: 1 },
   { label: 'Item 3', value: 2 },
   { label: 'Item 4', value: 3 },
-]
+];
 
 export const Basic: Story = () => (
   <React.Fragment>
@@ -47,12 +47,12 @@ export const Basic: Story = () => (
       <FormControl.HelperText>Необязательное поле</FormControl.HelperText>
     </FormControl>
   </React.Fragment>
-)
+);
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 export const Disabled: Story = () => (
   <Space size={20} direction="vertical" align="start">
@@ -77,7 +77,7 @@ export const Disabled: Story = () => (
       <FormControl.HelperText>Необязательное поле</FormControl.HelperText>
     </FormControl>
   </Space>
-)
+);
 
 export const WithError: Story = () => (
   <React.Fragment>
@@ -112,4 +112,4 @@ export const WithError: Story = () => (
       </FormControl>
     </Space>
   </React.Fragment>
-)
+);

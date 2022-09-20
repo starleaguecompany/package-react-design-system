@@ -1,4 +1,4 @@
-import CountDown from './src/CountDown'
-import { CountDownProps } from './types/CountDown.types'
+import CountDown from './src/CountDown';
+import { CountDownProps } from './types/CountDown.types';
 
-export { CountDown, CountDownProps }
+export { CountDown, CountDownProps };

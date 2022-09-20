@@ -1,14 +1,14 @@
-import * as React from 'react'
-import { AnimatePresence } from 'framer-motion'
-import { useStyles } from '@starleaguecompany/package-react-utils'
+import * as React from 'react';
+import { AnimatePresence } from 'framer-motion';
+import { useStyles } from '@starleaguecompany/package-react-utils';
 
-import { Portal } from '../../Portal'
+import { Portal } from '../../Portal';
 
-import { NotificationProps } from '../types/Notifications.types'
-import styles from '../styles/Notifications.module.less'
+import { NotificationProps } from '../types/Notifications.types';
+import styles from '../styles/Notifications.module.less';
 
-import NotificationManager from './NotificationManager'
-import Notification from './Notification'
+import NotificationManager from './NotificationManager';
+import Notification from './Notification';
 
 /**
  * @description Display a notification message globally
@@ -20,34 +20,34 @@ import Notification from './Notification'
  * ```
  */
 const Notifications = React.memo(() => {
-  const cx = useStyles(styles)
-  const [notifications, setNotifications] = React.useState<NotificationProps[]>([])
+  const cx = useStyles(styles);
+  const [notifications, setNotifications] = React.useState<NotificationProps[]>([]);
 
   React.useEffect(() => {
-    NotificationManager.addChangeListener(handleStoreChange)
+    NotificationManager.addChangeListener(handleStoreChange);
 
     return () => {
-      NotificationManager.removeChangeListener(handleStoreChange)
-    }
-  }, [])
+      NotificationManager.removeChangeListener(handleStoreChange);
+    };
+  }, []);
 
   React.useEffect(() => {
-    setNotifications(NotificationManager.notifications)
-  }, [])
+    setNotifications(NotificationManager.notifications);
+  }, []);
 
   const handleClose = React.useCallback(id => {
-    NotificationManager.remove(id)
-  }, [])
+    NotificationManager.remove(id);
+  }, []);
 
   const items = React.useMemo(() => {
     return notifications.map(notification => {
-      return <Notification key={notification.id} {...notification} onClose={handleClose} />
-    })
-  }, [notifications])
+      return <Notification key={notification.id} {...notification} onClose={handleClose} />;
+    });
+  }, [notifications]);
 
   const handleStoreChange = (items: NotificationProps[]) => {
-    setNotifications(items)
-  }
+    setNotifications(items);
+  };
 
   return (
     <Portal>
@@ -55,7 +55,7 @@ const Notifications = React.memo(() => {
         <AnimatePresence>{items}</AnimatePresence>
       </div>
     </Portal>
-  )
-})
+  );
+});
 
-export default Notifications
+export default Notifications;

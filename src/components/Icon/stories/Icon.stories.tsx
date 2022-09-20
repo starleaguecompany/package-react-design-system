@@ -1,22 +1,22 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Menu } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Menu } from '@starleaguecompany/react-icons';
 
-import { COLORS } from '../../../constants/colors'
-import { CONTENT_SIZES } from '../../../constants/sizes'
+import { COLORS } from '../../../constants/colors';
+import { CONTENT_SIZES } from '../../../constants/sizes';
 
-import * as Grid from '../../Grid'
+import * as Grid from '../../Grid';
 
-import { Icon } from '..'
-import { IconProps } from '../types/Icon.types'
-import { reactDSImportPath } from '../../../constants/imports'
+import { Icon } from '..';
+import { IconProps } from '../types/Icon.types';
+import { reactDSImportPath } from '../../../constants/imports';
 
 const Import = `\`\`\`javascript
 // Import component
 import { Icon } from '${reactDSImportPath}'
 // Import types
 import { IconProps } from '${reactDSImportPath}/lib/Icon'
-\`\`\``
+\`\`\``;
 
 export default {
   title: 'Components/Icon',
@@ -29,22 +29,22 @@ export default {
       },
     },
   },
-} as Meta
+} as Meta;
 
-export const Basic: Story = () => <Icon size={20} icon={<Menu />} />
+export const Basic: Story = () => <Icon size={20} icon={<Menu />} />;
 Basic.parameters = {
   docs: {
     storyDescription: 'Basic usage',
   },
-}
+};
 
 const variants: Array<IconProps> = [
   { size: CONTENT_SIZES.S16, icon: <Menu /> },
   { size: CONTENT_SIZES.S20, icon: <Menu /> },
   { size: CONTENT_SIZES.S24, icon: <Menu /> },
   { size: CONTENT_SIZES.S28, icon: <Menu /> },
-]
-const colors = Object.values(COLORS)
+];
+const colors = Object.values(COLORS);
 
 export const Sizes: Story = () => (
   <React.Fragment>
@@ -56,12 +56,12 @@ export const Sizes: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Sizes.parameters = {
   docs: {
     storyDescription: 'The Icon component has a `size` property',
   },
-}
+};
 
 export const Colors: Story = () => (
   <React.Fragment>
@@ -73,12 +73,12 @@ export const Colors: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Colors.parameters = {
   docs: {
     storyDescription: 'The Icon can also have a `color` property',
   },
-}
+};
 
 export const Shape: Story = () => (
   <React.Fragment>
@@ -92,12 +92,12 @@ export const Shape: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 Shape.parameters = {
   docs: {
     storyDescription: 'The Icon can also have a `shape` property',
   },
-}
+};
 
 export const WithContainer: Story = () => (
   <React.Fragment>
@@ -111,9 +111,9 @@ export const WithContainer: Story = () => (
       ))}
     </Grid.Row>
   </React.Fragment>
-)
+);
 WithContainer.parameters = {
   docs: {
     storyDescription: 'The Icon can render with container',
   },
-}
+};

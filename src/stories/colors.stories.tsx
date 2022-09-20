@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
 
-import { Typography, Grid } from '..'
+import { Typography, Grid } from '..';
 
-const { Text, Heading } = Typography
+const { Text, Heading } = Typography;
 
 export default {
   title: 'Foundations/Colors',
@@ -17,21 +17,21 @@ export default {
     },
     viewMode: 'docs',
   },
-} as Meta
+} as Meta;
 
 const Box = (props: { name: string; color: number | string }) => {
-  const { name, color } = props
+  const { name, color } = props;
   const colorStyle = {
     width: '60px',
     height: '60px',
     borderRadius: '4px',
     background: `var(--color-${name}${color})`,
     boxShadow: '0 0px 10px 0 rgba(0, 0, 0, 0.05)',
-  }
+  };
   const descStyle = {
     alignItems: 'flex-start',
     marginLeft: '16px',
-  }
+  };
 
   return (
     <Grid.Row>
@@ -43,8 +43,8 @@ const Box = (props: { name: string; color: number | string }) => {
         </Text>
       </Grid.Col>
     </Grid.Row>
-  )
-}
+  );
+};
 
 const colors = {
   L: [100],
@@ -54,7 +54,7 @@ const colors = {
   O: [300, 200, 100, 30, '06'],
   V: [300, 200, 100, 30, '06'],
   R: [300, 200, 100, 30, '06'],
-}
+};
 
 export const Colors: Story = () => (
   <React.Fragment>
@@ -62,7 +62,7 @@ export const Colors: Story = () => (
     <Text className="h-mb-20">You can view our entire color system within the default theme below:</Text>
 
     {Object.keys(colors).map((name: string) => {
-      const theme = colors[name]
+      const theme = colors[name];
 
       return (
         <div key={name} className="h-mb-20">
@@ -74,8 +74,8 @@ export const Colors: Story = () => (
             ))}
           </Grid.Row>
         </div>
-      )
+      );
     })}
   </React.Fragment>
-)
+);
 // Colors.storyName = 'with counter';

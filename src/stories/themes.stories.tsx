@@ -1,11 +1,11 @@
-import * as React from 'react'
-import { Story, Meta } from '@storybook/react'
-import { Source } from '@storybook/addon-docs'
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react';
+import { Source } from '@storybook/addon-docs';
 
-import { Typography } from '..'
-import { reactDSImportPath } from '../constants/imports'
+import { Typography } from '..';
+import { reactDSImportPath } from '../constants/imports';
 
-const { Heading } = Typography
+const { Heading } = Typography;
 
 export default {
   title: 'Foundations/Themes',
@@ -18,7 +18,7 @@ export default {
     },
     viewMode: 'docs',
   },
-} as Meta
+} as Meta;
 
 export const Themes: Story = () => (
   <React.Fragment>
@@ -52,4 +52,4 @@ const App = () => (
       `}
     />
   </React.Fragment>
-)
+);

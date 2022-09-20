@@ -1,17 +1,17 @@
-import * as React from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { useStyles, noop, preventBodyScroll, useKeyPress, safeInvoke } from '@starleaguecompany/package-react-utils'
-import { Cross } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useStyles, noop, preventBodyScroll, useKeyPress, safeInvoke } from '@starleaguecompany/package-react-utils';
+import { Cross } from '@starleaguecompany/react-icons';
 
-import { Portal } from '../../Portal'
-import { Icon } from '../../Icon'
-import { EASINGS } from '../../Transition'
-import { scaleFadeConfig } from '../../Transition/src/ScaleFade'
+import { Portal } from '../../Portal';
+import { Icon } from '../../Icon';
+import { EASINGS } from '../../Transition';
+import { scaleFadeConfig } from '../../Transition/src/ScaleFade';
 
-import DialogContext from './DialogContext'
+import DialogContext from './DialogContext';
 
-import { DialogProps } from '../types/Dialog.types'
-import styles from '../styles/Dialog.module.less'
+import { DialogProps } from '../types/Dialog.types';
+import styles from '../styles/Dialog.module.less';
 
 /**
  * @description The Dialog component is used to show content on top of an overlay that requires user interaction
@@ -23,16 +23,16 @@ import styles from '../styles/Dialog.module.less'
  * ```
  */
 const Dialog = React.forwardRef<HTMLDivElement, DialogProps>((props, ref) => {
-  const { visible, fullscreen, closable, onClose, className, children, ...restProps } = props
+  const { visible, fullscreen, closable, onClose, className, children, ...restProps } = props;
   // 'isActive' fixes the problem of simultaneously exiting with Esc in nested dialogs
-  const [isActive, setIsActive] = React.useState<boolean>(true)
+  const [isActive, setIsActive] = React.useState<boolean>(true);
   // const [isOverflow, setIsOverflow] = useBoolean(false)
-  const isUnmountEvent = React.useRef(true)
-  const { setActive } = React.useContext(DialogContext)
+  const isUnmountEvent = React.useRef(true);
+  const { setActive } = React.useContext(DialogContext);
 
-  const cx = useStyles(styles)
+  const cx = useStyles(styles);
 
-  const animationProps = React.useMemo(() => ({ initialScale: fullscreen ? 1.05 : 0.95, reverse: true }), [])
+  const animationProps = React.useMemo(() => ({ initialScale: fullscreen ? 1.05 : 0.95, reverse: true }), []);
   const dialogMotionProps = React.useMemo(
     () => ({
       ...scaleFadeConfig,
@@ -40,7 +40,7 @@ const Dialog = React.forwardRef<HTMLDivElement, DialogProps>((props, ref) => {
       animate: visible ? 'enter' : 'exit',
     }),
     [visible]
-  )
+  );
   const backdropMotionProps = React.useMemo(
     () => ({
       variants: {
@@ -64,7 +64,7 @@ const Dialog = React.forwardRef<HTMLDivElement, DialogProps>((props, ref) => {
       exit: 'exit',
     }),
     [visible]
-  )
+  );
 
   // React.useEffect(() => {
   //   if (contentRef.current && contentRef.current.scrollHeight > contentRef.current.clientHeight) {
@@ -76,47 +76,47 @@ const Dialog = React.forwardRef<HTMLDivElement, DialogProps>((props, ref) => {
 
   const handleClose = React.useCallback(
     (event: React.KeyboardEvent | React.MouseEvent) => {
-      preventBodyScroll()
-      setActive?.(true)
-      safeInvoke(onClose, event)
-      isUnmountEvent.current = false
+      preventBodyScroll();
+      setActive?.(true);
+      safeInvoke(onClose, event);
+      isUnmountEvent.current = false;
     },
     [onClose]
-  )
+  );
 
   const handlePreventBodyScroll = React.useCallback(() => {
     if (visible && isUnmountEvent.current) {
-      preventBodyScroll()
+      preventBodyScroll();
     }
-  }, [visible, isUnmountEvent])
+  }, [visible, isUnmountEvent]);
 
   React.useEffect(() => {
     if (visible) {
-      preventBodyScroll(true)
-      setActive?.(false)
-      isUnmountEvent.current = true
+      preventBodyScroll(true);
+      setActive?.(false);
+      isUnmountEvent.current = true;
     }
 
-    return handlePreventBodyScroll
-  }, [visible])
+    return handlePreventBodyScroll;
+  }, [visible]);
 
   useKeyPress(
     {
       enabled: !!visible,
       keyMap: {
         Escape: event => {
-          event.preventDefault()
+          event.preventDefault();
           if (!isActive) {
-            return
+            return;
           }
 
-          setActive?.(true)
-          handleClose(event as unknown as React.KeyboardEvent)
+          setActive?.(true);
+          handleClose(event as unknown as React.KeyboardEvent);
         },
       },
     },
     [visible, isActive]
-  )
+  );
 
   return (
     <Portal>
@@ -139,12 +139,12 @@ const Dialog = React.forwardRef<HTMLDivElement, DialogProps>((props, ref) => {
         )}
       </AnimatePresence>
     </Portal>
-  )
-})
+  );
+});
 
 Dialog.defaultProps = {
   closable: true,
   onClose: noop,
-}
+};
 
-export default Dialog
+export default Dialog;

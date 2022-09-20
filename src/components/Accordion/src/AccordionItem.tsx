@@ -1,13 +1,13 @@
-import * as React from 'react'
-import { noop, useStyles } from '@starleaguecompany/package-react-utils'
-import { ArrowDown } from '@starleaguecompany/react-icons'
+import * as React from 'react';
+import { noop, useStyles } from '@starleaguecompany/package-react-utils';
+import { ArrowDown } from '@starleaguecompany/react-icons';
 
-import { Icon } from '../../Icon'
-import { Collapse } from '../../Transition'
-import { Space } from '../../Space'
+import { Icon } from '../../Icon';
+import { Collapse } from '../../Transition';
+import { Space } from '../../Space';
 
-import { AccordionItemProps } from '../types/Accordion.types'
-import styles from '../styles/Accordion.module.less'
+import { AccordionItemProps } from '../types/Accordion.types';
+import styles from '../styles/Accordion.module.less';
 
 /**
  * @description Accordion Item component.
@@ -20,36 +20,36 @@ import styles from '../styles/Accordion.module.less'
  */
 const Item = React.forwardRef<HTMLDivElement, AccordionItemProps>((props, ref) => {
   const { id, title, subtitle, icon, active, scrollIntoView, tabIndex, className, children, onCollapse, ...restProps } =
-    props
-  const activeItemRef = React.useRef<HTMLDivElement | null>(null)
+    props;
+  const activeItemRef = React.useRef<HTMLDivElement | null>(null);
 
-  const cx = useStyles(styles)
+  const cx = useStyles(styles);
 
   const collapse = React.useCallback(
     (event: React.MouseEvent<HTMLDivElement> | React.KeyboardEvent<HTMLDivElement>) => {
       if (scrollIntoView) {
-        activeItemRef.current = event.currentTarget.closest('[data-qa=CollapseItem]')
+        activeItemRef.current = event.currentTarget.closest('[data-qa=CollapseItem]');
 
         setTimeout(() => {
-          activeItemRef.current && activeItemRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
-        }, 300)
+          activeItemRef.current && activeItemRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 300);
       }
 
-      onCollapse && onCollapse(event)
+      onCollapse && onCollapse(event);
     },
     [onCollapse, scrollIntoView]
-  )
+  );
 
   const handleCollapse = (event: React.MouseEvent<HTMLDivElement>) => {
-    collapse(event)
-  }
+    collapse(event);
+  };
 
   const handleKeypress = (event: React.KeyboardEvent<HTMLDivElement>) => {
     if (event.key === 'Enter') {
-      event.preventDefault()
-      collapse(event)
+      event.preventDefault();
+      collapse(event);
     }
-  }
+  };
 
   return (
     <div ref={ref} data-qa="CollapseItem" className={cx(className, 'panel', { active })} {...restProps}>
@@ -75,11 +75,11 @@ const Item = React.forwardRef<HTMLDivElement, AccordionItemProps>((props, ref) =
         <div className={cx('content-wrapper')}>{children}</div>
       </Collapse>
     </div>
-  )
-})
+  );
+});
 
 Item.defaultProps = {
   tabIndex: 0,
-}
+};
 
-export default Item
+export default Item;
